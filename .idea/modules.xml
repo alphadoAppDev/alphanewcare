@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AlphaCare.iml" filepath="$PROJECT_DIR$/AlphaCare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AlphaCare.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AlphaCare.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openCVLibrary411/AlphaCare.openCVLibrary411.iml" filepath="$PROJECT_DIR$/.idea/modules/openCVLibrary411/AlphaCare.openCVLibrary411.iml" />
+    </modules>
+  </component>
+</project>
