@@ -1,0 +1,16 @@
+Executable : /Users/kim/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/kim/1_AOS/AlphaCare/app
+-B/Users/kim/1_AOS/AlphaCare/app/.cxx/cmake/release/armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-23
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/kim/1_AOS/AlphaCare/app/build/intermediates/cmake/release/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/Users/kim/Library/Android/sdk/ndk/22.0.7026061
+-DCMAKE_CXX_FLAGS=-fexceptions -frtti
+-DCMAKE_TOOLCHAIN_FILE=/Users/kim/Library/Android/sdk/ndk/22.0.7026061/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/kim/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+-DANDROID_STL=c++_shared
+jvmArgs : 
+

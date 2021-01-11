@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kr.co.alphacare.main.MainActivity"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#9c9c9c"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_alphado" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Urine Reagent Strip Detector"
+            />
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            />
+
+        <Button
+            android:id="@+id/btn_litmus10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="리트머스 10개"
+            />
+
+        <Button
+            android:id="@+id/btn_litmus1_slim_diet_stix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Slim Diet Stix"
+            />
+
+        <Button
+            android:id="@+id/btn_litmus1_self_stik_fr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Self Stik FR"
+            />
+
+        <Button
+            android:id="@+id/btn_litmus1_nitric_oxide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NITRIC OXIDE"
+            />
+
+        <Button
+            android:id="@+id/btn_graph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="그래프 데모"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

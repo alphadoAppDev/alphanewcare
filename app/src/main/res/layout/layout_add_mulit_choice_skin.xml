@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/round_white"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="35dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <CheckBox
+                    android:id="@+id/checkbox_skin_1"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:buttonTint="@color/new_pink_1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="농피증"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14dp"/>
+
+                <CheckBox
+                    android:id="@+id/checkbox_skin_2"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:buttonTint="@color/new_pink_1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="피부사상충증"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14dp"/>
+
+                <CheckBox
+                    android:id="@+id/checkbox_skin_3"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:buttonTint="@color/new_pink_1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="개선충증"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <CheckBox
+                    android:id="@+id/checkbox_skin_4"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:buttonTint="@color/new_pink_1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="모낭충증"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14dp"/>
+                <CheckBox
+                    android:id="@+id/checkbox_skin_5"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:buttonTint="@color/new_pink_1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="말라세지아"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14dp"/>
+
+                <CheckBox
+                    android:id="@+id/checkbox_skin_6"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:buttonTint="@color/new_pink_1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="기타"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/tv_btn_go_care_info_skin"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:text="피부질병정보"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/round_button_pink"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

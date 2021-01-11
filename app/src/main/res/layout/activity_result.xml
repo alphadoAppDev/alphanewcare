@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/dialog_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/black"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/ios_sheet_top_btn_normal"
+            android:gravity="center"
+            android:textColor="@color/ios_grey_dark"
+            android:singleLine="true"
+            android:text="@string/result_check_dialog"
+            android:textSize="14sp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/transparent"
+            />
+
+        <Button
+            android:id="@+id/btn_no"
+            android:background="@drawable/ios_sheet_middle_btn_selector"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/ios_red"
+            android:text="@string/no"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/transparent"
+            />
+
+        <Button
+            android:id="@+id/btn_yes"
+            android:background="@drawable/ios_sheet_bottom_btn_selector"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/ios_blue"
+            android:text="@string/yes"
+            />
+
+    </LinearLayout>
+
+    <kr.co.alphacare.result.view.DrawImageView
+        android:id="@+id/resultImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:layout_above="@id/dialog_layout"
+        />
+
+</RelativeLayout>

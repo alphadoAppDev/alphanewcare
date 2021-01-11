@@ -1,0 +1,930 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+
+    <string name="app_name">AlphaDo PET</string>
+
+    <string name="permission_agree">软件许可使用协议</string>
+
+    <string name="permission_argee_msg">同意访问权限才能使用应用</string>
+
+    <string name="data_receive">数据接收</string>
+
+    <string name="btn_reg">注册</string>
+
+    <string name="btn_modify">修改</string>
+
+    <string name="btn_send">传送</string>
+
+    <string name="btn_login">登录</string>
+
+    <string name="btn_confirm">确认</string>
+
+    <string name="app_finish">您要退出软件吗？</string>
+
+    <string name="join_ok">恭喜您成功注册为会员</string>
+
+    <string name="delete">删除</string>
+
+    <string name="pet_reg_number">注册号</string>
+
+    <string name="pet_birth_day">出生日期（年/月/日）</string>
+
+    <string name="test_history">测试内容</string>
+
+    <string name="test_count">次</string>
+
+    <string name="test_result_normal">正常</string>
+
+    <string name="test_result_doubt">怀疑</string>
+
+    <string name="test_result_alert">警告</string>
+
+    <string name="no_test_history">没有看到测试内容</string>
+
+    <string name="use_urine_test">请在尿液检测之后使用</string>
+
+    <string name="urine_test">尿液检查</string>
+
+    <string name="no_reg_pet">没有添加的宠物</string>
+
+    <string name="use_reg_pet">先添加宠物后使用</string>
+
+    <string name="pet_info">宠物信息</string>
+
+    <string name="tab_menu">菜单</string>
+
+    <string name="tab_result">结果</string>
+
+    <string name="tab_check">检查 </string>
+
+    <string name="tab_modify">修改</string>
+
+    <string name="tab_home">主页</string>
+
+    <string name="refresh">重新启动应用程序</string>
+
+    <string name="test_result">检验结果</string>
+
+    <string name="test_item1">潜血</string>
+
+    <string name="test_item2">胆红素</string>
+
+    <string name="test_item3">尿胆素原</string>
+
+    <string name="test_item4">酮</string>
+
+    <string name="test_item5">蛋白质</string>
+
+    <string name="test_item6">亚硝酸盐</string>
+
+    <string name="test_item7">葡萄糖</string>
+
+    <string name="test_item8">PH值</string>
+
+    <string name="test_item9">比重</string>
+
+    <string name="test_item10">白血球</string>
+
+    <string name="description_item">项目描述</string>
+
+    <string name="suspected_disease">可疑疾病</string>
+
+    <string name="description_item1">潜血的含义是？</string>
+
+    <string name="description_item2">胆红素的含义是？</string>
+
+    <string name="description_item3">尿胆素原的含义是？</string>
+
+    <string name="description_item4">酮的含义是？</string>
+
+    <string name="description_item5">蛋白质的含义是？</string>
+
+    <string name="description_item6">亚硝酸盐的含义是？</string>
+
+    <string name="description_item7">葡萄糖的含义是？</string>
+
+    <string name="description_item8">PH值的含义是？</string>
+
+    <string name="description_item9">比重的含义是？</string>
+
+    <string name="description_item10">白血球的含义是？</string>
+
+    <string name="nagative">阴性</string>
+
+    <string name="positive">阳性</string>
+
+    <string name="very_small_amount">微量</string>
+
+    <string name="one_month">一个月</string>
+
+    <string name="three_month">三个月</string>
+
+    <string name="six_month">六个月</string>
+
+    <string name="one_year">一年</string>
+
+    <string name="all">全部</string>
+
+    <string name="dialog_select_number">请选择测试内容</string>
+
+    <string name="item0">潜血是宠物的尿液里混在微量血液的情况，测定混合在尿液里的血红蛋白和肌红蛋白的量而判定。主要在泌尿系统（肾脏，输尿管，膀胱，尿道 等）出现异常时呈阳性。健康宠物身上也会暂时出现阳性反应。</string>
+
+    <string name="item1">胆红素是血红蛋白（红细胞的主要成分）的主要代谢产物；尿胆红素为阴性则提示正常情况。狗（尤其是雄狗）正常情况下也会出现轻微的阳性反应，但是猫类出现轻微阳性反应需细心留意。</string>
+
+    <string name="item2">尿胆素原在血红蛋白分解过程中形成，在肠道细菌作用下胆红素被还原为尿胆素原。健康的宠物身上也会出现微量，但出现大量的情况下怀疑溶血性贫血或恶性贫血。</string>
+
+    <string name="item3">酮体是脂肪酸（脂质分解形成）的代谢产物，缺少胰岛素或碳水化合物摄入量的情况下生体内增加脂肪分解而产生。健康的宠物身上呈现微量酮体。</string>
+
+    <string name="item4">健康的宠物尿液里也会检测出微量蛋白质（蛋白尿），但是出现大量蛋白尿的情况下要怀疑肾脏疾病或脾肾疾病。</string>
+
+    <string name="item5">通过食物吸收的硝酸盐被感染细菌分解为亚硝酸盐在宠物尿液里检测到。健康的宠物也会出现微量硝酸盐。</string>
+
+    <string name="item6">葡萄糖是重要的能量之源，在健康的宠物身上要全部被吸收掉。然而，检查前过度吸收糖质食物或者受到重大压力的情况下会检测出微量葡萄糖。</string>
+
+    <string name="item7">pH指的是尿液里的酸碱度，取决于血液内调节氢离子和碳酸氢盐浓度的肾脏能力。宠物食用高蛋白肉类的时候成酸性体质，主要食用蔬菜的时候成碱性体质。</string>
+
+    <string name="item8">尿比重是水密度为基准显示尿浓度，衡量肾脏的稀释与浓缩功能指标。尿比重高的时候尿液颜色偏深，低尿比重的时候尿液颜色偏浅。</string>
+
+    <string name="item9">白血球是血细胞成分之一，通过吞噬作用负责宠物的免疫力。泌尿系统感染的时候体内白血球增加导致尿液里也检测出来。</string>
+    肾炎，尿路感染，尿路结石，膀胱炎
+    <string name="item01"></string>
+
+    <string name="item11">肝炎，肝硬化，溶血病，胆道都塞</string>
+
+    <string name="item21">胆道闭锁，肝病，溶血性贫血，黄疸</string>
+
+    <string name="item31">糖尿病，酮症酸中毒，营养不良</string>
+
+    <string name="item41">肾病，尿路感染，膀胱炎，肾小球肾炎。</string>
+
+    <string name="item51">尿路感染，膀胱炎，肾盂肾炎</string>
+
+    <string name="item61">糖尿病，应激性高血糖，内分泌/消化道疾病</string>
+
+    <string name="item71">酸血症，糖尿病，肾脏疾病，碱中毒，尿路感染</string>
+
+    <string name="item81">肾脏疾病，泌尿系统疾病，糖尿病</string>
+
+    <string name="item91">尿路感染，前列腺炎，必尿系统疾病</string>
+
+    <string name="reg_pet">注册宠物资料</string>
+
+    <string name="modify_pet">修改宠物资料</string>
+
+    <string name="pet_name">宠物昵称</string>
+
+    <string name="pet_birth_date">出生年月日</string>
+
+    <string name="sex_male">雄性（公）</string>
+
+    <string name="sex_female">雌性（母）</string>
+
+    <string name="kind">物种</string>
+
+    <string name="breed">品种</string>
+
+    <string name="breed_etc">其他品种</string>
+
+    <string name="weight">体重</string>
+
+    <string name="neutralization">去势手术</string>
+
+    <string name="additional_info">宠物附加信息</string>
+
+    <string name="basic_vaccination">基础疫苗接种</string>
+
+    <string name="walk_count">散步次数（以7天为基准）</string>
+
+    <string name="defication_count">排便次数（以1天为基准）</string>
+
+    <string name="urination_count">小便次数（以一天为基准）</string>
+
+    <string name="input_name">请输入宠物名字</string>
+
+    <string name="select_kind">请选择宠物种类</string>
+
+    <string name="input_birth_date">请输入宠物出生年月日</string>
+
+    <string name="input_weight">请输入宠物体重</string>
+
+    <string name="select_breed">请输入动物品种</string>
+
+    <string name="dialog_pet_type">宠物种类</string>
+
+    <string name="dialog_dog_breed">宠物狗品种</string>
+
+    <string name="dialog_cat_breed">宠物猫品种</string>
+
+    <string name="answer11">未知</string>
+
+    <string name="answer12">接种前</string>
+
+    <string name="answer13">刚刚接种</string>
+
+    <string name="answer14">接种后</string>
+
+    <string name="answer21">1次</string>
+
+    <string name="answer22">2~3次</string>
+
+    <string name="answer23">4~5次</string>
+
+    <string name="answer24">每天</string>
+
+    <string name="answer31">未知</string>
+
+    <string name="answer32">1次</string>
+
+    <string name="answer33">2~4次</string>
+
+    <string name="answer34">5次以上</string>
+
+    <string name="answer41">未知</string>
+
+    <string name="answer42">1次</string>
+
+    <string name="answer43">2~4次</string>
+
+    <string name="answer44">5次以上</string>
+
+    <string name="pet_delete">您要删除宠物信息吗？</string>
+
+    <string name="pet_add">您的宠物登记现已完成。</string>
+
+    <string name="pet_modify">您的宠物修改现已完成。</string>
+
+    <string name="pet_type_dog">狗</string>
+
+    <string name="pet_type_cat">猫</string>
+
+    <string name="dog_golden_retriever">金毛寻回犬</string>
+
+    <string name="dog_greyhound">灵缇犬</string>
+
+    <string name="menu_profile">简介</string>
+
+    <string name="menu_add_pet">添加宠物</string>
+
+    <string name="menu_faq">FAQ</string>
+
+    <string name="menu_setting">设置</string>
+
+    <string name="menu_customer_center">客户服务</string>
+
+    <string name="menu_privacy">隐私声明</string>
+
+    <string name="menu_service_terms">服务条款</string>
+
+    <string name="menu_home">主页面</string>
+
+    <string name="setting_update_nest">它将反应在下一次更新中。</string>
+
+    <string name="menu_logout">您要退出软件吗？</string>
+
+    <string name="profile">简介</string>
+
+    <string name="registered_pet">已注册宠物</string>
+
+    <string name="logout">退出</string>
+
+    <string name="change_password">修改密码</string>
+
+    <string name="setting">设置</string>
+
+    <string name="login">登录</string>
+
+    <string name="auto_login">自动登录</string>
+
+    <string name="notice">通知</string>
+
+    <string name="schedule_notice">预约检查通知</string>
+
+    <string name="other">其他</string>
+
+    <string name="delete_test_history">删除检查记录</string>
+
+    <string name="app_info">软件信息</string>
+
+    <string name="current_version">现在版本</string>
+
+    <string name="latest_version">最新版本</string>
+
+    <string name="withdrawal">退出会员</string>
+
+    <string name="hi_alphacare">欢迎来到 Alpha Care.</string>
+
+    <string name="login_msg">请登录</string>
+
+    <string name="email_address">邮箱地址</string>
+
+    <string name="password">密码</string>
+
+    <string name="sign_up">加入会员</string>
+
+    <string name="signup_msg">请注册后使用这些服务。</string>
+
+    <string name="name">用户名</string>
+
+    <string name="enter_name">请填写用户名</string>
+
+    <string name="password_format_invalid">密码为4~16字符，包含0~9数字，a-z , A-Z英文字母，特殊文字 !@.#$%^&amp;*?_~.</string>
+
+    <string name="reset_password">重新设置密码</string>
+
+    <string name="enter_email">请输入邮箱地址</string>
+
+    <string name="enter_password">请输入密码</string>
+
+    <string name="email_format_invalid">邮箱格式不对</string>
+
+    <string name="change_password_msg">为了修改密码请输入下列条件。</string>
+
+    <string name="current_password">当前密码</string>
+
+    <string name="new_password">要变更的密码</string>
+
+    <string name="new_password_confirm">确认密码</string>
+
+    <string name="password_changed">密码已变更</string>
+
+    <string name="enter_current_password">请输入当前登录密码</string>
+
+    <string name="enter_new_password">请输入更改密码</string>
+
+    <string name="enter_password_confirm">请输入确认密码</string>
+
+    <string name="new_password_missmatch">输入密码不一致</string>
+
+    <string name="enter_reset_email">为了重新设着密码请输入邮箱地址</string>
+
+    <string name="send_authentication_key">验证码已发送到邮箱里，请确认\n邮箱后输入验证码</string>
+
+    <string name="authentication_key">验证码</string>
+
+    <string name="enter_authentication_key">请输入验证码</string>
+
+    <string name="reset_password_ok">密码已变更。\n请输入新密码</string>
+
+    <string name="go_login">去登陆</string>
+
+    <string name="enter_inquery">请输入您要搜索的问题</string>
+
+    <string name="received_inquery">我们已收到您的询问内容。我们会尽快回复您</string>
+
+    <string name="web_path">cn</string>
+
+    <string name="faq1">宠物的尿液一般多长时间有效</string>
+
+    <string name="answer1">为了确保检查结果，建议选取自然排尿后一小时以内的尿液。</string>
+
+    <string name="faq2">宠物的尿液检查棒怎么淋尿</string>
+
+    <string name="answer2">将平时使用的排便垫翻过来，让宠物在上面排尿后，用测试条沾湿积尿。 如过多尿液或长时间浸泡，测试条的诊断试剂可能会溶出，请于1~2秒内适量浸泡。</string>
+
+    <string name="faq3">尿液放在试纸后，什么时候可以做测试(照片拍摄)?</string>
+
+    <string name="answer3">建议将尿液沾在测试条上约1分钟后检查。 过短时间的检查，诊断试剂可能不与尿液发生完全反应，过长时间的检查结果可能被判定为\"怀疑/危险</string>
+
+    <string name="faq4">检查结果可信吗？</string>
+
+    <string name="answer4">虽然通过检查棍子可以保障99%左右的可信度，但检查之前可能会根据宠物饮食习惯和拍照环境（光的干涉）等产生影响。 检查结果为\"怀疑\"时，经过1天左右后，用新的检查工具重新检查，仍为\"怀疑\"时，请咨询附近的动物医院专业兽医。</string>
+
+    <string name="faq6">产品有效期是多久？</string>
+
+    <string name="answer6">"产品有效期为生产日起24个月，
+开封后诊断试剂会引发空气反应，因此开封后
+应当立即使用。 本产品为一次性检查工具
+不能重新使用。"</string>
+
+    <string name="faq7">应该多久检查一次？</string>
+
+    <string name="answer7">如果您的宠物没有“怀疑”或“危险”的疾病结果，我们建议每月检查一次</string>
+
+    <string name="faq8">检测项目是什么？</string>
+
+    <string name="answer8">本产品检测 潜血、胆红素、尿胆素原、酮、蛋白质、亚硝酸盐，葡萄糖、(pH)指、比重、白细胞等项目。</string>
+
+    <string name="faq9">检测结果能查出几种疾病？</string>
+
+    <string name="answer9">通过本产品尿液检测，提供 糖代谢、肾功能、肝功能、酸盐平衡、尿路感染 等有用的临床信息。</string>
+
+    <string name="close">结束</string>
+
+    <string name="done">完成</string>
+
+    <string name="done_eng">完毕</string>
+
+    <string name="confirm">确认</string>
+
+    <string name="cancel">取消</string>
+
+    <string name="warning">通知</string>
+
+    <string name="dismiss">关闭</string>
+
+    <string name="yes">是</string>
+
+    <string name="no">否</string>
+
+    <string name="title_shooting">拍摄TIP</string>
+
+    <string name="close_dialog">要取消拍摄吗？</string>
+
+    <string name="camera_dialog_permission">没有摄像头权限，\n设置>软件>允许摄像头权限\n请变更设置</string>
+
+    <string name="notice_permission">您需要同意所有权限才能使用</string>
+
+    <string name="capture_dialog_camera_error">摄像头链接失败</string>
+
+    <string name="caption_control_tutorial_dont_show_again">不再提示</string>
+
+    <string name="caption_control_tutorial1">测试条沾取尿液后\n用吸水纸吸收斜面多余的尿液</string>
+
+    <string name="caption_control_tutorial2">请将测试条对准在黑线上</string>
+
+    <string name="caption_control_tutorial3">在没有影子的地方对准只能手机和对色表水平</string>
+
+    <string name="timer_dialog">测试条沾取尿液后有1分钟了吗？</string>
+
+    <string name="dialog_retake">颜色不匹配要重新拍</string>
+
+    <string name="stick_location_guide">请跟右侧图片一样对准测试条</string>
+
+    <string name="detect_status_success">请保持现状</string>
+
+    <string name="detect_status_fail_count">在无阴影的自然光或无阴影的白光下拍摄</string>
+
+    <string name="detect_status_fail_orientation">使黑色四角形位于中间朝上位置 \n请确认测试纸方向</string>
+
+    <string name="result_guide">请点击测试条每个圆圈\n确认最接近的颜色是什么颜色</string>
+
+    <string name="result_check_dialog">测试条上的所有方格都与结果相符吗?</string>
+
+    <string name="capture_info">请按照说明去做</string>
+
+    <string name="pet_care_list">宠物护理清单</string>
+
+    <string name="must_picture">请登录照片</string>
+
+
+    <string name="dog001">艾芬笃宾犬</string>
+    <string name="dog002">阿富汗猎犬</string>
+    <string name="dog003">万能梗</string>
+    <string name="dog004">秋田犬</string>
+    <string name="dog005">爱迪犬</string>
+    <string name="dog006">阿拉斯加雪橇犬</string>
+    <string name="dog007">阿尔卑斯达克斯布诺卡犬</string>
+    <string name="dog008">美国秋田犬</string>
+    <string name="dog009">美国恶霸犬</string>
+    <string name="dog010">美国曲架犬</string>
+    <string name="dog011">美国爱斯基摩犬</string>
+    <string name="dog012">美国猎狐犬</string>
+    <string name="dog013">美国比特犬</string>
+    <string name="dog014">美国斯塔福梗</string>
+    <string name="dog015">美国水猎犬</string>
+    <string name="dog016">安娜图牧羊犬</string>
+    <string name="dog017">英法三色小猎犬</string>
+    <string name="dog018">啊彭泽牧羊犬</string>
+    <string name="dog019">阿里埃日犬</string>
+    <string name="dog020">澳洲牧牛犬</string>
+    <string name="dog021">澳大利亚卡尔比犬</string>
+    <string name="dog022">澳洲牧羊犬</string>
+    <string name="dog023">澳洲丝毛梗</string>
+    <string name="dog024">澳洲梗</string>
+    <string name="dog025">奥地利平犬</string>
+    <string name="dog026">奥弗涅指示犬</string>
+    <string name="dog027">阿沙瓦犬</string>
+    <string name="dog028">巴贝犬</string>
+    <string name="dog029">贝吉生犬</string>
+    <string name="dog030">阿提桑诺曼底短腿犬</string>
+    <string name="dog031">加斯科尼蓝色矮腿猎犬</string>
+    <string name="dog032">布列塔尼短腿猎犬</string>
+    <string name="dog033">巴吉度猎犬</string>
+    <string name="dog034">巴伐利亚山区寻血犬</string>
+    <string name="dog035">贝高犬 ，比格猎犬</string>
+    <string name="dog036">哈利犬</string>
+    <string name="dog037">法国牧羊犬</string>
+    <string name="dog038">古代长须牧羊犬</string>
+    <string name="dog039">贝林登梗</string>
+    <string name="dog040">比利时牧羊犬</string>
+    <string name="dog041">比利时牧羊犬</string>
+    <string name="dog042">比利时格罗安达牧羊犬</string>
+    <string name="dog043">比利时拉坎诺斯犬</string>
+    <string name="dog044">比利时玛连莱犬</string>
+    <string name="dog045">比利时特武伦牧羊犬</string>
+    <string name="dog046">贝加马斯卡犬</string>
+    <string name="dog047">皮卡迪牧羊犬</string>
+    <string name="dog048">伯恩山犬</string>
+    <string name="dog049">卷毛比熊犬</string>
+    <string name="dog050">黑褐猎浣熊犬</string>
+    <string name="dog051">黑俄罗斯梗</string>
+    <string name="dog052">血猎犬</string>
+    <string name="dog053">蓝色皮卡迪档猎犬</string>
+    <string name="dog054">布鲁泰克猎浣熊犬</string>
+    <string name="dog055">波西米亚牧羊犬</string>
+    <string name="dog056">博罗尼亚犬</string>
+    <string name="dog057">边境牧羊犬</string>
+    <string name="dog058">边境梗</string>
+    <string name="dog059">波索尔</string>
+    <string name="dog060">波士顿梗</string>
+    <string name="dog061">畜牧犬</string>
+    <string name="dog062">拳师犬</string>
+    <string name="dog063">意大利布拉克犬</string>
+    <string name="dog064">布拉克 杜 波旁犬</string>
+    <string name="dog065">巴西人护卫犬</string>
+    <string name="dog066">巴西列咯犬</string>
+    <string name="dog067">布里犬</string>
+    <string name="dog068">布列塔尼猎犬</string>
+    <string name="dog069">布罗豪而莫犬</string>
+    <string name="dog070">布哈德犬</string>
+    <string name="dog071">牛头梗</string>
+    <string name="dog072">斗牛犬</string>
+    <string name="dog073">牛头獒</string>
+    <string name="dog074">凯安梗</string>
+    <string name="dog075">卡南犬</string>
+    <string name="dog076">卡斯罗犬</string>
+    <string name="dog077">考迪菲勒得迈谷犬</string>
+    <string name="dog078">加泰罗尼亚牧羊犬</string>
+    <string name="dog079">高加索犬</string>
+    <string name="dog080">查理士王小猎犬</string>
+    <string name="dog081">中亚牧羊犬</string>
+    <string name="dog082">捷克狼犬</string>
+    <string name="dog083">捷克福斯克犬</string>
+    <string name="dog084">捷克梗</string>
+    <string name="dog085">乞沙比克猎犬</string>
+    <string name="dog086">吉娃娃</string>
+    <string name="dog087">吉娃娃长毛</string>
+    <string name="dog088">吉娃娃短毛</string>
+    <string name="dog089">中国冠毛犬</string>
+    <string name="dog090">松狮犬</string>
+    <string name="dog091">西西里猎犬</string>
+    <string name="dog092">克伦伯犬</string>
+    <string name="dog093">粗毛猎犬</string>
+    <string name="dog094">粗毛梗犬</string>
+    <string name="dog095">粗毛匈牙利维斯拉犬</string>
+    <string name="dog096">粗毛迷你腊肠犬</string>
+    <string name="dog097">粗毛兔型腊肠犬</string>
+    <string name="dog098">曲卡犬 ，可卡犬</string>
+    <string name="dog099">苏格兰牧羊犬</string>
+    <string name="dog100">平滑毛柯利犬</string>
+    <string name="dog101">图莱亚尔绒毛犬</string>
+    <string name="dog102">克罗地亚牧羊犬</string>
+    <string name="dog103">卷毛寻回犬</string>
+    <string name="dog104">腊肠犬</string>
+    <string name="dog105">斑点犬</string>
+    <string name="dog106">短脚狄文梗</string>
+    <string name="dog107">丹麦狐犬</string>
+    <string name="dog108">丹麦/瑞典农场犬</string>
+    <string name="dog109">猎鹿犬</string>
+    <string name="dog110">杜伯文犬</string>
+    <string name="dog111">杜宾犬</string>
+    <string name="dog112">杜高犬</string>
+    <string name="dog113">加纳利犬</string>
+    <string name="dog114">杜高 马洛昆 斗牛犬</string>
+    <string name="dog115">波尔多獒犬</string>
+    <string name="dog116">东京犬</string>
+    <string name="dog117">瑞典腊肠犬</string>
+    <string name="dog118">达尼克犬</string>
+    <string name="dog119">东西伯利亚莱卡犬</string>
+    <string name="dog120">猎麋犬</string>
+    <string name="dog121">英国可卡犬</string>
+    <string name="dog122">英国猎狐犬</string>
+    <string name="dog123">英国塞特犬</string>
+    <string name="dog124">英国史宾格犬</string>
+    <string name="dog125">英国玩具梗</string>
+    <string name="dog126">恩特雷布赫山地犬</string>
+    <string name="dog127">伊斯特啦山地犬</string>
+    <string name="dog128">欧亚大陆犬</string>
+    <string name="dog129">田野猎犬</string>
+    <string name="dog130">芬兰猎犬</string>
+    <string name="dog131">芬兰拉普猎犬</string>
+    <string name="dog132">芬兰猎犬</string>
+    <string name="dog133">平毛寻回犬</string>
+    <string name="dog134">猎狐梗</string>
+    <string name="dog135">软毛狐狸梗</string>
+    <string name="dog136">法国老虎犬</string>
+    <string name="dog137">法国猎犬</string>
+    <string name="dog138">德国品犬</string>
+    <string name="dog139">德国猎梗</string>
+    <string name="dog140">德国牧羊犬</string>
+    <string name="dog141">德国短毛指示猎犬</string>
+    <string name="dog142">德国猎犬</string>
+    <string name="dog143">德国钢毛指示犬</string>
+    <string name="dog144">大型史纳沙</string>
+    <string name="dog145">峡谷型依马尔犬</string>
+    <string name="dog146">黄金猎犬      金毛猎犬</string>
+    <string name="dog147">哥顿塞特犬</string>
+    <string name="dog148">大丹犬  大丹狗</string>
+    <string name="dog149">大格里芬旺代猎犬</string>
+    <string name="dog150">大巴塞特 格里芬 旺代犬</string>
+    <string name="dog151">大白熊犬</string>
+    <string name="dog152">大瑞士山地犬</string>
+    <string name="dog153">格陵兰犬</string>
+    <string name="dog154">格雷伊猎犬</string>
+    <string name="dog155">比利时猎犬</string>
+    <string name="dog156">布鲁塞尔格里芬犬</string>
+    <string name="dog157">大型明斯特兰德犬</string>
+    <string name="dog158">Grosspitz</string>
+    <string name="dog159">哈尔登猎犬</string>
+    <string name="dog160">汉密尔顿斯多弗尔犬</string>
+    <string name="dog161">汉诺威猎犬</string>
+    <string name="dog162">哈利犬</string>
+    <string name="dog163">哈威那</string>
+    <string name="dog164">北海道犬</string>
+    <string name="dog165">猎犬</string>
+    <string name="dog166">霍夫瓦尔特犬</string>
+    <string name="dog167">匈牙利灵缇犬</string>
+    <string name="dog168">海根猎犬</string>
+    <string name="dog169">依比沙猎犬</string>
+    <string name="dog170">冰岛牧羊犬</string>
+    <string name="dog171">爱尔兰红白塞特权</string>
+    <string name="dog172">爱尔兰红色蹲猎犬</string>
+    <string name="dog173">爱尔兰雪达犬</string>
+    <string name="dog174">爱尔兰 软毛麦色梗</string>
+    <string name="dog175">爱尔兰梗</string>
+    <string name="dog176">爱尔兰水猎犬</string>
+    <string name="dog177">爱尔兰猎狼犬</string>
+    <string name="dog178">意大利格雷伊猎犬  意大利灵缇犬</string>
+    <string name="dog179">意大利短毛指示犬</string>
+    <string name="dog180">积奇罗素梗  杰克罗素梗</string>
+    <string name="dog181">日本犬</string>
+    <string name="dog182">日本狐狸犬</string>
+    <string name="dog183">日本梗</string>
+    <string name="dog184">韩国金多犬</string>
+    <string name="dog185">甲婓犬</string>
+    <string name="dog186">卡累利熊权</string>
+    <string name="dog187">荷兰毛狮犬</string>
+    <string name="dog188">凯利蓝梗</string>
+    <string name="dog189">查尔斯王猎犬</string>
+    <string name="dog190">纪州犬</string>
+    <string name="dog191">博美犬</string>
+    <string name="dog192">可蒙犬</string>
+    <string name="dog193">科克尔犬</string>
+    <string name="dog194">克罗姆费兰德犬</string>
+    <string name="dog195">哥威斯犬</string>
+    <string name="dog196">拉布拉多</string>
+    <string name="dog197">拉戈罗马阁挪露犬</string>
+    <string name="dog198">莱卡犬</string>
+    <string name="dog199">湖畔梗</string>
+    <string name="dog200">兰夏尔犬</string>
+    <string name="dog201">兰西尔犬</string>
+    <string name="dog202">芬兰驯鹿犬</string>
+    <string name="dog203">兰博格犬</string>
+    <string name="dog204">拉萨犬</string>
+    <string name="dog205">小狮子犬</string>
+    <string name="dog206">长毛牧羊犬</string>
+    <string name="dog207">长毛腊肠犬</string>
+    <string name="dog208">长毛荷兰牧羊犬</string>
+    <string name="dog209">长毛德国牧羊犬</string>
+    <string name="dog210">长毛迷你腊肠犬</string>
+    <string name="dog211">长毛比利牛斯牧羊犬</string>
+    <string name="dog212">长毛兔型腊肠犬</string>
+    <string name="dog213">长毛圣伯纳犬</string>
+    <string name="dog214">劳臣犬</string>
+    <string name="dog215">玛尔济斯</string>
+    <string name="dog216">曼彻斯特梗</string>
+    <string name="dog217">马雷马牧羊犬</string>
+    <string name="dog218">马士提夫犬</string>
+    <string name="dog219">中型贵宾犬</string>
+    <string name="dog220">墨西哥无毛犬</string>
+    <string name="dog221">迷你牛头梗</string>
+    <string name="dog222">迷你笃宾犬  迷你杜宾犬</string>
+    <string name="dog223">迷你贵宾犬</string>
+    <string name="dog224">迷你史纳沙</string>
+    <string name="dog225">中型绒毛犬</string>
+    <string name="dog226">杂种狗</string>
+    <string name="dog227">马地犬</string>
+    <string name="dog228">纽波利顿獒犬</string>
+    <string name="dog229">纽芬兰犬</string>
+    <string name="dog230">罗福梗</string>
+    <string name="dog231">挪威猎麋犬</string>
+    <string name="dog232">挪威伦德猎犬</string>
+    <string name="dog233">挪威士梗</string>
+    <string name="dog234">新斯科舍水鸭引诱寻猎犬</string>
+    <string name="dog235">英国古代牧羊犬</string>
+    <string name="dog236">古老丹麦向导猎犬</string>
+    <string name="dog237">奥达猎犬</string>
+    <string name="dog238">蝴蝶犬</string>
+    <string name="dog239">帕尔森 罗塞尔梗</string>
+    <string name="dog240">或梗犬</string>
+    <string name="dog241">北京犬     北京哈巴狗</string>
+    <string name="dog242">秘鲁无毛犬</string>
+    <string name="dog243">迷你贝吉格里芬凡丁犬</string>
+    <string name="dog244">小型加斯科涅蓝色犬</string>
+    <string name="dog245">布鲁塞尔格里芬犬</string>
+    <string name="dog246">菲利犬</string>
+    <string name="dog247">法老王猎犬</string>
+    <string name="dog248">皮卡迪猎犬</string>
+    <string name="dog249">比特犬</string>
+    <string name="dog250">普罗特猎犬</string>
+    <string name="dog251">加纳利猎犬</string>
+    <string name="dog252">葡萄牙波登可犬</string>
+    <string name="dog253">指示犬</string>
+    <string name="dog254">波兰灵缇</string>
+    <string name="dog255">波兰低地牧羊犬</string>
+    <string name="dog256">博美犬</string>
+    <string name="dog257">贵宾犬</string>
+    <string name="dog258">丰山犬</string>
+    <string name="dog259">瓷器犬</string>
+    <string name="dog260">葡萄牙指示犬</string>
+    <string name="dog261">葡萄牙牧羊犬</string>
+    <string name="dog262">葡萄牙水犬</string>
+    <string name="dog263">布拉格 ratter</string>
+    <string name="dog264">八哥犬</string>
+    <string name="dog265">波利犬</string>
+    <string name="dog266">波密犬</string>
+    <string name="dog267">比利牛斯獒</string>
+    <string name="dog268">罗威纳犬</string>
+    <string name="dog269">俄罗斯猎犬</string>
+    <string name="dog270">俄罗斯玩具短毛梗</string>
+    <string name="dog271">俄罗斯</string>
+    <string name="dog272">欧式俄国莱卡犬</string>
+    <string name="dog273">萨尔路斯狼犬</string>
+    <string name="dog274">圣伯纳犬</string>
+    <string name="dog275">东非猎犬</string>
+    <string name="dog276">萨摩犬</string>
+    <string name="dog277">萨普萨利权</string>
+    <string name="dog278">萨普兰尼那克犬</string>
+    <string name="dog279">斯怡潘道斯犬</string>
+    <string name="dog280">舒伯齐犬，史奇派克犬</string>
+    <string name="dog281">雪纳瑞犬</string>
+    <string name="dog282">Schweizerischer Niederlaufhund</string>
+    <string name="dog283">舒格兰梗</string>
+    <string name="dog284">西里汉梗</string>
+    <string name="dog285">Segugio italiano a pelo raso</string>
+    <string name="dog286">沙皮狗</string>
+    <string name="dog287">喜乐蒂牧羊犬</string>
+    <string name="dog288">西巴犬    日本柴犬</string>
+    <string name="dog289">西施犬</string>
+    <string name="dog290">四国犬</string>
+    <string name="dog291">西伯利亚雪橇犬    西伯利亚哈士奇</string>
+    <string name="dog292">短毛腊肠狗</string>
+    <string name="dog293">短毛匈牙利维斯拉犬</string>
+    <string name="dog294">短毛迷你腊肠犬</string>
+    <string name="dog295">短毛比利牛斯牧羊犬</string>
+    <string name="dog296">短毛兔腊肠犬</string>
+    <string name="dog297">短毛圣伯纳狗</string>
+    <string name="dog298">斯凯梗</string>
+    <string name="dog299">北非猎犬</string>
+    <string name="dog300">斯洛伐酷库瓦克犬</string>
+    <string name="dog301">小卢塞恩猎犬</string>
+    <string name="dog302">小明斯特兰德犬</string>
+    <string name="dog303">小施维茨猎犬</string>
+    <string name="dog304">小瑞士猎犬</string>
+    <string name="dog305">平毛猎狐梗</string>
+    <string name="dog306">南俄罗斯犬</string>
+    <string name="dog307">西班牙格力犬</string>
+    <string name="dog308">西班牙獒犬</string>
+    <string name="dog309">Spaniel de Pont-Audemer</string>
+    <string name="dog310">西班牙水犬</string>
+    <string name="dog311">史毕诺犬</string>
+    <string name="dog312">斯塔比荷犬</string>
+    <string name="dog313">斯塔福郡斗牛梗</string>
+    <string name="dog314">标准贵宾犬</string>
+    <string name="dog315">塞式猎犬</string>
+    <string name="dog316">瑞典拉普猎犬</string>
+    <string name="dog317">瑞典柯基犬</string>
+    <string name="dog318">瑞典猎鹿犬</string>
+    <string name="dog319">瑞士猎犬</string>
+    <string name="dog320">泰托拉牧羊犬</string>
+    <string name="dog321">田特菲梗</string>
+    <string name="dog322">泰国脊背犬</string>
+    <string name="dog323">北欧绒毛犬</string>
+    <string name="dog324">藏獒</string>
+    <string name="dog325">西藏猎犬</string>
+    <string name="dog326">西藏梗</string>
+    <string name="dog327">波黑犬</string>
+    <string name="dog328">土佐犬</string>
+    <string name="dog329">玩具猎狐梗</string>
+    <string name="dog330">玩具贵宾犬</string>
+    <string name="dog331">曼彻斯特玩具梗</string>
+    <string name="dog332">维兹拉犬</string>
+    <string name="dog333">意大利狐狸犬</string>
+    <string name="dog334">威玛猎犬</string>
+    <string name="dog335">威尔斯柯基犬（卡狄根）</string>
+    <string name="dog336">威尔斯柯基犬（宾波基）</string>
+    <string name="dog337">威尔斯激飞猎犬</string>
+    <string name="dog338">威尔斯梗</string>
+    <string name="dog339">西部高地白梗</string>
+    <string name="dog340">西西伯利亚莱卡</string>
+    <string name="dog341">韦特豪犬</string>
+    <string name="dog342">惠比特犬</string>
+    <string name="dog343">白色瑞士牧羊犬</string>
+    <string name="dog344">硬毛猎狐梗</string>
+    <string name="dog345">钢毛指示格里芬全</string>
+    <string name="dog346">约瑟夏梗</string>
+    <string name="dog347">其他</string>
+
+    <string name="cat001">阿比西尼亚猫</string>
+    <string name="cat002">爱琴海猫</string>
+    <string name="cat003">阿拉斯加雪猫</string>
+    <string name="cat004">美国短尾猫</string>
+    <string name="cat005">美国卷耳猫</string>
+    <string name="cat006">美国短毛猫</string>
+    <string name="cat007">美国多趾猫</string>
+    <string name="cat008">美国环尾猫</string>
+    <string name="cat009">美短猫</string>
+    <string name="cat010">美国硬毛猫 </string>
+    <string name="cat011">Antipodean</string>
+    <string name="cat012">阿拉伯猫</string>
+    <string name="cat013">亚洲半长毛猫</string>
+    <string name="cat014">亚洲短毛猫</string>
+    <string name="cat015">澳大利亚雾猫</string>
+    <string name="cat016">巴厘猫</string>
+    <string name="cat017">孟加拉国猫</string>
+    <string name="cat018">伯曼猫</string>
+    <string name="cat019">孟买猫</string>
+    <string name="cat020">巴西短毛猫</string>
+    <string name="cat021">英国长毛猫</string>
+    <string name="cat022">英国短毛猫</string>
+    <string name="cat023">缅甸猫</string>
+    <string name="cat024">波米拉猫</string>
+    <string name="cat025">加州闪亮猫</string>
+    <string name="cat026">斯里兰卡猫，  锡兰猫</string>
+    <string name="cat027">蒂凡尼猫</string>
+    <string name="cat028">夏特尔猫</string>
+    <string name="cat029">Chinese Harlequin</string>
+    <string name="cat030">色点短毛猫</string>
+    <string name="cat031">柯尼斯卷毛猫</string>
+    <string name="cat032">古巴蓝猫</string>
+    <string name="cat033">威尔斯猫</string>
+    <string name="cat034">塞浦路斯阿佛洛狄忒</string>
+    <string name="cat035">德文雷克斯猫     德文卷毛猫</string>
+    <string name="cat036">顿斯科伊猫</string>
+    <string name="cat037">狸花猫</string>
+    <string name="cat038">埃及猫</string>
+    <string name="cat039">欧洲短毛猫</string>
+    <string name="cat040">异国猫     外来种短毛猫</string>
+    <string name="cat041">Foldex</string>
+    <string name="cat042">Foreign White</string>
+    <string name="cat043">麝猫</string>
+    <string name="cat044">德国长毛猫</string>
+    <string name="cat045">德国卷毛猫</string>
+    <string name="cat046">哈瓦那布朗猫</string>
+    <string name="cat047">赫尔辛基猫</string>
+    <string name="cat048">汉兰达猫</string>
+    <string name="cat049">喜马拉雅猫</string>
+    <string name="cat050">日本短尾猫</string>
+    <string name="cat051">爪哇猫</string>
+    <string name="cat052">卡斯梅尔猫</string>
+    <string name="cat053">泰国御猫</string>
+    <string name="cat054">克拉特猫</string>
+    <string name="cat055">韩国短尾猫</string>
+    <string name="cat056">千岛短尾猫</string>
+    <string name="cat057">拉邦猫                </string>
+    <string name="cat058">狼人猫</string>
+    <string name="cat059">缅因猫</string>
+    <string name="cat060">马恩岛猫   曼岛猫</string>
+    <string name="cat061">Minskin</string>
+    <string name="cat062">芒奇金猫</string>
+    <string name="cat063">拿破仑猫</string>
+    <string name="cat064">内华达猫          尼比龙猫</string>
+    <string name="cat065">挪威深林猫</string>
+    <string name="cat066">欧西猫</string>
+    <string name="cat067">欧斯亚史烈斯猫</string>
+    <string name="cat068">东方长毛猫</string>
+    <string name="cat069">东方短毛猫</string>
+    <string name="cat070">Perfold</string>
+    <string name="cat071">波斯猫</string>
+    <string name="cat072">波斯龙猫</string>
+    <string name="cat073">彼得禿猫</string>
+    <string name="cat074">北美洲短尾猫</string>
+    <string name="cat075">Puppykat</string>
+    <string name="cat076">Raas Cat</string>
+    <string name="cat077">褴褛猫</string>
+    <string name="cat078">布偶猫</string>
+    <string name="cat079">俄罗斯黑猫</string>
+    <string name="cat080">俄罗斯蓝猫</string>
+    <string name="cat081">俄罗斯白猫</string>
+    <string name="cat082">Sam Sawet</string>
+    <string name="cat083">热带草原猫</string>
+    <string name="cat084">苏格兰折耳猫</string>
+    <string name="cat085">赛尔凯克卷毛猫</string>
+    <string name="cat086">塞伦盖蒂猫</string>
+    <string name="cat087">Serrade Petit</string>
+    <string name="cat088">塞舌尔猫</string>
+    <string name="cat089">暹罗猫</string>
+    <string name="cat090">西伯利亚猫</string>
+    <string name="cat091">新加坡猫</string>
+    <string name="cat092">Skif Toy Bobtail</string>
+    <string name="cat093">司库康猫</string>
+    <string name="cat094">雪鞋猫</string>
+    <string name="cat095">肯尼亚猫</string>
+    <string name="cat096">索马里猫</string>
+    <string name="cat097">加拿大无毛猫</string>
+    <string name="cat098">Sterling</string>
+    <string name="cat099">Suphalak</string>
+    <string name="cat100">泰国猫</string>
+    <string name="cat101">东奇尼猫</string>
+    <string name="cat102">俄罗斯袖珍猫</string>
+    <string name="cat103">玩具虎猫</string>
+    <string name="cat104">土耳其安哥拉猫</string>
+    <string name="cat105">土耳其梵猫</string>
+    <string name="cat106">乌拉尔卷毛猫</string>
+    <string name="cat107">约克巧克力猫</string>
+    <string name="cat108">其他</string>
+
+
+</resources>

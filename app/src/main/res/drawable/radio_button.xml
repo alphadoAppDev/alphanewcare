@@ -1,0 +1,9 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_checked="false" android:drawable="@drawable/check_off"/>  // 선택하지 않을때
+
+    <item android:state_checked="true" android:drawable="@drawable/check_on"/>    // 선택했을때
+
+    <item android:drawable="@drawable/check_off"/> //기본 이미지
+
+</selector>

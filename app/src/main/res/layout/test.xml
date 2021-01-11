@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_main"
+    android:orientation="vertical">
+
+    <include layout="@layout/custom_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="69dp"
+            android:layout_height="55dp"
+            app:srcCompat="@drawable/ic_launcher"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="7dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/hi_alphacare" />
+        <TextView
+            android:id="@+id/txtSubTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="7dp"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:text="@string/change_password_msg"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:singleLine="true"
+            android:background="@drawable/bg_edit_auth"
+            android:inputType="textPassword"
+            android:maxLength="32"
+            android:textSize="14sp"
+            android:hint="@string/current_password"/>
+        <EditText
+            android:id="@+id/editTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_edit_auth"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:maxLength="32"
+            android:textSize="14sp"
+            android:hint="@string/new_password"/>
+
+        <EditText
+            android:id="@+id/editThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_edit_auth"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:maxLength="32"
+            android:textSize="14sp"
+            android:hint="@string/new_password_confirm"/>
+
+        <RelativeLayout
+            android:id="@+id/rlAlertMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop= "10dp"
+            android:visibility="invisible">
+            <ImageView
+                android:id="@+id/imgAlert"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_centerVertical="true"
+                app:srcCompat="@drawable/circle_alert"/>
+            <TextView
+                android:id="@+id/txtMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/imgAlert"
+                android:textColor="#e02020"
+                android:textSize="10sp"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btnChange"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/background_button"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:onClick="btnChangePassword"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

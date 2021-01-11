@@ -1,0 +1,461 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="kr.co.alphacare"
+4    android:versionCode="22"
+5    android:versionName="2.00.01" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:8:5-67
+11-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:8:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:9:5-78
+12-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:9:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:10:5-81
+13-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:10:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:12:5-65
+14-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:12:22-62
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:13:5-81
+15-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:13:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:14:5-80
+16-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:14:22-77
+17
+18    <uses-feature
+18-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:16:5-84
+19        android:name="android.hardware.camera"
+19-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:16:19-57
+20        android:required="false" />
+20-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:16:58-82
+21    <uses-feature
+21-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:17:5-94
+22        android:name="android.hardware.camera.autofocus"
+22-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:17:19-67
+23        android:required="false" />
+23-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:17:68-92
+24
+25    <uses-permission android:name="android.permission.VIBRATE" />
+25-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:19:5-65
+25-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:19:22-63
+26    <uses-permission android:name="android.permission.WAKE_LOCK" />
+26-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:20:5-67
+26-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:20:22-65
+27    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+27-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:21:5-81
+27-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:21:22-78
+28
+29    <!-- Required by older versions of Google Play services to create IID tokens -->
+30    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+30-->[com.google.firebase:firebase-iid:20.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/3be53fd33e7e8d014551aba3693fb526/firebase-iid-20.0.0/AndroidManifest.xml:26:5-82
+30-->[com.google.firebase:firebase-iid:20.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/3be53fd33e7e8d014551aba3693fb526/firebase-iid-20.0.0/AndroidManifest.xml:26:22-79
+31    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+31-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:26:5-110
+31-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:26:22-107
+32
+33    <application
+33-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:23:5-187:19
+34        android:allowBackup="true"
+34-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:25:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/8ef0dd1b827b6b28c1e9211227fa2d4c/core-1.0.0/AndroidManifest.xml:22:18-86
+36        android:debuggable="true"
+37        android:icon="@mipmap/ic_launcher"
+37-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:26:9-43
+38        android:label="@string/app_name"
+38-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:27:9-41
+39        android:largeHeap="true"
+39-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:24:9-33
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:28:9-54
+41        android:supportsRtl="true"
+41-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:29:9-35
+42        android:testOnly="true"
+43        android:theme="@style/AppTheme"
+43-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:32:9-40
+44        android:usesCleartextTraffic="true" >
+44-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:30:9-44
+45
+46        <!-- android:networkSecurityConfig="@xml/network_security_config" -->
+47        <meta-data
+47-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:34:9-36:49
+48            android:name="com.google.firebase.messaging.default_notification_channel_id"
+48-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:35:13-89
+49            android:value="default_channel_id" />
+49-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:36:13-47
+50        <meta-data
+50-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:37:9-39:37
+51            android:name="firebase_messaging_auto_init_enabled"
+51-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:38:13-64
+52            android:value="false" />
+52-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:39:13-34
+53        <meta-data
+53-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:40:9-42:37
+54            android:name="firebase_analytics_collection_enabled"
+54-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:41:13-65
+55            android:value="false" />
+55-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:42:13-34
+56
+57        <service
+57-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:44:2-51:19
+58            android:name="kr.co.alphacare.MyFireBaseMessagingService"
+58-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:45:6-48
+59            android:enabled="true"
+59-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:47:6-28
+60            android:exported="false"
+60-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:46:6-30
+61            android:stopWithTask="false" >
+61-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:48:6-34
+62        </service>
+63-->
+64        <!-- <service -->
+65        <!-- android:name=".MyFireBaseMessagingService"> -->
+66        <!-- <intent-filter> -->
+67        <!-- <action android:name="com.google.firebase.MESSAGING_EVENT"/> -->
+68        <!-- </intent-filter> -->
+69        <!-- </service> -->
+70
+71
+72        <!-- <receiver -->
+73        <!-- android:name=".AlarmBroadcastReceiver" -->
+74        <!-- android:enabled="true" -->
+75        <!-- android:exported="true"> -->
+76        <!-- <intent-filter> -->
+77        <!-- <action android:name="NOTIFYCATION_SERVICE"/> -->
+78        <!-- </intent-filter> -->
+79        <!-- </receiver> -->
+80
+81        <activity
+81-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:69:9-78:20
+82            android:name="kr.co.alphacare.IntroActivity"
+82-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:70:13-42
+83            android:screenOrientation="portrait" >
+83-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:71:13-49
+84            <intent-filter>
+84-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:72:13-77:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:73:17-69
+85-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:73:25-66
+86                <action android:name="android.intent.action.VIEW" />
+86-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:74:17-69
+86-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:74:25-66
+87
+88                <category android:name="android.intent.category.LAUNCHER" />
+88-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:75:17-77
+88-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:75:27-74
+89
+90                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+90-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:76:17-78
+90-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:76:25-75
+91            </intent-filter>
+92        </activity>
+93        <activity
+93-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:81:9-85:48
+94            android:name="kr.co.alphacare.MainActivity"
+94-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:82:13-41
+95            android:screenOrientation="portrait"
+95-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:83:13-49
+96            android:theme="@style/AppTheme" />
+96-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:85:13-44
+97        <activity
+97-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:88:9-91:49
+98            android:name="kr.co.alphacare.CreateAccountActivity"
+98-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:89:13-50
+99            android:screenOrientation="portrait"
+99-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:90:13-49
+100            android:theme="@style/EditTheme" />
+100-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:91:13-45
+101        <activity
+101-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:92:9-95:49
+102            android:name="kr.co.alphacare.LoginActivity"
+102-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:93:13-42
+103            android:screenOrientation="portrait"
+103-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:94:13-49
+104            android:theme="@style/EditTheme" />
+104-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:95:13-45
+105        <activity
+105-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:97:9-100:49
+106            android:name="kr.co.alphacare.ChangePasswordActivity"
+106-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:98:13-51
+107            android:screenOrientation="portrait"
+107-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:99:13-49
+108            android:theme="@style/EditTheme" />
+108-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:100:13-45
+109        <activity
+109-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:101:9-104:49
+110            android:name="kr.co.alphacare.ResetPasswordActivity"
+110-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:102:13-50
+111            android:screenOrientation="portrait"
+111-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:103:13-49
+112            android:theme="@style/EditTheme" />
+112-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:104:13-45
+113        <activity
+113-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:106:9-109:49
+114            android:name="kr.co.alphacare.AddPet"
+114-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:107:13-35
+115            android:screenOrientation="portrait"
+115-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:108:13-49
+116            android:theme="@style/EditTheme" />
+116-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:109:13-45
+117        <activity
+117-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:110:9-113:49
+118            android:name="kr.co.alphacare.ModifyPet"
+118-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:111:13-38
+119            android:screenOrientation="portrait"
+119-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:112:13-49
+120            android:theme="@style/EditTheme" />
+120-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:113:13-45
+121        <activity
+121-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:115:9-118:49
+122            android:name="kr.co.alphacare.CareActivity"
+122-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:116:13-41
+123            android:screenOrientation="portrait"
+123-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:117:13-49
+124            android:theme="@style/EditTheme" />
+124-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:118:13-45
+125        <activity
+125-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:120:9-123:49
+126            android:name="kr.co.alphacare.CareAddActivity"
+126-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:121:13-44
+127            android:screenOrientation="portrait"
+127-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:122:13-49
+128            android:theme="@style/EditTheme" />
+128-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:123:13-45
+129        <activity
+129-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:125:9-127:49
+130            android:name="kr.co.alphacare.CareListActivity"
+130-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:125:19-51
+131            android:screenOrientation="portrait"
+131-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:126:13-49
+132            android:theme="@style/EditTheme" />
+132-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:127:13-45
+133        <activity
+133-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:129:9-132:49
+134            android:name="kr.co.alphacare.TestResult"
+134-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:130:13-39
+135            android:screenOrientation="portrait"
+135-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:131:13-49
+136            android:theme="@style/EditTheme" />
+136-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:132:13-45
+137        <activity
+137-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:133:9-136:49
+138            android:name="kr.co.alphacare.MenuActivity"
+138-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:134:13-41
+139            android:screenOrientation="portrait"
+139-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:135:13-49
+140            android:theme="@style/EditTheme" />
+140-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:136:13-45
+141        <activity
+141-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:137:9-140:49
+142            android:name="kr.co.alphacare.ProfileActivity"
+142-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:138:13-44
+143            android:screenOrientation="portrait"
+143-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:139:13-49
+144            android:theme="@style/EditTheme" />
+144-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:140:13-45
+145        <activity
+145-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:141:9-144:49
+146            android:name="kr.co.alphacare.FaqActivity"
+146-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:142:13-40
+147            android:screenOrientation="portrait"
+147-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:143:13-49
+148            android:theme="@style/EditTheme" />
+148-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:144:13-45
+149        <activity
+149-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:145:9-148:49
+150            android:name="kr.co.alphacare.SettingActivity"
+150-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:146:13-44
+151            android:screenOrientation="portrait"
+151-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:147:13-49
+152            android:theme="@style/EditTheme" />
+152-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:148:13-45
+153        <activity
+153-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:149:9-152:49
+154            android:name="kr.co.alphacare.ServiceCenterActivity"
+154-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:150:13-50
+155            android:screenOrientation="portrait"
+155-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:151:13-49
+156            android:theme="@style/EditTheme" />
+156-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:152:13-45
+157        <activity
+157-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:153:9-156:49
+158            android:name="kr.co.alphacare.PrivacyActivity"
+158-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:154:13-44
+159            android:screenOrientation="portrait"
+159-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:155:13-49
+160            android:theme="@style/EditTheme" />
+160-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:156:13-45
+161        <activity
+161-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:157:9-160:49
+162            android:name="kr.co.alphacare.ServiceTermsActivity"
+162-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:158:13-49
+163            android:screenOrientation="portrait"
+163-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:159:13-49
+164            android:theme="@style/EditTheme" />
+164-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:160:13-45
+165        <activity
+165-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:165:9-167:52
+166            android:name="kr.co.alphacare.main.MainActivity"
+166-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:166:13-46
+167            android:screenOrientation="portrait" />
+167-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:167:13-49
+168        <activity
+168-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:169:9-171:52
+169            android:name="kr.co.alphacare.tutorial.TutorialActivity"
+169-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:170:13-69
+170            android:screenOrientation="portrait" />
+170-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:171:13-49
+171        <activity
+171-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:173:9-176:15
+172            android:name="kr.co.alphacare.capture.CaptureActivity"
+172-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:174:13-67
+173            android:screenOrientation="portrait" />
+173-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:175:13-49
+174        <activity
+174-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:178:9-181:15
+175            android:name="kr.co.alphacare.result.ResultActivity"
+175-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:179:13-65
+176            android:screenOrientation="portrait" />
+176-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:180:13-49
+177        <activity
+177-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:183:9-186:15
+178            android:name="kr.co.alphacare.graph.GraphActivity"
+178-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:184:13-63
+179            android:screenOrientation="portrait" />
+179-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:185:13-49
+180        <!--
+181             FirebaseMessagingService performs security checks at runtime,
+182             but set to not exported to explicitly avoid allowing another app to call it.
+183        -->
+184        <service
+184-->[com.google.firebase:firebase-messaging:20.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/178f88cfc853d6c5c4f8dca66de6402a/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:28:9-34:19
+185            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+185-->[com.google.firebase:firebase-messaging:20.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/178f88cfc853d6c5c4f8dca66de6402a/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:29:13-82
+186            android:exported="false" >
+186-->[com.google.firebase:firebase-messaging:20.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/178f88cfc853d6c5c4f8dca66de6402a/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:30:13-37
+187            <intent-filter android:priority="-500" >
+187-->[com.google.firebase:firebase-messaging:20.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/178f88cfc853d6c5c4f8dca66de6402a/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:31:13-33:29
+187-->[com.google.firebase:firebase-messaging:20.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/178f88cfc853d6c5c4f8dca66de6402a/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:31:28-51
+188                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+188-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:76:17-78
+188-->/Users/kim/1_AOS/AlphaCare/app/src/main/AndroidManifest.xml:76:25-75
+189            </intent-filter>
+190        </service>
+191        <service
+191-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/42bdd8b5284c4c862429b47b64dff00a/play-services-measurement-api-17.0.0/AndroidManifest.xml:27:9-33:19
+192            android:name="com.google.firebase.components.ComponentDiscoveryService"
+192-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/42bdd8b5284c4c862429b47b64dff00a/play-services-measurement-api-17.0.0/AndroidManifest.xml:28:13-84
+193            android:exported="false" >
+193-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/42bdd8b5284c4c862429b47b64dff00a/play-services-measurement-api-17.0.0/AndroidManifest.xml:29:13-37
+194            <meta-data
+194-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/42bdd8b5284c4c862429b47b64dff00a/play-services-measurement-api-17.0.0/AndroidManifest.xml:30:13-32:85
+195                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+195-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/42bdd8b5284c4c862429b47b64dff00a/play-services-measurement-api-17.0.0/AndroidManifest.xml:31:17-139
+196                android:value="com.google.firebase.components.ComponentRegistrar" />
+196-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/42bdd8b5284c4c862429b47b64dff00a/play-services-measurement-api-17.0.0/AndroidManifest.xml:32:17-82
+197            <meta-data
+197-->[com.google.firebase:firebase-iid:20.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/3be53fd33e7e8d014551aba3693fb526/firebase-iid-20.0.0/AndroidManifest.xml:32:13-34:85
+198                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+198-->[com.google.firebase:firebase-iid:20.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/3be53fd33e7e8d014551aba3693fb526/firebase-iid-20.0.0/AndroidManifest.xml:33:17-96
+199                android:value="com.google.firebase.components.ComponentRegistrar" />
+199-->[com.google.firebase:firebase-iid:20.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/3be53fd33e7e8d014551aba3693fb526/firebase-iid-20.0.0/AndroidManifest.xml:34:17-82
+200        </service>
+201
+202        <receiver
+202-->[com.google.firebase:firebase-iid:20.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/3be53fd33e7e8d014551aba3693fb526/firebase-iid-20.0.0/AndroidManifest.xml:37:9-44:20
+203            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+203-->[com.google.firebase:firebase-iid:20.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/3be53fd33e7e8d014551aba3693fb526/firebase-iid-20.0.0/AndroidManifest.xml:38:13-78
+204            android:exported="true"
+204-->[com.google.firebase:firebase-iid:20.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/3be53fd33e7e8d014551aba3693fb526/firebase-iid-20.0.0/AndroidManifest.xml:39:13-36
+205            android:permission="com.google.android.c2dm.permission.SEND" >
+205-->[com.google.firebase:firebase-iid:20.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/3be53fd33e7e8d014551aba3693fb526/firebase-iid-20.0.0/AndroidManifest.xml:40:13-73
+206            <intent-filter>
+206-->[com.google.firebase:firebase-iid:20.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/3be53fd33e7e8d014551aba3693fb526/firebase-iid-20.0.0/AndroidManifest.xml:41:13-43:29
+207                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+207-->[com.google.firebase:firebase-iid:20.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/3be53fd33e7e8d014551aba3693fb526/firebase-iid-20.0.0/AndroidManifest.xml:42:17-81
+207-->[com.google.firebase:firebase-iid:20.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/3be53fd33e7e8d014551aba3693fb526/firebase-iid-20.0.0/AndroidManifest.xml:42:25-78
+208            </intent-filter>
+209        </receiver>
+210
+211        <provider
+211-->[com.google.firebase:firebase-common:19.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/75b835add1c633d4cf92824d6c8d5633/firebase-common-19.0.0/AndroidManifest.xml:12:9-16:39
+212            android:name="com.google.firebase.provider.FirebaseInitProvider"
+212-->[com.google.firebase:firebase-common:19.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/75b835add1c633d4cf92824d6c8d5633/firebase-common-19.0.0/AndroidManifest.xml:13:13-77
+213            android:authorities="kr.co.alphacare.firebaseinitprovider"
+213-->[com.google.firebase:firebase-common:19.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/75b835add1c633d4cf92824d6c8d5633/firebase-common-19.0.0/AndroidManifest.xml:14:13-72
+214            android:exported="false"
+214-->[com.google.firebase:firebase-common:19.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/75b835add1c633d4cf92824d6c8d5633/firebase-common-19.0.0/AndroidManifest.xml:15:13-37
+215            android:initOrder="100" />
+215-->[com.google.firebase:firebase-common:19.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/75b835add1c633d4cf92824d6c8d5633/firebase-common-19.0.0/AndroidManifest.xml:16:13-36
+216
+217        <activity
+217-->[com.google.android.gms:play-services-base:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/503246db64dcbb120c121745b36c75fd/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+218            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+218-->[com.google.android.gms:play-services-base:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/503246db64dcbb120c121745b36c75fd/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+219            android:exported="false"
+219-->[com.google.android.gms:play-services-base:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/503246db64dcbb120c121745b36c75fd/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+220            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+220-->[com.google.android.gms:play-services-base:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/503246db64dcbb120c121745b36c75fd/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+221
+222        <receiver
+222-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:29:9-33:20
+223            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+223-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:30:13-85
+224            android:enabled="true"
+224-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:31:13-35
+225            android:exported="false" >
+225-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:32:13-37
+226        </receiver>
+227        <receiver
+227-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:34:9-42:20
+228            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+228-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:35:13-100
+229            android:enabled="true"
+229-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:36:13-35
+230            android:exported="true"
+230-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:37:13-36
+231            android:permission="android.permission.INSTALL_PACKAGES" >
+231-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:38:13-69
+232            <intent-filter>
+232-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:39:13-41:29
+233                <action android:name="com.android.vending.INSTALL_REFERRER" />
+233-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:40:17-79
+233-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:40:25-76
+234            </intent-filter>
+235        </receiver>
+236
+237        <service
+237-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:44:9-47:40
+238            android:name="com.google.android.gms.measurement.AppMeasurementService"
+238-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:45:13-84
+239            android:enabled="true"
+239-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:46:13-35
+240            android:exported="false" />
+240-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:47:13-37
+241        <service
+241-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:48:9-52:72
+242            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+242-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:49:13-87
+243            android:enabled="true"
+243-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:50:13-35
+244            android:exported="false"
+244-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:51:13-37
+245            android:permission="android.permission.BIND_JOB_SERVICE" />
+245-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/c3707d162ba64e12dc220ac494666eab/play-services-measurement-17.0.0/AndroidManifest.xml:52:13-69
+246
+247        <meta-data
+247-->[com.google.android.gms:play-services-basement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/8955178f4383ca1bfb7279a2c05e18c0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+248            android:name="com.google.android.gms.version"
+248-->[com.google.android.gms:play-services-basement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/8955178f4383ca1bfb7279a2c05e18c0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+249            android:value="@integer/google_play_services_version" />
+249-->[com.google.android.gms:play-services-basement:17.0.0] /Users/kim/.gradle/caches/transforms-2/files-2.1/8955178f4383ca1bfb7279a2c05e18c0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+250    </application>
+251
+252</manifest>

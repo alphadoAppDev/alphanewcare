@@ -1,0 +1,968 @@
+<?xml version="1.0"?>
+
+<resources>
+
+    <string name="app_name">AlphaDo PET</string>
+
+    <!-- 공통 -->
+
+
+    <string name="permission_agree">Permission agree</string>
+
+    <string name="permission_argee_msg">You can use the app only if you agree to access it.</string>
+
+    <string name="data_receive">Data reception</string>
+
+    <string name="btn_reg">Register</string>
+
+    <string name="btn_modify">Modify</string>
+
+    <string name="btn_send">Send</string>
+
+    <string name="btn_login">Login</string>
+
+    <string name="btn_confirm">Check</string>
+
+    <string name="app_finish">Do you want to exit the app?</string>
+
+    <string name="join_ok">Registration is complete</string>
+
+    <string name="delete">delete</string>
+    <!-- 메인 화면 -->
+
+
+    <string name="pet_reg_number">A registration number</string>
+
+    <string name="pet_birth_day">date of birth:</string>
+
+
+    <string name="test_history">Test detail</string>
+
+    <string name="test_count">th</string>
+
+    <string name="test_result_normal">Normal</string>
+
+    <string name="test_result_doubt">Doubt</string>
+
+    <string name="test_result_alert">Alert</string>
+
+    <string name="no_test_history">There are no test details.</string>
+
+    <string name="use_urine_test">Please use after urine test.</string>
+
+    <string name="urine_test">Urine test</string>
+
+    <string name="no_reg_pet">There is no registered pet.</string>
+
+    <string name="use_reg_pet">Please use after register the pet.</string>
+
+    <string name="pet_info">Pet Info</string>
+
+    <string name="tab_menu">Menu</string>
+
+    <string name="tab_result">Results</string>
+
+    <string name="tab_check">Test</string>
+
+    <string name="tab_modify">Modify</string>
+
+    <string name="tab_home">Home</string>
+
+    <string name="refresh">Restart the application.</string>
+
+    <!-- 검사결과 화면 -->
+
+
+    <string name="test_result">Test result</string>
+
+    <string name="test_item1">Occult Blood</string>
+
+    <string name="test_item2">Bilirubin</string>
+
+    <string name="test_item3">Urovilleinogen</string>
+
+    <string name="test_item4">Ketone</string>
+
+    <string name="test_item5">Protein</string>
+
+    <string name="test_item6">Nitrite</string>
+
+    <string name="test_item7">Glucose</string>
+
+    <string name="test_item8">pH</string>
+
+    <string name="test_item9">Specific Gravity</string>
+
+    <string name="test_item10">Leukocytes</string>
+
+    <string name="description_item">Item description</string>
+
+    <string name="suspected_disease">Doubt disease</string>
+
+    <string name="description_item1">What is Occcult boold(Occult Blood) ?</string>
+
+    <string name="description_item2">What is Bilirubin(Bilirubin) ?</string>
+
+    <string name="description_item3">What is Urobilinogen(Urobilinogen) ?</string>
+
+    <string name="description_item4">What is Ketone(Ketone) ?</string>
+
+    <string name="description_item5">)What is Protein(Protein) ?</string>
+
+    <string name="description_item6">What is Nitrite(Nitrite) ?</string>
+
+    <string name="description_item7">What is Glucose(Glucose) ?</string>
+
+    <string name="description_item8">What is pH(PH) ?</string>
+
+    <string name="description_item9">What is Specific gravity(Specific Gravity) ?</string>
+
+    <string name="description_item10">What is Leukocytes(Leukocytes) ?</string>
+
+    <string name="nagative">Nagative</string>
+
+    <string name="positive">Positive</string>
+
+    <string name="very_small_amount">Small</string>
+
+    <string name="one_month">1 Month</string>
+
+    <string name="three_month">3 month</string>
+
+    <string name="six_month">6 month</string>
+
+    <string name="one_year">Year</string>
+
+    <string name="all">All</string>
+
+    <string name="dialog_select_number">Please select the test number of times.</string>
+
+    <!-- 소변검사 항목 설명 -->
+
+
+    <string name="item0">Blood refers to the presence of a small amount of blood in a pet"'s urine and is determined by measuring the amount of hemoglobin and myoglobin in urine. Mainly if there is an abnormality in the urinary system (e.g. kidney, urethra, bladder, urethra, etc.), it will be shown as positive. Healthy pets may also experience a temporary positive test.</string>
+
+    <string name="item1">Bilirubin is a metabolite of hemoglobin, a component of red blood cells, and should have a negative reaction in the pet"'s urine. In dogs (especially males), minor positive reactions are common even under normal conditions, but in cats, careful attention is also needed.</string>
+
+    <string name="item2">Urovillinogens are formed in the process of dissolving hemoglobin, and intestinal bacteria convert bilirubin into ureobilinogens. A small amount may be detected in healthy pets, but if a large amount is detected, it may be possible to suspect haemolytic or malignant anemia.</string>
+
+    <string name="item3">Keatonin is an metabolite of fatty acids produced by the decomposition of the lipid, and is produced by increased in vivo fat decomposition if insulin or carbohydrate intake is insufficient. Only small amounts should be detected in healthy pets.</string>
+
+    <string name="item4">A small amount of protein can be detected (proteinurized) in the urine of healthy pets, but a large amount of protein can be found in both kidney and non-renatal diseases.</string>
+
+    <string name="item5">Nitrates absorbed through food are decomposed into nitrates by infected bacteria and are detected in the urine of pets. Small amounts can also be detected in healthy pets.</string>
+
+    <string name="item6">포Glucose is an important source of energy and while healthy pets should all be absorbed by the body, trace amounts can be detected after over-consumption of sugary food.</string>
+
+    <string name="item7">pH indicates the degree of acidity and alkaline in urine and is determined by the kidney"'s ability to control the concentration of hydrogen ions and bicarbonates in the blood. If your pet eats a lot of high-protein meat, it becomes acidic; if you eat a lot of vegetables, it becomes alkaline.</string>
+
+    <string name="item8">Weight indicates urine concentration based on water density and is a useful indicator of dilution and enrichment of the kidneys. Urine is dark in the case of high and low in the case of low in the case.</string>
+
+    <string name="item9">White blood cells are one of the cells that make up the blood, which is responsible for the immunity of pets through the action of bacteria. Mainly with urinary tract infection, white blood cells in the body increase and can be detected in urine.</string>
+
+    <string name="item01">nephritis, Urinary tract infection, Urinary stone, Cystitis</string>
+
+    <string name="item11">Hepatitis, Cirrhosis, Hemolytic disease, Biliary obstruction</string>
+
+    <string name="item21">Biliary atresia, Liver disease, Hemolytic anemia, Jaundice</string>
+
+    <string name="item31">Diabetes, Ketoacidosis, Malnutrition</string>
+
+    <string name="item41">Kidney disease, Urinary tract infection, Cystitis, Glomerulonephritis</string>
+
+    <string name="item51">Urinary tract infection, Cystitis, Pyelonephritis</string>
+
+    <string name="item61">Diabetes, Stress hyperglycemia, Internal secretion/Digestive diseases</string>
+
+    <string name="item71">Acidemia, Diabetes,Kidney disease, Alkalosis, Urinary tract infection</string>
+
+    <string name="item81">Kidney disease, Urinary disease, Diabetes</string>
+
+    <string name="item91">Urinary tract infection, Prostateitis, Urinary disease</string>
+
+    <!-- 반려동물 등록/수정 -->
+
+
+    <string name="reg_pet">Register Pet</string>
+
+    <string name="modify_pet">Pet modification</string>
+
+    <string name="pet_name">Name</string>
+
+    <string name="pet_birth_date">Birth</string>
+
+    <string name="sex_male">Male</string>
+
+    <string name="sex_female">Female</string>
+
+    <string name="kind">Kind</string>
+
+    <string name="breed">Breed</string>
+
+    <string name="breed_etc">Other varieties</string>
+
+    <string name="weight">Weight</string>
+
+    <string name="neutralization">Neutralization operation</string>
+
+    <string name="additional_info">Pet additional information</string>
+
+    <string name="basic_vaccination">Basic vaccination</string>
+
+    <string name="walk_count">Number of walks(7day standard)</string>
+
+    <string name="defication_count">Number of bowel movements(1day standard)</string>
+
+    <string name="urination_count">Urine frequency(1day standard)</string>
+
+    <string name="input_name">Please enter the name of the pet.</string>
+
+    <string name="select_kind">Please select the pet kind.</string>
+
+    <string name="input_birth_date">Please enter the date of your pet’s birth.</string>
+
+    <string name="input_weight">Please enter the pet weight.</string>
+
+    <string name="select_breed">Please select a breed of pet.</string>
+
+    <string name="dialog_pet_type">Pet kind</string>
+
+    <string name="dialog_dog_breed">Dog breed</string>
+
+    <string name="dialog_cat_breed">Cat breed</string>
+
+    <string name="answer11">Unknown</string>
+
+    <string name="answer12">Not yet</string>
+
+    <string name="answer13">Just got</string>
+
+    <string name="answer14">Done</string>
+
+    <string name="answer21">1time</string>
+
+    <string name="answer22">2~3times</string>
+
+    <string name="answer23">4~5times</string>
+
+    <string name="answer24">Everyday</string>
+
+    <string name="answer31">Unknown</string>
+
+    <string name="answer32">1time</string>
+
+    <string name="answer33">2~4times</string>
+
+    <string name="answer34">Over 5</string>
+
+    <string name="answer41">Unknown</string>
+
+    <string name="answer42">1time</string>
+
+    <string name="answer43">2~4times</string>
+
+    <string name="answer44">Over 5</string>
+
+    <string name="pet_delete">Are you sure you want to delete the selected pet?</string>
+
+    <string name="pet_add">Your pet registration is complete.</string>
+
+    <string name="pet_modify">Your pet modification is complete.</string>
+
+    <!-- pet type -->
+    <string name="pet_type_dog">dog</string>
+    <string name="pet_type_cat">cat</string>
+
+    <!-- dog kind -->
+    <string name="dog_golden_retriever">golden retriever</string>
+    <string name="dog_greyhound">greyhound</string>
+
+    <!-- 메뉴 화면 -->
+
+
+    <string name="menu_profile">Profile</string>
+
+    <!--<string name="menu_add_pet">Pet additional information</string>-->
+    <string name="menu_add_pet">Pet add</string>
+
+    <string name="menu_faq">FAQ</string>
+
+    <string name="menu_setting">Setting</string>
+
+    <string name="menu_customer_center">Customer service</string>
+
+    <string name="menu_privacy">Privacy statement</string>
+
+    <string name="menu_service_terms">Terms of Service</string>
+
+    <string name="menu_home">Home</string>
+
+    <string name="setting_update_nest">It will be reflected in the next update.</string>
+
+    <string name="menu_logout">Do you want to log out?</string>
+
+    <!-- 프로필 화면 -->
+
+
+    <string name="profile">Profile</string>
+
+    <string name="registered_pet">Registered pet</string>
+
+    <string name="logout">Logout</string>
+
+    <string name="change_password">Change password</string>
+
+    <!-- 설정 -->
+
+
+    <string name="setting">Setting</string>
+
+    <string name="login">Login</string>
+
+    <string name="auto_login">Auto login</string>
+
+    <string name="notice">Notice</string>
+
+    <string name="schedule_notice">Test scheduled notice</string>
+
+    <string name="other">etc</string>
+
+    <string name="delete_test_history">Delete test record</string>
+
+    <string name="app_info">App information</string>
+
+    <string name="current_version">Version</string>
+
+    <string name="latest_version">Updated version.</string>
+
+    <string name="withdrawal">Membership Withdrawal</string>
+
+    <!-- 계정관련 -->
+
+
+    <string name="hi_alphacare">Welcome.\nto Alpha Care.</string>
+
+    <string name="login_msg">Please login.</string>
+
+    <string name="email_address">E-mail address</string>
+
+    <string name="password">Password</string>
+
+    <string name="sign_up">Sign up</string>
+
+    <string name="signup_msg">Please sign up to ouse the service.</string>
+
+    <string name="name">Name</string>
+
+    <string name="enter_name">Please enter the name.</string>
+
+    <string name="password_format_invalid">Password must be 4 to 16 letters and must contain numbers 0~9 and special characters !@.#$%^&amp;*?_~.</string>
+
+    <string name="reset_password">Reset password</string>
+
+    <string name="enter_email">Please enter the e-mail address.</string>
+
+    <string name="enter_password">Please enter the password.</string>
+
+    <string name="email_format_invalid">The email format is incorrect.</string>
+
+    <string name="change_password_msg">Please enter below to reset your password.</string>
+
+    <string name="current_password">Current password</string>
+
+    <string name="new_password">New password</string>
+
+    <string name="new_password_confirm">Re-check the new password</string>
+
+    <string name="password_changed">our password has been changed.</string>
+
+    <string name="enter_current_password">Please enter your current password.</string>
+
+    <string name="enter_new_password">Please enter a password to change.</string>
+
+    <string name="enter_password_confirm">Please enter the password again.</string>
+
+    <string name="new_password_missmatch">Passwords dont’t match.</string>
+
+    <string name="enter_reset_email">Please enter an email address to reset your password.</string>
+
+    <string name="send_authentication_key">Authentication key is send by email.\nPlease enter the authentication key in the text box.</string>
+
+    <string name="authentication_key">Authentication key</string>
+
+    <string name="enter_authentication_key">Please enter the Authentication key.</string>
+
+    <string name="reset_password_ok">Password has been changed.\nPlease sign in with your new password.</string>
+
+    <string name="go_login">Going to login</string>
+
+    <!-- 기타 -->
+
+
+    <string name="enter_inquery">Please enter your question.</string>
+    <string name="received_inquery">Your inquiry has been received. We will reply to your e-mail as soon as possible.</string>
+    <string name="web_path">en</string>
+
+    <!-- FAQ -->
+
+
+    <string name="faq1">Q. How long is the pet’s urine available?</string>
+
+    <string name="answer1">A. For accuracy of test results,urine collected within an hour is recommended.</string>
+
+    <string name="faq2">Q. How to put the pet’s urine on the test strip?</string>
+
+    <string name="answer2">A. Turn over your usual bowel pad and let the pet urinate on it. Then, put the urine on the test strip. If excess urine or is buried for too long, the diagnostic reagent on the test rod may be released, so apply the appropriate amount within 1 to 2 seconds.</string>
+
+    <string name="faq3">Q. After put the urine on the test strip, when do i have to test(photo shot)?</string>
+
+    <string name="answer3">A. Put the urine on the test strip and is recommended to be examined after approximately one minute. Tests within too short a time may cause the diagnostic reagent to stop responding, and after too long the test results may be determined to be \’Doubt/Danger\'.</string>
+
+    <string name="faq4">Q. Is the test results accurate?</string>
+
+    <string name="answer4">A. Inspection through the test strip ensures approximately 99% reliability, but may also be affected by the pet"'s eating habits and photographic environment (interference in light) immediately prior to the examination. If the test results show that you are \'suspicion\', re-examine with a new test strip about a day later, and if you are still \'suspicion\', consult a specialist veterinarian at a nearby animal hospital.</string>
+
+    <string name="faq5">Q. Is the test results accurate?</string>
+
+    <string name="answer5">A. Inspection through the test strip ensures approximately 99% reliability, but may also be affected by the pet"'s eating habits and photographic environment (interference in light) immediately prior to the examination. If the test results show that you are \'suspicion\', re-examine with a new test strip about a day later, and if you are still \'suspicion\', consult a specialist veterinarian at a nearby animal hospital..</string>
+
+    <string name="faq6">Q. How long is the product valid?</string>
+
+    <string name="answer6">A. The validity period of the product is 24 months from the date of manufacture in the packaging. After release, use the product immediately after release because the diagnostic reagent will cause air and reactions. This product is not reusable as a disposable inspection tool.</string>
+
+    <string name="faq7">Q. How often should I checkup?</string>
+
+    <string name="answer7">A. If your pet is not suspected of having a special exchange disease, we recommend a monthly test.</string>
+
+    <string name="faq8">Q. What is the test item?</string>
+
+    <string name="answer8">A. If your pet is not suspected of having a special exchange disease, we recommend a monthly test.</string>
+
+    <string name="faq9">Q. What kind of disease do you know from the test results?</string>
+
+    <string name="answer9">A. This product provides useful clinical information by metabolism, new function, liver function, acid salt equilibrium, and urinary tract infection through urine test.</string>
+
+    <!-- 카메라 촬영 -->
+
+
+    <string name="close">Exit</string>
+
+    <string name="done">Complete</string>
+
+    <string name="done_eng">Done</string>
+
+    <string name="confirm">Confirm</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="warning">Notice</string>
+
+    <string name="dismiss">Close</string>
+
+    <string name="yes">Yes</string>
+
+    <string name="no">No</string>
+
+    <string name="title_shooting">shooting TIP</string>
+    <string name="close_dialog">Are you sure to cancel the shoot?</string>
+
+    <string name="camera_dialog_permission">Camera access is not available.\nSettings>Apps>Allow camera access\nPlease change the settings.</string>
+
+    <string name="notice_permission">You can use the app only if you agree to access it.</string>
+
+    <string name="capture_dialog_camera_error">Camera connection failed.</string>
+
+    <string name="caption_control_tutorial_dont_show_again">Don’t show again</string>
+
+    <string name="caption_control_tutorial1">After urinating on the test strips\nPut the absorbent paper at an angle to absorb excess urine</string>
+
+    <string name="caption_control_tutorial2">Please set the test strip on the black line</string>
+
+    <string name="caption_control_tutorial3">Level your smartphone\nand color card in the absence of shadows</string>
+
+    <string name="timer_dialog">It"'s been a minute since urinated on the strip?</string>
+
+    <string name="dialog_retake">No matching test results.Please shoot again.</string>
+
+    <string name="stick_location_guide">Please set the strips like as right image.</string>
+
+    <string name="detect_status_success">Please keep it as it is.</string>
+
+    <string name="detect_status_fail_count">Photoshoot under natural light or\nwhite light without shadows.</string>
+
+    <string name="detect_status_fail_orientation">Check the direction of the paper\nso that the black rectangle is centered.</string>
+
+    <string name="result_guide">Click on each circle of the strips\nto see which color is the most similar.</string>
+
+    <string name="result_check_dialog">Are all the squares on the strips matched to the results??</string>
+
+    <string name="capture_info">Please follow the instructions</string>
+
+    <!-- 스캐너 관련 화면 -->
+    <!--<string name="urine_test">Urine test</string>
+    <string name="tooth_notes">Tooth notes</string>
+    <string name="skin_notes">Tooth notes</string>
+    <string name="tooth_notes">Tooth notes</string>-->
+    <string name="pet_care_list">Pet Care List</string>
+    <string name="must_picture">사진을 등록해 주세요.</string>
+
+    <!-- dog kind -->
+    <string name="dog001">85,Affenpinscher</string>
+    <string name="dog002">86,Afghan Hound</string>
+    <string name="dog003">89,Airedale Terrier</string>
+    <string name="dog004">84,Akita</string>
+    <string name="dog005">99113,Aidi</string>
+    <string name="dog006">87,Alaskan Malamute</string>
+    <string name="dog007">99119,Alpine Dachsbracke</string>
+    <string name="dog008">99109,American Akita</string>
+    <string name="dog009">75,American Bullie</string>
+    <string name="dog010">77,American Cocker Spaniel</string>
+    <string name="dog011">99110,American eskimo dog</string>
+    <string name="dog012">99112,American Foxhound</string>
+    <string name="dog013">78,American Pit Bull Terrier</string>
+    <string name="dog014">76,American Staffordshire Terrier</string>
+    <string name="dog015">99111,American Water Spaniel</string>
+    <string name="dog016">99107,Anatolian Shepherd Dog</string>
+    <string name="dog017">99120,Anglo-francais de petite venerie</string>
+    <string name="dog018">99118,Appenzell Cattle Dog</string>
+    <string name="dog019">99108,Ariegeois</string>
+    <string name="dog020">99125,Australian Cattle Dog</string>
+    <string name="dog021">91,Australian Kelpie</string>
+    <string name="dog022">99124,Australian Shepherd</string>
+    <string name="dog023">90,Australian silky terrier</string>
+    <string name="dog024">92,Australian Terrier</string>
+    <string name="dog025">99126,Austrian Pinscher</string>
+    <string name="dog026">99123,Auvergne Pointer</string>
+    <string name="dog027">99117,Azawakh</string>
+    <string name="dog028">9945,Barbet</string>
+    <string name="dog029">33,Basenji</string>
+    <string name="dog030">9946,Basset artesien normand</string>
+    <string name="dog031">9947,Basset bleu de gascogne</string>
+    <string name="dog032">9948,Basset fauve de bretagne</string>
+    <string name="dog033">34,Basset Hound</string>
+    <string name="dog034">9944,Bavarian Mountain Hound</string>
+    <string name="dog035">53,Beagle</string>
+    <string name="dog036">9969,Beagle harrier</string>
+    <string name="dog037">9957,Beauceron</string>
+    <string name="dog038">55,Bearded Collie</string>
+    <string name="dog039">36,Bedlington Terrier</string>
+    <string name="dog040">38,Belgian Sheepdog</string>
+    <string name="dog041">37,Belgian shepherd dog</string>
+    <string name="dog042">9953,Belgian Shepherd Groenendael</string>
+    <string name="dog043">9954,Belgian Shepherd Laekenois</string>
+    <string name="dog044">9955,Belgian Shepherd Malinois</string>
+    <string name="dog045">9956,Belgian Shepherd Tervueren</string>
+    <string name="dog046">9950,Bergamasco</string>
+    <string name="dog047">9951,Berger Picard</string>
+    <string name="dog048">35,Bernese Mountain Dog</string>
+    <string name="dog049">54,Bichon Frise</string>
+    <string name="dog050">51,Black and Tan Coonhound</string>
+    <string name="dog051">9966,Black Russian Terrier</string>
+    <string name="dog052">52,Bloodhound</string>
+    <string name="dog053">9967,Blue Picardy Spaniel</string>
+    <string name="dog054">9968,Bluetick Coonhound</string>
+    <string name="dog055">9958,Bohemian shepherd</string>
+    <string name="dog056">44,Bolognese</string>
+    <string name="dog057">39,Border Collie</string>
+    <string name="dog058">40,Border Terrier</string>
+    <string name="dog059">41,Borzoi</string>
+    <string name="dog060">42,Boston Terrier</string>
+    <string name="dog061">9960,Bouvier</string>
+    <string name="dog062">43,Boxer</string>
+    <string name="dog063">9962,Bracco Italiano</string>
+    <string name="dog064">9963,Braque du Bourbonnais</string>
+    <string name="dog065">48,Brazilian Guard Dog</string>
+    <string name="dog066">9961,Brazilian Terrier</string>
+    <string name="dog067">49,Briard</string>
+    <string name="dog068">50,Brittany Spaniel</string>
+    <string name="dog069">9964,Broholmer</string>
+    <string name="dog070">9949,Buhund</string>
+    <string name="dog071">47,Bull Terrier</string>
+    <string name="dog072">46,Bulldog</string>
+    <string name="dog073">45,Bullmastiff</string>
+    <string name="dog074">99152,Cairn Terrier</string>
+    <string name="dog075">99153,Canaan Dog</string>
+    <string name="dog076">117,Cane Corso</string>
+    <string name="dog077">99149,Cao Fila de Sao Miguel</string>
+    <string name="dog078">99150,Catalan Sheepdog</string>
+    <string name="dog079">99159,Caucasian Shepherd Dog</string>
+    <string name="dog080">118,Cavalier King Charles Spaniel</string>
+    <string name="dog081">9978,Central Asian Shepherd Dog</string>
+    <string name="dog082">99146,Ceskoslovensky vlcak</string>
+    <string name="dog083">99145,Cesky Fousek</string>
+    <string name="dog084">99144,Cesky Terrier</string>
+    <string name="dog085">115,Chesapeake Bay Retriever</string>
+    <string name="dog086">116,Chihuahua</string>
+    <string name="dog087">99147,Chihuahua, long-haired</string>
+    <string name="dog088">99148,Chihuahua, short-haired</string>
+    <string name="dog089">114,Chinese Crested </string>
+    <string name="dog090">113,Chow Chow</string>
+    <string name="dog091">99105,Cirneco delletna</string>
+    <string name="dog092">126,Clumber Spaniel</string>
+    <string name="dog093">99154,Coarse-haired dachshund</string>
+    <string name="dog094">99157,Coarse-haired fox terrier</string>
+    <string name="dog095">99158,Coarse-haired Hungarian Vizsla</string>
+    <string name="dog096">99156,Coarse-haired miniature dachshund</string>
+    <string name="dog097">99155,Coarse-haired rabbit dachshund</string>
+    <string name="dog098">123,Cocker Spaniel</string>
+    <string name="dog099">125,Collie</string>
+    <string name="dog100">99160,Collie Smooth</string>
+    <string name="dog101">124,Coton de Tulear</string>
+    <string name="dog102">99163,Croatian sheepdog</string>
+    <string name="dog103">120,Curly Coated Retriever</string>
+    <string name="dog104">10,Dachshund</string>
+    <string name="dog105">11,Dalmatian</string>
+    <string name="dog106">9914,Dandie Dinmont Terrier</string>
+    <string name="dog107">9917,Danish Spitz</string>
+    <string name="dog108">9913,Danish-Swedish Farmdog</string>
+    <string name="dog109">18,Deer Hound</string>
+    <string name="dog110">14,Dobermann</string>
+    <string name="dog111">15,Dobermann Pinscher</string>
+    <string name="dog112">13,Dogo Argentino</string>
+    <string name="dog113">12,Dogo Canario</string>
+    <string name="dog114">9918,Dogo Mallorquin</string>
+    <string name="dog115">9919,Dogue de Bordeaux</string>
+    <string name="dog116">17,DongKyung</string>
+    <string name="dog117">9920,Drever</string>
+    <string name="dog118">9916,Dunker</string>
+    <string name="dog119">99135,East Siberian Laika</string>
+    <string name="dog120">99122,Elkhound</string>
+    <string name="dog121">104,English Cocker Spaniel</string>
+    <string name="dog122">99139,English Foxhound</string>
+    <string name="dog123">102,English Setter</string>
+    <string name="dog124">103,English Springer Spaniel</string>
+    <string name="dog125">99138,English Toy Terrier</string>
+    <string name="dog126">99121,Entlebucher Mountain Dog</string>
+    <string name="dog127">88,Estrela Mountain Dog</string>
+    <string name="dog128">99133,Eurasier</string>
+    <string name="dog129">149,Field Spaniel</string>
+    <string name="dog130">99185,Finnish Hound</string>
+    <string name="dog131">9985,Finnish Lapponian Dog</string>
+    <string name="dog132">99184,Finnish Spitz</string>
+    <string name="dog133">146,Flat Coated Retriever</string>
+    <string name="dog134">140,Fox Terrier</string>
+    <string name="dog135">99178,Fox Terrier, Smooth-haired</string>
+    <string name="dog136">145,French Bulldog</string>
+    <string name="dog137">99183,French Spaniel</string>
+    <string name="dog138">99143,German Pinscher</string>
+    <string name="dog139">111,German Hunting Terrier</string>
+    <string name="dog140">108,German Shepherd Dog</string>
+    <string name="dog141">109,German Shorthaired Pointer</string>
+    <string name="dog142">99142,German Spaniel</string>
+    <string name="dog143">110,German Wirehaired Pointer</string>
+    <string name="dog144">99140,Giant Schnauzer</string>
+    <string name="dog145">996,Glen of iminal terrier</string>
+    <string name="dog146">2,Golden Retriever</string>
+    <string name="dog147">1,Gordon Setter</string>
+    <string name="dog148">4,Great Dane</string>
+    <string name="dog149">991,Grand griffon vendeen</string>
+    <string name="dog150">992,Grand Basset Griffon Vendeen</string>
+    <string name="dog151">5,Great Pyrenees</string>
+    <string name="dog152">994,Greater Swiss Mountain Dog</string>
+    <string name="dog153">6,Greenland Dog</string>
+    <string name="dog154">3,Grey Hound</string>
+    <string name="dog155">9952,Griffon belge</string>
+    <string name="dog156">9965,Griffon bruxellois</string>
+    <string name="dog157">9923,Großer Munsterlander</string>
+    <string name="dog158">995,Grosspitz</string>
+    <string name="dog159">99190,Halden Hound</string>
+    <string name="dog160">99192,Hamilton Hound</string>
+    <string name="dog161">99187,Hanover Hound</string>
+    <string name="dog162">151,Harrier</string>
+    <string name="dog163">152,Havanese</string>
+    <string name="dog164">99194,Hokkaido</string>
+    <string name="dog165">99188,Hound</string>
+    <string name="dog166">99193,Hovawart</string>
+    <string name="dog167">99191,Hungarian Greyhound</string>
+    <string name="dog168">99189,Hygen Hound</string>
+    <string name="dog169">99134,Ibizan Hound</string>
+    <string name="dog170">99116,Icelandic Sheepdog</string>
+    <string name="dog171">99115,Irish Red and White Setter</string>
+    <string name="dog172">99114,Irish Red Setter</string>
+    <string name="dog173">79,Irish Setter</string>
+    <string name="dog174">80,Irish Soft-Coated Wheaten Terrier</string>
+    <string name="dog175">83,Irish Terrier</string>
+    <string name="dog176">82,Irish Water Spaniel</string>
+    <string name="dog177">81,Irish Wolfhound</string>
+    <string name="dog178">101,Italian Greyhound</string>
+    <string name="dog179">99137,Italian Shorthaired Pointer</string>
+    <string name="dog180">107,Jack Russell Terrier</string>
+    <string name="dog181">106,Japanese Chin</string>
+    <string name="dog182">105,Japanese Spitz</string>
+    <string name="dog183">99141,Japanese Terrier</string>
+    <string name="dog184">112,Jindo Dog</string>
+    <string name="dog185">119,Kai</string>
+    <string name="dog186">99151,Karelian Bear Dog</string>
+    <string name="dog187">127,Keeshond</string>
+    <string name="dog188">121,Kerry Blue Terrier</string>
+    <string name="dog189">128,King Charles Spaniel</string>
+    <string name="dog190">997,Kishu</string>
+    <string name="dog191">99101,kleinspitz</string>
+    <string name="dog192">122,Komondor</string>
+    <string name="dog193">99162,Kooikerhondje</string>
+    <string name="dog194">99164,Kromfohrlander</string>
+    <string name="dog195">99161,Kuvasz</string>
+    <string name="dog196">21,Labrador Retriever</string>
+    <string name="dog197">9922,Lagotto romagnolo</string>
+    <string name="dog198">20,Laika</string>
+    <string name="dog199">23,Lakeland Terrier</string>
+    <string name="dog200">9926,Lancashire Heeler</string>
+    <string name="dog201">9925,Landseer</string>
+    <string name="dog202">9924,Lapland reindeer dog</string>
+    <string name="dog203">22,Leonberger</string>
+    <string name="dog204">19,Lhasa Apso</string>
+    <string name="dog205">25,Little Lion Dog(Lochen)</string>
+    <string name="dog206">9937,Long-haired Collie</string>
+    <string name="dog207">9932,Long-haired dachshund</string>
+    <string name="dog208">9915,Long-haired Dutch Shepherd</string>
+    <string name="dog209">9936,Long-haired German Shepherd</string>
+    <string name="dog210">9934,Long-haired miniature dachshund</string>
+    <string name="dog211">9938,Long-haired Pyrenean Sheepdog</string>
+    <string name="dog212">9933,Long-haired rabbit dachshund</string>
+    <string name="dog213">9935,Long-haired Saint Bernard</string>
+    <string name="dog214">9931,Lowchen</string>
+    <string name="dog215">28,Maltese</string>
+    <string name="dog216">29,Manchester Terrier</string>
+    <string name="dog217">26,Maremma Sheepdog</string>
+    <string name="dog218">27,Mastiff</string>
+    <string name="dog219">9943,Medium sized poodle</string>
+    <string name="dog220">9939,Mexican Hairless</string>
+    <string name="dog221">30,Miniature Bull Terrier</string>
+    <string name="dog222">31,Miniature Pinscher</string>
+    <string name="dog223">9942,Miniature Poodle</string>
+    <string name="dog224">9941,Miniature Schnauzer</string>
+    <string name="dog225">99100,Mittelspitz</string>
+    <string name="dog226">32,Mix(Mongrel)</string>
+    <string name="dog227">9940,Mudi</string>
+    <string name="dog228">7,Neapolitan Mastiff</string>
+    <string name="dog229">9,Newfoundland</string>
+    <string name="dog230">9912,Norfolk Terrier</string>
+    <string name="dog231">8,Norwegian Elkhound</string>
+    <string name="dog232">999,Norwegian Lundehund</string>
+    <string name="dog233">9910,Norwich Terrier</string>
+    <string name="dog234">9911,Nova Scotia Duck Tolling Retriever</string>
+    <string name="dog235">93,Old English Sheepdog</string>
+    <string name="dog236">99128,Old Danish Pointer</string>
+    <string name="dog237">99127,Otterhound</string>
+    <string name="dog238">57,Papillon</string>
+    <string name="dog239">99172,Parson Russell Terrier</string>
+    <string name="dog240">137,Patterdale Terrier</string>
+    <string name="dog241">136,Pekingese</string>
+    <string name="dog242">135,Peruvian Hairless Dog</string>
+    <string name="dog243">9971,Petit Basset Griffon Vendeen</string>
+    <string name="dog244">9973,Petit bleu de Gascogne</string>
+    <string name="dog245">9972,Petit brabancon</string>
+    <string name="dog246">99171,Phalene</string>
+    <string name="dog247">99170,Pharaoh Hound</string>
+    <string name="dog248">99186,Picardy Spaniel</string>
+    <string name="dog249">150,Pitbull Terrier</string>
+    <string name="dog250">147,Plott Hound</string>
+    <string name="dog251">9970,Podenco Canario</string>
+    <string name="dog252">99177,Podengo Portuguese</string>
+    <string name="dog253">139,Pointing Dog</string>
+    <string name="dog254">99180,Polish Greyhound</string>
+    <string name="dog255">99179,Polish Lowland Sheepdog</string>
+    <string name="dog256">138,Pomeranian</string>
+    <string name="dog257">141,Poodle</string>
+    <string name="dog258">144,Poongsan Dog</string>
+    <string name="dog259">99173,Porcelaine</string>
+    <string name="dog260">99176,Portuguese Pointing Dog</string>
+    <string name="dog261">99175,Portuguese Sheepdog</string>
+    <string name="dog262">99174,Portuguese Water Dog</string>
+    <string name="dog263">99182,Prague Ratter</string>
+    <string name="dog264">134,Pug</string>
+    <string name="dog265">143,Puli</string>
+    <string name="dog266">142,Pumi</string>
+    <string name="dog267">148,Pyrenean Mastiff</string>
+    <string name="dog268">24,Rottweiler</string>
+    <string name="dog269">9930,Russian Hound</string>
+    <string name="dog270">9929,Russian Toy Short-haired</string>
+    <string name="dog271">9927,Russian Tsvetnaja Bolonka</string>
+    <string name="dog272">9928,Russian-European Laika</string>
+    <string name="dog273">9974,Saarloos Wolfdog</string>
+    <string name="dog274">62,Saint Bernard</string>
+    <string name="dog275">59,Saluki</string>
+    <string name="dog276">58,Samoyed</string>
+    <string name="dog277">60,Sapsal(Sapsaree)</string>
+    <string name="dog278">9976,Sarplaninac</string>
+    <string name="dog279">99102,Schapendoes</string>
+    <string name="dog280">9995,Schipperke</string>
+    <string name="dog281">64,Schnauzer</string>
+    <string name="dog282">9986,Schweizerischer Niederlaufhund</string>
+    <string name="dog283">67,Scottish Terrier</string>
+    <string name="dog284">74,Sealyham Terrier</string>
+    <string name="dog285">99136,Segugio italiano a pelo raso</string>
+    <string name="dog286">61,Shar Pei</string>
+    <string name="dog287">63,Shetland Sheepdog</string>
+    <string name="dog288">71,Shiba</string>
+    <string name="dog289">73,Shih Tzu</string>
+    <string name="dog290">99106,Shikoku</string>
+    <string name="dog291">72,Siberian Husky</string>
+    <string name="dog292">9979,Short-haired dachshund</string>
+    <string name="dog293">9984,Short-haired Hungarian Vizsla</string>
+    <string name="dog294">9981,Short-haired miniature dachshund</string>
+    <string name="dog295">9983,Short-haired Pyrenean Sheepdog</string>
+    <string name="dog296">9980,Short-haired rabbit dachshund</string>
+    <string name="dog297">9982,Short-haired Saint Bernard</string>
+    <string name="dog298">66,Skye Terrier</string>
+    <string name="dog299">99104,Sloughi</string>
+    <string name="dog300">99103,Slovakian Chuvach</string>
+    <string name="dog301">9987,Small Lucerne Hound</string>
+    <string name="dog302">9988,Small Munsterlander</string>
+    <string name="dog303">9989,Small Schwyz Hound</string>
+    <string name="dog304">9990,Small Swiss Hounds</string>
+    <string name="dog305">65,Smooth Fox Terrier</string>
+    <string name="dog306">9975,South Russian Dog</string>
+    <string name="dog307">69,Spanish Greyhound</string>
+    <string name="dog308">70,Spanish Mastiff</string>
+    <string name="dog309">99181,Spaniel de Pont-Audemer</string>
+    <string name="dog310">9998,Spanish Water Dog</string>
+    <string name="dog311">9999,Spinone Italiano</string>
+    <string name="dog312">9997,Stabyhoun</string>
+    <string name="dog313">68,Staffordshire Bull Terrier</string>
+    <string name="dog314">9996,Standard Poodle</string>
+    <string name="dog315">9977,Sussex Spaniel</string>
+    <string name="dog316">9991,Swedish Lapphund</string>
+    <string name="dog317">9993,Swedish vallhund</string>
+    <string name="dog318">9992,Swedish White Elkhound</string>
+    <string name="dog319">9994,Swiss Hound</string>
+    <string name="dog320">99165,Tatra Shepherd Dog</string>
+    <string name="dog321">99166,Tenterfield terrier</string>
+    <string name="dog322">129,Thai Ridgeback Dog</string>
+    <string name="dog323">998,The Nordic Spitz</string>
+    <string name="dog324">131,Tibetan Mastiff</string>
+    <string name="dog325">132,Tibetan Spaniel</string>
+    <string name="dog326">133,Tibetan Terrier</string>
+    <string name="dog327">99167,Tornjak</string>
+    <string name="dog328">16,Tosa</string>
+    <string name="dog329">99168,Toy Fox Terrier</string>
+    <string name="dog330">99169,Toy Poodle</string>
+    <string name="dog331">130,Toy Manchester Terrier</string>
+    <string name="dog332">56,Vizsla</string>
+    <string name="dog333">9959,Volpino Italiano</string>
+    <string name="dog334">94,Weimaraner</string>
+    <string name="dog335">98,Welsh Corgi Cardigan</string>
+    <string name="dog336">99,Welsh Corgi Pembroke</string>
+    <string name="dog337">99132,Welsh Springer Spaniel</string>
+    <string name="dog338">100,Welsh Terrier</string>
+    <string name="dog339">97,West Highland White Terrier</string>
+    <string name="dog340">99130,West Siberian Laika</string>
+    <string name="dog341">99131,Wetterhoun</string>
+    <string name="dog342">153,Whippet</string>
+    <string name="dog343">99195,White Swiss Shepherd Dog</string>
+    <string name="dog344">95,Wire Fox Terrier</string>
+    <string name="dog345">99129,Wirehaired Pointing Griffon</string>
+    <string name="dog346">96,Yorkshire Terrier</string>
+    <string name="dog347">0,Others</string>
+
+    <!-- cat kind -->
+    <string name="cat001">58,Abyssinian</string>
+    <string name="cat002">63,Aegean Cat</string>
+    <string name="cat003">62,Alaskan Snow</string>
+    <string name="cat004">52,American Bobtail</string>
+    <string name="cat005">55,American Curl</string>
+    <string name="cat006">56,American Curl Shorthair</string>
+    <string name="cat007">57,American Polydactyl</string>
+    <string name="cat008">51,American Ringtail</string>
+    <string name="cat009">53,American Shorthair</string>
+    <string name="cat010">54,American Wirehair</string>
+    <string name="cat011">61,Antipodean</string>
+    <string name="cat012">50,Arabian Mau</string>
+    <string name="cat013">59,Asian Semi-longhair</string>
+    <string name="cat014">60,Asian Shorthair</string>
+    <string name="cat015">66,Austrailian Mist</string>
+    <string name="cat016">19,Balinese</string>
+    <string name="cat017">23,Bengal</string>
+    <string name="cat018">20,Birman</string>
+    <string name="cat019">24,Bombay</string>
+    <string name="cat020">25,Brazilian Shorthair</string>
+    <string name="cat021">26,British Longhair</string>
+    <string name="cat022">27,British Shorthair</string>
+    <string name="cat023">21,Burmese</string>
+    <string name="cat024">22,Burmilla</string>
+    <string name="cat025">82,California Spangled</string>
+    <string name="cat026">48,Ceylon</string>
+    <string name="cat027">33,Chantilly-Tiffany</string>
+    <string name="cat028">31,Chartreux</string>
+    <string name="cat029">79,Chinese Harlequin</string>
+    <string name="cat030">83,Colorpoint shorthair</string>
+    <string name="cat031">84,Cornish Rex</string>
+    <string name="cat032">88,Cuban Blue</string>
+    <string name="cat033">89,Cymric</string>
+    <string name="cat034">29,Cyprus Aphrodite</string>
+    <string name="cat035">4,Devon Rex</string>
+    <string name="cat036">5,Donskoy</string>
+    <string name="cat037">6,Dragon Li</string>
+    <string name="cat038">73,Egyptian Mau</string>
+    <string name="cat039">71,European Shorthair</string>
+    <string name="cat040">72,Exotic</string>
+    <string name="cat041">101,Foldex</string>
+    <string name="cat042">100,Forign White</string>
+    <string name="cat043">78,Genet</string>
+    <string name="cat044">77,German Longhair</string>
+    <string name="cat045">76,German Rex</string>
+    <string name="cat046">104,Havana Brown</string>
+    <string name="cat047">106,Helki</string>
+    <string name="cat048">105,Highlander</string>
+    <string name="cat049">107,Himalayan</string>
+    <string name="cat050">75,Japanese Bobtail</string>
+    <string name="cat051">74,Javanese</string>
+    <string name="cat052">81,Kashmir</string>
+    <string name="cat053">80,Khao Manee</string>
+    <string name="cat054">85,Korat</string>
+    <string name="cat055">86,Korean Shorthair</string>
+    <string name="cat056">87,Kurilian Bobtail</string>
+    <string name="cat057">10,LaPerm</string>
+    <string name="cat058">9,Lykoi</string>
+    <string name="cat059">17,Maine Coon</string>
+    <string name="cat060">15,Manx</string>
+    <string name="cat061">18,Minskin</string>
+    <string name="cat062">16,Munchkin</string>
+    <string name="cat063">1,Napoleon</string>
+    <string name="cat064">2,Nebelung</string>
+    <string name="cat065">3,Norwegian Forest Cat</string>
+    <string name="cat066">67,Ocicat</string>
+    <string name="cat067">69,Ojos Azules</string>
+    <string name="cat068">64,Oriental Longhair</string>
+    <string name="cat069">65,Oriental Shorthair</string>
+    <string name="cat070">96,Perfold</string>
+    <string name="cat071">98,Persian</string>
+    <string name="cat072">99,Persian Chinchilla</string>
+    <string name="cat073">102,Peterbald</string>
+    <string name="cat074">103,Pixie Bob</string>
+    <string name="cat075">97,Puppykat</string>
+    <string name="cat076">8,Raas Cat</string>
+    <string name="cat077">7,Ragamuffin</string>
+    <string name="cat078">11,Ragdoll</string>
+    <string name="cat079">12,Russian Black</string>
+    <string name="cat080">13,Russian Blue</string>
+    <string name="cat081">14,Russian White</string>
+    <string name="cat082">30,Sam Sawet</string>
+    <string name="cat083">28,Savannah</string>
+    <string name="cat084">42,Scottish Fold</string>
+    <string name="cat085">37,Selkirk Rex</string>
+    <string name="cat086">35,Serengeti</string>
+    <string name="cat087">34,Serrade Petit</string>
+    <string name="cat088">36,Seychellois</string>
+    <string name="cat089">32,Siamese</string>
+    <string name="cat090">47,Siberian</string>
+    <string name="cat091">49,Singapura</string>
+    <string name="cat092">44,Skif Toy Bobtail</string>
+    <string name="cat093">43,Skookum</string>
+    <string name="cat094">41,Snowshoe</string>
+    <string name="cat095">39,Sokoke</string>
+    <string name="cat096">38,Somali</string>
+    <string name="cat097">46,Sphynx</string>
+    <string name="cat098">45,Sterling</string>
+    <string name="cat099">40,Suphalak</string>
+    <string name="cat100">90,Thai</string>
+    <string name="cat101">95,Tonkinese</string>
+    <string name="cat102">94,Toybob</string>
+    <string name="cat103">93,Toyger</string>
+    <string name="cat104">91,Turkish Angora</string>
+    <string name="cat105">92,Turkish Van</string>
+    <string name="cat106">70,Ural Rex</string>
+    <string name="cat107">68,York Chocolate</string>
+    <string name="cat108">0,Others</string>
+
+</resources>

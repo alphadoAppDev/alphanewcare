@@ -1,0 +1,948 @@
+<?xml version="1.0"?>
+
+<resources>
+
+    <string name="app_name">AlphaDo PET</string>
+
+
+    <!-- 공통 -->
+    <string name="permission_agree">Hyväksyn ehdot</string>
+
+    <string name="permission_argee_msg">Voit käyttää sovellusta vain, jos hyväksyt käyttöehdot</string>
+
+    <string name="data_receive">Tietojen vastaanotto</string>
+
+    <string name="btn_reg">Rekisteröidy</string>
+
+    <string name="btn_modify">Muuta</string>
+
+    <string name="btn_send">Lähetä</string>
+
+    <string name="btn_login">Kirjaudu sisään</string>
+
+    <string name="btn_confirm">Tarkista</string>
+
+    <string name="app_finish">Haluatko poistua sovelluksesta?</string>
+
+    <string name="join_ok">Rekisteröinti on valmis</string>
+
+    <string name="delete">poistaa</string>
+
+    <!-- 메인 화면 -->
+    <string name="pet_reg_number">Rekisteröintinumero</string>
+
+    <string name="pet_birth_day">Syntymäaika :</string>
+
+
+    <string name="test_history">Testin yksityiskohdat</string>
+
+    <string name="test_count">th</string>
+
+    <string name="test_result_normal">Normaali</string>
+
+    <string name="test_result_doubt">Epäillä</string>
+
+    <string name="test_result_alert">hälytys</string>
+
+    <string name="no_test_history">Testin yksityiskohtia ei ole saatavilla</string>
+
+    <string name="use_urine_test">Käytä virtsakokeen jälkeen.</string>
+
+    <string name="urine_test">Virtsatesti</string>
+
+    <string name="no_reg_pet">Lemmikkieläimiä ei ole rekisteröity.</string>
+
+    <string name="use_reg_pet">Käytä lemmikin rekisteröinnin jälkeen.</string>
+
+    <string name="pet_info">Lisää Lemmikkieläimen tiedot</string>
+
+    <string name="tab_menu">Valikko</string>
+
+    <string name="tab_result">Tulokset</string>
+
+    <string name="tab_check">Testaa</string>
+
+    <string name="tab_modify">Muuta</string>
+
+    <string name="tab_home">Koti</string>
+
+    <string name="refresh">Käynnistä sovellus uudelleen.</string>
+
+    <!-- 검사결과 화면 -->
+    <string name="test_result">Testitulos</string>
+
+    <string name="test_item1">Verimäärä</string>
+
+    <string name="test_item2">Bilirubiini</string>
+
+    <string name="test_item3">Urobilinogeeni</string>
+
+    <string name="test_item4">Ketoaineet</string>
+
+    <string name="test_item5">Proteiini</string>
+
+    <string name="test_item6">Nitriitti</string>
+
+    <string name="test_item7">Glukoosi</string>
+
+    <string name="test_item8">pH</string>
+
+    <string name="test_item9">Ominaispaino</string>
+
+    <string name="test_item10">Leukosyytit (valkosolut)</string>
+
+    <string name="description_item">Tuotteen kuvaus</string>
+
+    <string name="suspected_disease">Epäilty tauti</string>
+
+    <string name="description_item1">Mikä on veripitoisuus (veripitoisuus)?</string>
+
+    <string name="description_item2">Mikä on Bilirubiini (Bilirubin)?</string>
+
+    <string name="description_item3">Mikä on Urobilinogeeni (Urobilinogeeni)?</string>
+
+    <string name="description_item4">Mikä on ketoni (ketoni)?</string>
+
+    <string name="description_item5">Mikä on proteiini (proteiini)?</string>
+
+    <string name="description_item6">Mikä on nitriitti (nitriitti)?</string>
+
+    <string name="description_item7">Mikä on glukoosi (glukoosi)?</string>
+
+    <string name="description_item8">Mikä on pH (PH)?</string>
+
+    <string name="description_item9">Mikä on ominaispaino (ominaispaino)?</string>
+
+    <string name="description_item10">Mikä on leukosyytti (leukosyytit)?</string>
+
+    <string name="nagative">Negatiiviinen</string>
+
+    <string name="positive">Positiivinen</string>
+
+    <string name="very_small_amount">Pieni</string>
+
+    <string name="one_month">1 kuukausi</string>
+
+    <string name="three_month">3 kuukautta</string>
+
+    <string name="six_month">6 kuukautta</string>
+
+    <string name="one_year">Vuosi</string>
+
+    <string name="all">Kaikki</string>
+
+    <string name="dialog_select_number">Valitse testimäärä.</string>
+
+    <!-- 소변검사 항목 설명 -->
+    <string name="item0">Veri viittaa pienen määrän vereen lemmikin virtsassa ja se määritetään mittaamalla hemoglobiinin ja myoglobiinin määrä virtsassa. Pääasiassa, jos virtsaneritysjärjestelmässä on poikkeavuuksia (esim. munuaiset, virtsaputki, virtsarakko jne.), veriarvo näkyy positiivisena. Terveillä lemmikkeillä voi myös olla väliaikainen positiivinen testitulos.</string>
+
+    <string name="item1">Bilirubiini on hemoglobiinin aineenvaihduntatuote (metaboliitti), punaisten verisolujen komponentti, ja sillä pitäisi olla negatiivinen arvo lemmikin virtsassa. Koirilla, etenkin uroksilla, pienet positiiviset arvot ovat yleisiä jopa normaaleissa olosuhteissa. Kissoilla pienet positiiviset tulee ottaa vakavasti ja jatkotutkimukset ovat suositeltavia.</string>
+
+    <string name="item2">Urobillinogeenia muodostuu, kun hemoglobiinia liukenee/hajoaa. Suolen bakteerit muuntavat bilirubiinin ureobilinogeeneiksi. Pieniä määrä urobilinogeenia voidaan havaita terveillä lemmikkeillä, mutta jos suuri määrä havaitaan, saattaa olla mahdollista epäillä hemolyyttistä anemiaa (punasolujen hiihtynyt hajoaminen) tai pahanlaatuista anemiaa.</string>
+
+    <string name="item3">Ketoni on rasvahappojen metaboliitti eli aineenvaihduntatuote, jota muodostuu kun lipidejä eli rasvahappoa hajoaa. Ketonia muodostuu eneneviä määriä rasvan hajottamisessa, jos insuliinia tai hiilihydraattia ei ole tarpeeksi. Ketonia pitäisi havaita terveillä lemmikeillä vain pieniä määriä.</string>
+
+    <string name="item4">Pieni määrä proteiinia voidaan havaita terveiden lemmikkieläinten virtsasta, mutta suuri määrä proteiinia todetaan yleensä munuaissairauksien yhteydessä.</string>
+
+    <string name="item5">Ruoan kautta saadut nitraatit hajoavat nitriiteiksi ja ne havaitaan lemmikkien virtsassa. Pieniä määriä nitriittiä voidaan havaita myös terveillä lemmikkeillä.</string>
+
+    <string name="item6">Glukoosi on tärkeä energialähde ja terveillä lemmikkieläimillä kaikki glukoosi tulisi imeytyä elimistöön. Pienet määrät glukoosia virtsassa voidaan havaita liiallisen sokeriruoan jälkeen.</string>
+
+    <string name="item7">pH ilmaisee virtsan happatasapainoa eli happamuutta/emäksisyyttä. Se määritetään munuaisten kyvyllä avulla kontrolloida vetyionien ja bikarbonaattien pitoisuutta veressä. Jos lemmikkisi syö runsaasti proteiineja sisältävää lihaa, se muuttuu happamaksi; jos lemmikki syö paljon vihanneksia, siitä tulee alkalista.</string>
+
+    <string name="item8">Omainaispaino ilmaisee virtsan virtsapitoisuuden. Se on hyödyllinen indikaattori kuvaamaan eläimen nesteytystilaa. Jos eläin on juonut paljon, on virtsa yleensä laimeaa. Jos eläin juonut vähän, on virtsa vastaavasti väkevää. Ominaispainon pysyminen viitearvoissa antaa myös tietoa munuaisten toimintakyvystä.</string>
+
+    <string name="item9">Valkoiset verisolut ovat yksi veren muodostavista soluista, joka vastaa lemmikkien immuniteetista bakteerien vaikutuksesta. Lähinnä virtsatieinfektiossa kehon valkosolut lisääntyvät ja ne voidaan havaita virtsassa.</string>
+
+    <string name="item01">Munuaistulehdus, virtsatieinfektio, virtsakivi, virtsarakon tulehdus</string>
+
+    <string name="item11">Hepatiitti, kirroosi, hemolyyttinen anemia, sappivaivat</string>
+
+    <string name="item21">Sappitreenia, maksasairaus, hemolyyttinen anemia, kelta</string>
+
+    <string name="item31">Diabetes, ketoasidoosi, aliravitsemus</string>
+
+    <string name="item41">Munuaissairaus, virtsateiden infektiot, kystiitti, glomerulonefriitti</string>
+
+    <string name="item51">Virtsatieinfektio, kystiitti, pyelonefriitti</string>
+
+    <string name="item61">Diabetes, stressi-hyperglykemia, sisäinen eritys, ruuansulatukselliset sairaudet</string>
+
+    <string name="item71">Acidemia, diabetes, munuaissairaus, alkaloosi, virtsateiden infektiot</string>
+
+    <string name="item81">Munuaissairaus, virtsatauti, diabetes</string>
+
+    <string name="item91">Virtsatieinfektio, eturauhastulehdus, virtsatauti</string>
+
+    <!-- 반려동물 등록/수정 -->
+    <string name="reg_pet">Rekisteröi lemmikkieläin</string>
+
+    <string name="modify_pet">Muokkaa lemmikkieläimen tietoja</string>
+
+    <string name="pet_name">Nimi</string>
+
+    <string name="pet_birth_date">Syntymäaika</string>
+
+    <string name="sex_male">Uros</string>
+
+    <string name="sex_female">Naaras</string>
+
+    <string name="kind">Laji</string>
+
+    <string name="breed">Rotu</string>
+
+    <string name="breed_etc">Muut lajikkeet</string>
+
+    <string name="weight">Paino</string>
+
+    <string name="neutralization">Steriloitu</string>
+    <!--<string name="neutralization">Neutralointi</string>  20.04.02 변경-->
+
+    <string name="additional_info">Lisää lemmikkieläimen tiedot</string>
+
+    <string name="basic_vaccination">Perusrokotukset</string>
+
+    <string name="walk_count">Kävelymäärä (7 päivän vakio)</string>
+
+    <string name="defication_count">Suoliston toiminta (1 päivän standardi)</string>
+
+    <string name="urination_count">Virtsaamistiheys (1 päivän standardi)</string>
+
+    <string name="input_name">Anna lemmikin nimi.</string>
+
+    <string name="select_kind">Valitse lemmikkityyppi.</string>
+
+    <string name="input_birth_date">Anna lemmikkisi syntymäaika.</string>
+
+    <string name="input_weight">Syötä lemmikin paino.</string>
+
+    <string name="select_breed">Valitse lemmikkirotu.</string>
+
+    <string name="dialog_pet_type">Lemmikkityyppi</string>
+
+    <string name="dialog_dog_breed">Koirarotu</string>
+
+    <string name="dialog_cat_breed">Kissarotu</string>
+
+    <string name="answer11">Tuntematon</string>
+
+    <string name="answer12">Ei vielä</string>
+
+    <string name="answer13">Sai juuri</string>
+
+    <string name="answer14">Tehty</string>
+
+    <string name="answer21">1 kerran</string>
+
+    <string name="answer22">2 ~ 3 kertaa</string>
+
+    <string name="answer23">4 ~ 5 kertaa</string>
+
+    <string name="answer24">Joka päivä</string>
+
+    <string name="answer31">Tuntematon</string>
+
+    <string name="answer32">1 kerran</string>
+
+    <string name="answer33">2 ~ 4 kertaa</string>
+
+    <string name="answer34">Yli 5</string>
+
+    <string name="answer41">Tuntematon</string>
+
+    <string name="answer42">1 kerran</string>
+
+    <string name="answer43">2 ~ 4 kertaa</string>
+
+    <string name="answer44">Yli 5 kertaa</string>
+
+    <string name="pet_delete">Haluatko varmasti poistaa valitun lemmikin?</string>
+
+    <string name="pet_add">Lemmikkisi rekisteröinti on valmis.</string>
+
+    <string name="pet_modify">Lemmikkieläintiedot ovat muuttuneet.</string>
+
+    <!-- pet type -->
+    <string name="pet_type_dog">koira</string>
+    <string name="pet_type_cat">kissa</string>
+
+    <!-- dog kind -->
+    <string name="dog_golden_retriever">kultainen noutaja</string>
+    <string name="dog_greyhound">vinttikoira</string>
+
+    <!-- 메뉴 화면 -->
+
+
+    <string name="menu_profile">Profiili</string>
+
+<!--    <string name="menu_add_pet">Lemmikkieläimiä koskevia lisätietoja</string>-->
+    <string name="menu_add_pet">Pet add</string>
+
+    <string name="menu_faq">Usein kysytyt kysymykset</string>
+
+    <string name="menu_setting">Asetukset</string>
+
+    <string name="menu_customer_center">Asiakaspalvelu</string>
+
+    <string name="menu_privacy">Tietosuojalausunto</string>
+
+    <string name="menu_service_terms">Käyttöehdot</string>
+
+    <string name="menu_home">Koti</string>
+
+    <string name="setting_update_nest">Se näkyy seuraavassa päivityksessä.</string>
+
+    <string name="menu_logout">Haluatko kirjautua ulos?</string>
+
+    <!-- 프로필 화면 -->
+    <string name="profile">Profiili</string>
+
+    <string name="registered_pet">Rekisteröity lemmikki</string>
+
+    <string name="logout">Kirjaudu ulos</string>
+
+    <string name="change_password">Vaihda salasana</string>
+
+    <!-- 설정 -->
+    <string name="setting">Asetukset</string>
+
+    <string name="login">Kirjaudu sisään</string>
+
+    <string name="auto_login">Automaattinen sisäänkirjautuminen</string>
+
+    <string name="notice">Ilmoitus</string>
+
+    <string name="schedule_notice">Ilmoitus ennakkoon suunnitellusta testistä.</string>
+
+    <string name="other">jne</string>
+
+    <string name="delete_test_history">Poista testitulokset</string>
+
+    <string name="app_info">Sovellustiedot</string>
+
+    <string name="current_version">Versio</string>
+
+    <string name="latest_version">Päivitetty versio.</string>
+
+    <string name="withdrawal">Jäsenyyden eroaminen</string>
+
+    <!-- 계정관련 -->
+    <string name="hi_alphacare">Tervetuloa Alfa Pet Care -applikaatioon</string>
+
+    <string name="login_msg">Kirjaudu sisään</string>
+
+    <string name="email_address">Sähköpostiosoite</string>
+
+    <string name="password">Salasana</string>
+
+    <string name="sign_up">Kirjaudu</string>
+
+    <string name="signup_msg">Rekisteröidy</string>
+
+    <string name="name">Nimi</string>
+
+    <string name="enter_name">Anna nimi.</string>
+
+    <string name="password_format_invalid">Salasanan on oltava 4-16 kirjainta ja siinä on oltava numerot 0 ~ 9 ja erikoismerkit! @. # $% ^ &amp; * * _ _.</string>
+
+    <string name="reset_password">Nollaa salasana</string>
+
+    <string name="enter_email">Anna sähköpostiosoite</string>
+
+    <string name="enter_password">Anna salasana</string>
+
+    <string name="email_format_invalid">Sähköpostin muoto on väärä</string>
+
+    <string name="change_password_msg">Kirjoita alla palauttaaksesi salasanasi</string>
+
+    <string name="current_password">Nykyinen salasana</string>
+
+    <string name="new_password">Uusi salasana</string>
+
+    <string name="new_password_confirm">Tarkista uusi salasana uudelleen</string>
+
+    <string name="password_changed">Salasana on vaihdettu</string>
+
+    <string name="enter_current_password">Anna nykyinen salasanasi</string>
+
+    <string name="enter_new_password">Anna salasana vaihtaaksesi</string>
+
+    <string name="enter_password_confirm">Anna salasana uudelleen</string>
+
+    <string name="new_password_missmatch">Salasanat eivät täsmää</string>
+
+    <string name="enter_reset_email">Anna sähköpostiosoite salasanasi palauttamiseksi</string>
+
+    <string name="send_authentication_key">Todennusavain lähetetään sähköpostitse.\nAnna todennusavain tekstikenttään.</string>
+
+    <string name="authentication_key">Todennusavain</string>
+
+    <string name="enter_authentication_key">Anna todennusavain.</string>
+
+    <string name="reset_password_ok">Salasana on vaihdettu.\nKirjaudu sisään uudella salasanalla.</string>
+
+    <string name="go_login">Sisäänkirjautumiseen</string>
+
+    <!-- 기타 -->
+    <string name="enter_inquery">Kirjoita kysymyksesi.</string>
+    <string name="received_inquery">Kysymyksesi on vastaanotettu. Vastaamme sähköpostiisi mahdollisimman pian.</string>
+    <string name="web_path">fi</string>
+
+    <!-- FAQ -->
+    <string name="faq1">K. Kuinka kauan lemmikin virtsa ollut saatavilla?</string>
+
+    <string name="answer1">A. Testitulosten tarkkuuden vuoksi käytä tunnin sisällä kerättyä virtsaa.</string>
+
+    <string name="faq2">K. Kuinka laitat lemmikin virtsan koeliuskalle?</string>
+
+    <string name="answer2">A. Ota lemmikin virtsaa astiaan, esimerkiksi kauha voi olla kätevä. Kasta koeliuska virtsaan. Täydennä tätä.</string>
+
+    <string name="faq3">Q. Milloin testi on tehtävä, kun virtsanäyte on kerätty?</string>
+
+    <string name="answer3">A. Laita virtsa koeliuskalle. Käytä Alphado Pet Care appsia noin kahden minuutin kuluttua. Testitulos </string>
+
+    <string name="faq4">K. Onko testitulokset tarkkoja?</string>
+
+    <string name="answer4">A. Tarkastus koeliuskan kautta varmistaa noin 99% luotettavuuden, mutta siihen voivat vaikuttaa myös lemmikin ruokailutottumukset ja valokuvausympäristö (häiriöt valossa) välittömästi ennen tutkimusta. Jos testitulokset osoittavat, että olet \' epäilystä \', tarkista uudelleen uudella testiliuskalla noin päivä myöhemmin, ja jos olet edelleen \' epäily \', ota yhteyttä lähikaupallisen eläinsairaalan erikoislääkäriin.</string>
+
+
+    <string name="faq6">K. Kuinka kauan tuote on voimassa?</string>
+
+    <string name="answer6">A. Tuotteen voimassaoloaika on 24 kuukautta pakkauksessa olevasta valmistuspäivästä. Käytä tuotetta testiliuskapakkauksen aukaisun jälkeen mahdollisimman pian. Liuskat ovat kertakäyttöisiä.</string>
+
+    <string name="faq7">K. Kuinka usein minun pitäisi tehdä testi kotieläimelleni?</string>
+
+    <string name="answer7">A. Jos lemmikilläsi ei ole erityisiä oireita, suosittelemme kuukausittaista testiä.</string>
+
+    <string name="faq8">K. Mikä on testiaine?</string>
+
+    <string name="answer8">A. Jos lemmikilläsi ei ole erityisiä oireita, suosittelemme testiä kerran kuukaudessa.</string>
+
+    <string name="faq9">K. Millaista tietoa testitulokset antavat?</string>
+
+    <string name="answer9">A. Tämä tuote tarjoaa hyödyllistä tietoa aineenvaihdunnasta, maksan toiminnasta, suolatasapainosta ja virtsateiden infektioista.</string>
+
+    <!-- 카메라 촬영 -->
+    <string name="close">Poistu</string>
+
+    <string name="done">Saata loppuun</string>
+
+    <string name="done_eng">Tehty</string>
+
+    <string name="confirm">Vahvista</string>
+
+    <string name="cancel">Peruuta</string>
+
+    <string name="warning">Huomio</string>
+
+    <string name="dismiss">Sulje</string>
+
+    <string name="yes">Kyllä</string>
+
+    <string name="no">Ei</string>
+
+    <string name="title_shooting">Kuvausvihje</string>
+
+    <string name="close_dialog">Haluatko varmasti peruuttaa kuvan?</string>
+
+    <string name="camera_dialog_permission">Kameran käyttö ei ole käytettävissä. \nMene Asetukset> Sovellukset> Salli \nkameran käyttöoikeudet</string>
+
+    <string name="notice_permission">Voit käyttää sovellusta vain, jos hyväksyt sen käytön.</string>
+
+    <string name="capture_dialog_camera_error">Kamerayhteys epäonnistui.</string>
+
+    <string name="caption_control_tutorial_dont_show_again">Älä näytä uudelleen</string>
+
+    <string name="caption_control_tutorial1">Valuta ylimääräinen virtsa esimerkiksi talouspaperiin.</string>
+
+    <string name="caption_control_tutorial2">Aseta testiliuska mustalle viivalle</string>
+
+    <string name="caption_control_tutorial3">Aseta puhelin siten, että testiliuskalle ja alustalle ei muodostu varjoja.</string>
+
+    <string name="timer_dialog">On kulunut minuutti siitä, kun testiliuskalle on virtsattu?</string>
+
+    <string name="dialog_retake">Ei testituloksia. Kuvaa uudelleen.</string>
+
+    <string name="stick_location_guide">Aseta liuska oikealle.</string>
+
+    <string name="detect_status_success">Pidä se sellaisena kuin se on.</string>
+
+    <string name="detect_status_fail_count">Ota valokuva luonnollisessa valossa tai valkoisessa valossa ilman varjoja.</string>
+
+    <string name="detect_status_fail_orientation">Tarkista liuskan suunta siten, että testiliuska on keskitetty ja mustan suorakulmion kohdalla.</string>
+
+    <string name="result_guide">Tarkista liuskan jokainen ruutu ja tarkista onko se vertailuruudun kanssa samaa väriä.</string>
+
+    <string name="result_check_dialog">Onko liuskan neliö samaa väri kuin tulos?</string>
+
+    <string name="capture_info">Noudata ohjeita</string>
+
+    <!-- 스캐너 관련 화면 -->
+    <!--<string name="urine_test">Urine test</string>
+    <string name="tooth_notes">Tooth notes</string>
+    <string name="skin_notes">Tooth notes</string>
+    <string name="tooth_notes">Tooth notes</string>-->
+    <string name="pet_care_list">Pet Care List</string>
+    <string name="must_picture">사진을 등록해 주세요.</string>
+
+    <!-- dog kind -->
+    <string name="dog001">85,Apinapinseri</string>
+    <string name="dog002">86,Afgaaninvinttikoira</string>
+    <string name="dog003">89,Airedalenterrieri</string>
+    <string name="dog004">84,Akita</string>
+    <string name="dog005">87,Alaskanmalamuutti</string>
+    <string name="dog006">99119,Alpine Dachsbracke</string>
+    <string name="dog007">99113,Aidi</string>
+    <string name="dog008">75,Amerikanbully</string>
+    <string name="dog009">77,Amerikancockerspanieli</string>
+    <string name="dog010">99110,American eskimo dog</string>
+    <string name="dog011">99109,Amerikanakita</string>
+    <string name="dog012">78,Amerikanpitbullterrieri</string>
+    <string name="dog013">76,Amerikanstaffordshirenterrieri</string>
+    <string name="dog014">99168,Amerikankaapiokettuterrieri</string>
+    <string name="dog015">99112,Amerikankettukoira</string>
+    <string name="dog016">99111,Amerikanvesispanieli</string>
+    <string name="dog017">99107,Anatolianpaimenkoira</string>
+    <string name="dog018">99120,Anglo-francais de petite venerie</string>
+    <string name="dog019">99118,Appenzellinpaimenkoira</string>
+    <string name="dog020">99108,Ariegeois</string>
+    <string name="dog021">91,AustralianKelpie</string>
+    <string name="dog022">90,Australiansilkkiterrieri</string>
+    <string name="dog023">92,Australianterrieri</string>
+    <string name="dog024">99125,Australiankarjakoira</string>
+    <string name="dog025">99124,Australianpaimenkoira</string>
+    <string name="dog026">99123,Auvergnenseisoja</string>
+    <string name="dog027">99117,Azawakh</string>
+    <string name="dog028">33,Basenji</string>
+    <string name="dog029">9944,Baijerinvuoristovihikoira</string>
+    <string name="dog030">9945,Barbet</string>
+    <string name="dog031">9946,Basset artesien normand</string>
+    <string name="dog032">9947,Basset bleu de gascogne</string>
+    <string name="dog033">34,Basset hound</string>
+    <string name="dog034">9948,Basset fauve de bretagne</string>
+    <string name="dog035">53,Beagle</string>
+    <string name="dog036">9969,Beagle harrier</string>
+    <string name="dog037">55,Pitkäkarvainen Collie</string>
+    <string name="dog038">9957,Beauceron</string>
+    <string name="dog039">36,Bedlingtoninterrieri</string>
+    <string name="dog040">38,Belgianlammaskoira</string>
+    <string name="dog041">37,Belgianpaimenkoira</string>
+    <string name="dog042">35,Berninpaimenkoira</string>
+    <string name="dog043">9953,Belgianpaimenkoira groenendael</string>
+    <string name="dog044">9954,Belgianpaimenkoira laekenois</string>
+    <string name="dog045">9955,Belgianpaimenkoira malinois</string>
+    <string name="dog046">9956,Belgianpaimenkoira tervueren</string>
+    <string name="dog047">9950,Bergamasco</string>
+    <string name="dog048">54,Bichon Frise</string>
+    <string name="dog049">51,Pesukarhukoira</string>
+    <string name="dog050">52,Vihikoira</string>
+    <string name="dog051">9968,Bluetick Coonhound</string>
+    <string name="dog052">44,Bolognese</string>
+    <string name="dog053">9919,Bordeauxindoggi</string>
+    <string name="dog054">39,Bordercollie</string>
+    <string name="dog055">40,Borderterrieri</string>
+    <string name="dog056">41,Venäjänvinttikoira (Borzoi)</string>
+    <string name="dog057">9960,Bouvier</string>
+    <string name="dog058">9962,Bracco Italiano</string>
+    <string name="dog059">9963,Braque du Bourbonnais</string>
+    <string name="dog060">9961,Brasilianterrieri</string>
+    <string name="dog061">9964,Broholminkoira</string>
+    <string name="dog062">9949,Buhund</string>
+    <string name="dog063">42,Bostoninterrieri</string>
+    <string name="dog064">43,Bokseri</string>
+    <string name="dog065">48,Fila Brasileiro</string>
+    <string name="dog066">49,Brienpaimenkoira</string>
+    <string name="dog067">50,Bretoni (Brittany)</string>
+    <string name="dog068">47,Bullterrieri</string>
+    <string name="dog069">46,Englanninbulldoggi</string>
+    <string name="dog070">45,Bullmastiffi</string>
+    <string name="dog071">99152,Cairnterrieri</string>
+    <string name="dog072">117,Cane Corso</string>
+    <string name="dog073">99146,Ceskoslovensky vlcak</string>
+    <string name="dog074">99144,Ceskyterrieri</string>
+    <string name="dog075">99148,Chihuahua, lyhytkarvainen</string>
+    <string name="dog076">99147,Chihuahua, Chihuahua, pitkakarvainen</string>
+    <string name="dog077">9958,Chodsky pes</string>
+    <string name="dog078">118,Cavalierkingcharlesinspanieli</string>
+    <string name="dog079">115,Chesapeakelahdennoutaja</string>
+    <string name="dog080">116,Chihuahua</string>
+    <string name="dog081">99105,Cirneco delletna</string>
+    <string name="dog082">114,Kiinanharjakoira </string>
+    <string name="dog083">113,Kiinanpystykorva (Chow Chow)</string>
+    <string name="dog084">126,Clumberinspanieli</string>
+    <string name="dog085">123,Cockerspanieli</string>
+    <string name="dog086">125,Collie pitkäkarvainen/sileäkarvainen</string>
+    <string name="dog087">124,Coton de Tulear</string>
+    <string name="dog088">120,Kiharakarvainen noutaja</string>
+    <string name="dog089">10,Mäyräkoira</string>
+    <string name="dog090">11,Dalmatiankoira</string>
+    <string name="dog091">9914,Dandie dinmontinterrieri</string>
+    <string name="dog092">9917,Dansk spids</string>
+    <string name="dog093">9918,Dogo mallorquin</string>
+    <string name="dog094">9920,Dreeveri</string>
+    <string name="dog095">9916,Dunkerinajokoira</string>
+    <string name="dog096">18,Skotlannin hirvikoira</string>
+    <string name="dog097">14,Dobermanni</string>
+    <string name="dog098">15,Dobermanni Pinseri</string>
+    <string name="dog099">13,Argentinan mastiffi</string>
+    <string name="dog100">12,Kanariandoggi</string>
+    <string name="dog101">17,DongKyung</string>
+    <string name="dog102">104,cockerspanieli</string>
+    <string name="dog103">99138,Englanninkaapioterrieri</string>
+    <string name="dog104">99139,Englanninkettukoira</string>
+    <string name="dog105">99121,Entlebuchinpaimenkoira</string>
+    <string name="dog106">9998,Espanjanvesikoira</string>
+    <string name="dog107">9975,Etelavenajankoira</string>
+    <string name="dog108">99133,Eurasier</string>
+    <string name="dog109">102,Englanninsetteri</string>
+    <string name="dog110">103,Englanninspringerspanieli</string>
+    <string name="dog111">88,Estrelanvuoristokoira</string>
+    <string name="dog112">149,Fieldspanieli</string>
+    <string name="dog113">99170,Faaraokoira</string>
+    <string name="dog114">996,Glen of imaalinterrieri</string>
+    <string name="dog115">9952,Griffon belge</string>
+    <string name="dog116">9965,Griffon bruxellois</string>
+    <string name="dog117">995,Grosspitz</string>
+    <string name="dog118">146,Sileäkarvainen noutaja</string>
+    <string name="dog119">140,Kettuterrieri</string>
+    <string name="dog120">145,Ranskanbulldoggi</string>
+    <string name="dog121">111,Saksanmetsästysterrieri</string>
+    <string name="dog122">108,Saksanpaimenkoira</string>
+    <string name="dog123">109,Lyhytkarvainen saksanseisoja </string>
+    <string name="dog124">110, Karkeakarvainen saksanseisoja </string>
+    <string name="dog125">2,Kultainennoutaja</string>
+    <string name="dog126">1,Gordoninsetteri</string>
+    <string name="dog127">991,Grand basset griffon vendeen</string>
+    <string name="dog128">992,Grand griffon vendeen</string>
+    <string name="dog129">4,Tanskandoggi</string>
+    <string name="dog130">5,Pyreneittenkoira</string>
+    <string name="dog131">6,Grönlanninkoira</string>
+    <string name="dog132">99190,Haldeninajokoira</string>
+    <string name="dog133">99192,Hamiltoninajokoira</string>
+    <string name="dog134">99194,Hokkaido</string>
+    <string name="dog135">9915,Hollanninpaimenkoira</string>
+    <string name="dog136">99193,Hovawart</string>
+    <string name="dog137">99189,Hygeninajokoira</string>
+    <string name="dog138">3,Englanninvinttikoira</string>
+    <string name="dog139">151,Harrieri</string>
+    <string name="dog140">152,Havannankoira</string>
+    <string name="dog141">99134,Ibizanpodenco</string>
+    <string name="dog142">99116,Islanninlammaskoira</string>
+    <string name="dog143">9923,Isomunsterinseisoja</string>
+    <string name="dog144">994,Isosveitsinpaimenkoira</string>
+    <string name="dog145">9996,Isovillakoira</string>
+    <string name="dog146">99136,Italianajokoira</string>
+    <string name="dog147">99135,Itasiperianlaika</string>
+    <string name="dog148">99126,Itavallanpinseri</string>
+    <string name="dog149">79,Irlanninsetteri</string>
+    <string name="dog150">80,Irlantilainen vehnäterrieri</string>
+    <string name="dog151">83,Irlanninterrieri</string>
+    <string name="dog152">82,Irlanninvesispanieli</string>
+    <string name="dog153">81,Irlanninsusikoira</string>
+    <string name="dog154">101,Italianvinttikoira</string>
+    <string name="dog155">107,Jackrussellinterrieri</string>
+    <string name="dog156">99122,Jamtlanninpystykorva</string>
+    <string name="dog157">99141,Japaninterrieri</string>
+    <string name="dog158">106,Japanese Chin</string>
+    <string name="dog159">105,Japaninpystykorva</string>
+    <string name="dog160">112,Koreanjindonkoira</string>
+    <string name="dog161">119,Kainkoira</string>
+    <string name="dog162">99153,Kaanaankoira</string>
+    <string name="dog163">9941,Kaapiosnautseri</string>
+    <string name="dog164">9942,Kaapiovillakoira</string>
+    <string name="dog165">9970,Kanarianpodenco</string>
+    <string name="dog166">99151,Karjalankarhukoira</string>
+    <string name="dog167">99156,Karkeakarvainen kaapiomayrakoira</string>
+    <string name="dog168">99155,Karkeakarvainen kaniinimayrakoira</string>
+    <string name="dog169">99157,Karkeakarvainen kettuterrieri</string>
+    <string name="dog170">99154,Karkeakarvainen mayrakoira</string>
+    <string name="dog171">99158,Karkeakarvainen unkarinvizsla</string>
+    <string name="dog172">99150,Katalonianpaimenkoira</string>
+    <string name="dog173">99159,Kaukasianpaimenkoira</string>
+    <string name="dog174">9978,Keskiaasianpaimenkoira</string>
+    <string name="dog175">9943,Keskikokoinen villakoira</string>
+    <string name="dog176">997,Kishu</string>
+    <string name="dog177">99101,kleinspitz</string>
+    <string name="dog178">99162,Kooikerhondje</string>
+    <string name="dog179">99129,Korthalsingriffoni</string>
+    <string name="dog180">99188,Kreikanajokoira</string>
+    <string name="dog181">99163,Kroatianpaimenkoira</string>
+    <string name="dog182">99164,Kromfohrlander</string>
+    <string name="dog183">99161,Kuvasz</string>
+    <string name="dog184">127,Keeshond (keskikokoinen pystykorva)</string>
+    <string name="dog185">121,Kerrynterrieri</string>
+    <string name="dog186">128,Kingcharlesinspanielin</string>
+    <string name="dog187">122,Komondor</string>
+    <string name="dog188">21,Labradorinnoutaja</string>
+    <string name="dog189">20,Laika</string>
+    <string name="dog190">23,Lakelandinterrieri</string>
+    <string name="dog191">9922,Lagotto romagnolo</string>
+    <string name="dog192">9926,Lancashire Heeler</string>
+    <string name="dog193">9925,Landseer</string>
+    <string name="dog194">9993,Lansigootanmaanpystykorva</string>
+    <string name="dog195">99130,Lansisiperianlaika</string>
+    <string name="dog196">9924,Lapinporokoira</string>
+    <string name="dog197">22,Leonberginkoira</string>
+    <string name="dog198">19,Lhasa apso</string>
+    <string name="dog199">9931,Lowchen</string>
+    <string name="dog200">999,Lunnikoira</string>
+    <string name="dog201">9982,Lyhytkarvainen bernhardinkoira</string>
+    <string name="dog202">99137,Lyhytkarvainen italianajokoira</string>
+    <string name="dog203">9981,Lyhytkarvainen kaapiomayrakoira</string>
+    <string name="dog204">9980,Lyhytkarvainen kaniinimayrakoira</string>
+    <string name="dog205">9979,Lyhytkarvainen mayrakoira</string>
+    <string name="dog206">9984,Lyhytkarvainen unkarinvizsla</string>
+    <string name="dog207">25,Pienileijonakoira (Löwchen)</string>
+    <string name="dog208">28,Maltankoira</string>
+    <string name="dog209">29,Manchesterinterrieri</string>
+    <string name="dog210">26,Maremmano-abruzzese</string>
+    <string name="dog211">27,Mastiffi</string>
+    <string name="dog212">9939,Meksikonkarvatonkoira</string>
+    <string name="dog213">99100,Mittelspitz</string>
+    <string name="dog214">9940,Mudi</string>
+    <string name="dog215">9912,Norfolkinterrieri</string>
+    <string name="dog216">9910,Norwichinterrieri</string>
+    <string name="dog217">9911,Novascotiannoutaja</string>
+    <string name="dog218">99165,Owczarek podhalanski</string>
+    <string name="dog219">99172,Parsonrussellinterrieri</string>
+    <string name="dog220">9971,Petit Basset Griffon Vendeen</string>
+    <string name="dog221">9973,Petit bleu de Gascogne</string>
+    <string name="dog222">9972,Petit brabancon</string>
+    <string name="dog223">99171,Phalene</string>
+    <string name="dog224">9951,Picardienpaimenkoira</string>
+    <string name="dog225">99186,Picardienspanieli</string>
+    <string name="dog226">9986,Pieniberninajokoira</string>
+    <string name="dog227">9990,Pienijuranajokoira</string>
+    <string name="dog228">9987,Pieniluzerninajokoira</string>
+    <string name="dog229">9988,Pienimunsterinseisoja</string>
+    <string name="dog230">9989,Pienischwyzinajokoira</string>
+    <string name="dog231">99143,pinseri</string>
+    <string name="dog232">9935,Pitkakarvainen bernhardinkoira</string>
+    <string name="dog233">9937,Pitkakarvainen collie</string>
+    <string name="dog234">9934,Pitkakarvainen kaapiomayrakoira</string>
+    <string name="dog235">9933,Pitkakarvainen kaniinimayrakoira</string>
+    <string name="dog236">9932,Pitkakarvainen mayrakoira</string>
+    <string name="dog237">9936,Pitkakarvainen saksanseisoja</string>
+    <string name="dog238">998,Pohjanpystykorva</string>
+    <string name="dog239">99179,Polski owczarek nizinny</string>
+    <string name="dog240">99181,Pont-audemerinspanieli</string>
+    <string name="dog241">99173,Porcelaine</string>
+    <string name="dog242">99177,Portugalinpodengo</string>
+    <string name="dog243">99176,Portugalinseisoja</string>
+    <string name="dog244">99174,Portugalinvesikoira</string>
+    <string name="dog245">99182,Prahanrottakoira</string>
+    <string name="dog246">99114,Punainen irlanninsetteri</string>
+    <string name="dog247">99115,Punavalkoinen irlanninsetteri</string>
+    <string name="dog248">99180,Puolanvinttikoira</string>
+    <string name="dog249">9983,Pyreneittenpaimenkoira, lk</string>
+    <string name="dog250">9938,Pyreneittenpaimenkoira, pk</string>
+    <string name="dog251">30,Kääpiöbullterrieri</string>
+    <string name="dog252">31,Kääpiöpinseri</string>
+    <string name="dog253">32,Sekarotuinen</string>
+    <string name="dog254">7,Napolinmastiffi</string>
+    <string name="dog255">9,Newfoundlandinkoira</string>
+    <string name="dog256">8,Harmaa norjanhirvikoira</string>
+    <string name="dog257">93,Vanhaenglanninlammaskoira</string>
+    <string name="dog258">57,Papillon</string>
+    <string name="dog259">137,Patterdaleterrieri</string>
+    <string name="dog260">136,Kiinanpalatsikoira (Peginkeesi)</string>
+    <string name="dog261">135,Perunkarvatonkoira</string>
+    <string name="dog262">150,Amerikanpitbullterrieri</string>
+    <string name="dog263">147,Plottinajokoira</string>
+    <string name="dog264">139,Seisoja</string>
+    <string name="dog265">138,Pomeranian</string>
+    <string name="dog266">141,Villakoira</string>
+    <string name="dog267">144,Pungsan</string>
+    <string name="dog268">134,Mopsi</string>
+    <string name="dog269">143,Puli</string>
+    <string name="dog270">142,Pumi</string>
+    <string name="dog271">148,Pyreneittenmastiffi</string>
+    <string name="dog272">24,Rottweiler</string>
+    <string name="dog273">62,Bernhardinkoira</string>
+    <string name="dog274">99183,Ranskanspanieli</string>
+    <string name="dog275">9991,Ruotsinlapinkoira</string>
+    <string name="dog276">59,Saluki</string>
+    <string name="dog277">58,Samojedinkoira</string>
+    <string name="dog278">60,Sapsal (Sapsaree)</string>
+    <string name="dog279">9974,Saarloos wolfhond</string>
+    <string name="dog280">99149,Sao miguelinfila</string>
+    <string name="dog281">9976,Sarplaninac</string>
+    <string name="dog282">99127,Saukkokoira</string>
+    <string name="dog283">99102,Schapendoes</string>
+    <string name="dog284">9995,Schipperke</string>
+    <string name="dog285">99175,Serra de airesinpaimenkoira</string>
+    <string name="dog286">99106,Shikoku</string>
+    <string name="dog287">99160,Sileakarvainen collie</string>
+    <string name="dog288">99178,Sileakarvainen kettuterrieri</string>
+    <string name="dog289">9967,Sininenpicardienspanieli</string>
+    <string name="dog290">99104,Sloughi</string>
+    <string name="dog291">99103,Slovakiancuvac</string>
+    <string name="dog292">9999,spinone</string>
+    <string name="dog293">9997,Stabyhoun</string>
+    <string name="dog294">64,Snautseri</string>
+    <string name="dog295">67,Skotlanninterrieri</string>
+    <string name="dog296">74,Sealyhaminterrieri</string>
+    <string name="dog297">61,Shar Pei</string>
+    <string name="dog298">63,Shetlanninlammaskoira</string>
+    <string name="dog299">71,Shiba Inu</string>
+    <string name="dog300">73,Shih Tzu</string>
+    <string name="dog301">72,Siperian Husky</string>
+    <string name="dog302">66,Skyenterrieri</string>
+    <string name="dog303">65,Sileäkarvainen kettuterrieri</string>
+    <string name="dog304">99185,Suomenajokoira</string>
+    <string name="dog305">9985,Suomenlapinkoira</string>
+    <string name="dog306">99184,Suomenpystykorva</string>
+    <string name="dog307">9977,Sussexinspanieli</string>
+    <string name="dog308">99140,Suursnautseri</string>
+    <string name="dog309">9990,Small Swiss Hounds</string>
+    <string name="dog310">9994,Swiss Hound</string>
+    <string name="dog311">69,Espanjanvinttikoira</string>
+    <string name="dog312">70,Espanjanmastiffi</string>
+    <string name="dog313">68,Staffordshirenbullterrieri</string>
+    <string name="dog314">129,Rhodesiankoira</string>
+    <string name="dog315">9913,Tanskalais-ruotsalainen pihakoira</string>
+    <string name="dog316">99166,tenterfieldinterrieri </string>
+    <string name="dog317">99167,Tornjak</string>
+    <string name="dog318">99169,Toyvillakoira</string>
+    <string name="dog319">99145,Tsekinseisoja</string>
+    <string name="dog320">131,Tiibetinmastiffi</string>
+    <string name="dog321">132,Tiibetinspanieli</string>
+    <string name="dog322">133,Tiibetinterrieri</string>
+    <string name="dog323">16,Tosa Inu (Tosa touken)</string>
+    <string name="dog324">130,Manchesterinterrieri</string>
+    <string name="dog325">56,Unkarinvizsla</string>
+    <string name="dog326">99191,Unkarinvinttikoira</string>
+    <string name="dog327">99195,Valkoinen paimenkoira</string>
+    <string name="dog328">9992,Valkoinen ruotsinhirvikoira</string>
+    <string name="dog329">99128,Vanhatanskankanakoira</string>
+    <string name="dog330">9930,Venajanajokoira</string>
+    <string name="dog331">9927,Venajanbolonka</string>
+    <string name="dog332">9966,Venajanmustaterrieri</string>
+    <string name="dog333">9929,Venajantoy</string>
+    <string name="dog334">9928,Venalais-eurooppalainen laika</string>
+    <string name="dog335">99142,Viiriaiskoira</string>
+    <string name="dog336">9959,Volpino Italiano</string>
+    <string name="dog337">99132,Walesinspringerspanieli</string>
+    <string name="dog338">99131,Wetterhoun</string>
+    <string name="dog339">94,Weimarinseisoja</string>
+    <string name="dog340">98,Welsh Corgi Cardigan</string>
+    <string name="dog341">99,Walesin Corgi Pembroke</string>
+    <string name="dog342">100,Walesin terrieri</string>
+    <string name="dog343">97,Valkoinen länsiylämaanterrieri (Westie)</string>
+    <string name="dog344">153,Whippet</string>
+    <string name="dog345">95,Karkeakarvainenkettuterrieri</string>
+    <string name="dog346">96,Yorkshirenterrieri</string>
+    <string name="dog347">0,Muut</string>
+
+
+    <!-- cat kind -->
+    <string name="cat001">58,Abessinialainen</string>
+    <string name="cat002">63,Egeanmeren kissa</string>
+    <string name="cat003">62,Alaskan lumi</string>
+    <string name="cat004">52,Amerikkalainen bobtail</string>
+    <string name="cat005">55,American Curl</string>
+    <string name="cat006">56,American Curl, lyhytkarva</string>
+    <string name="cat007">57,Amerikkalainen monivarpainen</string>
+    <string name="cat008">51,Amerikkalainen ringtail</string>
+    <string name="cat009">53,Amerikkalainen lyhytkarva</string>
+    <string name="cat010">54,American wirehair</string>
+    <string name="cat011">61,Antipodean</string>
+    <string name="cat012">50,Arabian Mau</string>
+    <string name="cat013">59,Aasialainen puolipitkäkarva</string>
+    <string name="cat014">60,Aasialainen lyhytkarva</string>
+    <string name="cat015">66,Austrailian Mist</string>
+    <string name="cat016">19,Balineesi</string>
+    <string name="cat017">23,Bengali</string>
+    <string name="cat018">20,Pyhä Birma</string>
+    <string name="cat019">24,Bombay</string>
+    <string name="cat020">25,Brasilian lyhytkarva</string>
+    <string name="cat021">26,Brittiläinen pitkäkarva</string>
+    <string name="cat022">27,Brittiläinen lyhytkarva</string>
+    <string name="cat023">21,Burma</string>
+    <string name="cat024">22,Burmilla</string>
+    <string name="cat025">82,California spangled</string>
+    <string name="cat026">48,Ceylon</string>
+    <string name="cat027">33,Chantilly-Tiffany</string>
+    <string name="cat028">31,Chartreux</string>
+    <string name="cat029">79,Chinese Harlequin</string>
+    <string name="cat030">83,Colorpoint lyhytkarva</string>
+    <string name="cat031">84,Cornish Rex</string>
+    <string name="cat032">88,Cuban Blue</string>
+    <string name="cat033">89,Cymric</string>
+    <string name="cat034">29,Cyprus Aphrodite</string>
+    <string name="cat035">4,Devon Rex</string>
+    <string name="cat036">5,Donskoy</string>
+    <string name="cat037">6,Dragon Li</string>
+    <string name="cat038">73,Egyptinmau</string>
+    <string name="cat039">71,Eurooppalainen lyhytkarva</string>
+    <string name="cat040">72,Exotic</string>
+    <string name="cat041">101,Foldex</string>
+    <string name="cat042">100,Forign White</string>
+    <string name="cat043">78,Genet</string>
+    <string name="cat044">77,Saksalainen pitkäkarvainen</string>
+    <string name="cat045">76,German rex</string>
+    <string name="cat046">104,Havana Brown</string>
+    <string name="cat047">106,Helki</string>
+    <string name="cat048">105,Highlander</string>
+    <string name="cat049">107,Himalajan kissa</string>
+    <string name="cat050">75,Japanin bobtail</string>
+    <string name="cat051">74,Javaneesi</string>
+    <string name="cat052">81,Kashmir</string>
+    <string name="cat053">80,Khao Manee</string>
+    <string name="cat054">85,Korat</string>
+    <string name="cat055">86,Korealainen lyhytkarvainen</string>
+    <string name="cat056">87,Kurilien bobtail</string>
+    <string name="cat057">10,LaPerm</string>
+    <string name="cat058">9,Lykoi</string>
+    <string name="cat059">17,Maine Coon</string>
+    <string name="cat060">15,Manx</string>
+    <string name="cat061">18,Minskin</string>
+    <string name="cat062">16,Munchkin</string>
+    <string name="cat063">1,Napoleon</string>
+    <string name="cat064">2,Nebelung</string>
+    <string name="cat065">3,Norjalainen metsäkissa</string>
+    <string name="cat066">67,Ocicat</string>
+    <string name="cat067">69,Ojos Azules</string>
+    <string name="cat068">64,Itämainen pitkäkarva</string>
+    <string name="cat069">65,Itämainen lyhytkarva</string>
+    <string name="cat070">96,Perfold</string>
+    <string name="cat071">98,Persialainen</string>
+    <string name="cat072">99,Persialainen Chinchilla</string>
+    <string name="cat073">102,Peterbald</string>
+    <string name="cat074">103,Pixiebob</string>
+    <string name="cat075">97,Puppykat</string>
+    <string name="cat076">8,Raas Cat</string>
+    <string name="cat077">7,Ragamuffin</string>
+    <string name="cat078">11,Ragdoll</string>
+    <string name="cat079">12,Russian Black</string>
+    <string name="cat080">13,Russian Blue</string>
+    <string name="cat081">14,Russian White</string>
+    <string name="cat082">30,Sam Sawet</string>
+    <string name="cat083">28,Savannah</string>
+    <string name="cat084">42,Scottish fold</string>
+    <string name="cat085">37,Selkirk rex</string>
+    <string name="cat086">35,Serengeti</string>
+    <string name="cat087">34,Serrade Petit</string>
+    <string name="cat088">36,Seychellois</string>
+    <string name="cat089">32,Siamilainen</string>
+    <string name="cat090">47,Siperiankissa</string>
+    <string name="cat091">49,Singapura</string>
+    <string name="cat092">44,Skif Toy Bobtail</string>
+    <string name="cat093">43,Skookum</string>
+    <string name="cat094">41,Snowshoe</string>
+    <string name="cat095">39,Sokoke</string>
+    <string name="cat096">38,Somali</string>
+    <string name="cat097">46,Sfinx</string>
+    <string name="cat098">45,Sterling</string>
+    <string name="cat099">40,Suphalak</string>
+    <string name="cat100">90,Thai</string>
+    <string name="cat101">95,Tonkineesi</string>
+    <string name="cat102">94,Toybob</string>
+    <string name="cat103">93,Toyger</string>
+    <string name="cat104">91,Turkkilainen Angora</string>
+    <string name="cat105">92,Turkkilainen Van</string>
+    <string name="cat106">70,Ural Rex</string>
+    <string name="cat107">68,York Chocolate</string>
+    <string name="cat108">0,Muut</string>
+
+</resources>

@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "/Users/kim/1_AOS/AlphaCare/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/kim/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kim/1_AOS/AlphaCare/app/.cxx/cmake/release/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "native-lib-Release-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "/Users/kim/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kim/1_AOS/AlphaCare/app/.cxx/cmake/release/arm64-v8a --target native-lib",
+      "abi": "arm64-v8a",
+      "output": "/Users/kim/1_AOS/AlphaCare/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so"
+    },
+    "lib_opencv-Release-arm64-v8a": {
+      "artifactName": "lib_opencv",
+      "abi": "arm64-v8a",
+      "output": "/Users/kim/1_AOS/AlphaCare/app/src/main/jniLibs/arm64-v8a/libopencv_java4.so"
+    }
+  }
+}

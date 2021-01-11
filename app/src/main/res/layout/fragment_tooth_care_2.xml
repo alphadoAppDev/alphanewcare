@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="10dp"
+        android:text="222222222222222가정에서 할 수 있는 반려견의 다양한 구강관리 방법 중에서 반려견의 협조도 나 성격, 보호자의 상황에 알맞은 방법을 선택하면 됩니다. 가장 중요한 것은 어떤 방법을 선택하더라도 지속적으로 꾸준히 해 주어야만 치태와 치석의 형성을 줄이고 치주질환을 예방 할 수 있다는 것 입니다.
+\n대부분의 반려견은 쉽게 칫솔질과 같은 구강관리를 받아들입니다. 그러나 낯선 구강관리법에 아이들을 편안히 적응 시키기 위해서는 인내를 가지고 조심스럽고 점진적인 교육과 접근을 해야 할 필요가 있습니다.
+이렇게 한다면 분명 1달 이내에 효과적인 구강관리를 하실 수 있게 될 것 입니다.
+"/>
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

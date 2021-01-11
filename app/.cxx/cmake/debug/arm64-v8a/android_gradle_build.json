@@ -1,0 +1,52 @@
+
+{
+	"buildFiles" : [ "/Users/kim/1_AOS/AlphaCare/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/kim/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kim/1_AOS/AlphaCare/app/.cxx/cmake/debug/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"lib_opencv-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "lib_opencv",
+			"buildType" : "debug",
+			"output" : "/Users/kim/1_AOS/AlphaCare/app/src/main/jniLibs/arm64-v8a/libopencv_java4.so",
+			"toolchain" : "10837814564023918519"
+		},
+		"native-lib-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/kim/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kim/1_AOS/AlphaCare/app/.cxx/cmake/debug/arm64-v8a --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/Users/kim/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kim/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/opencv/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fexceptions -frtti -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/kim/1_AOS/AlphaCare/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/kim/1_AOS/AlphaCare/app/.cxx/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/Users/kim/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kim/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/opencv/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fexceptions -frtti -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/kim/1_AOS/AlphaCare/app/src/main/cpp/CCFinder.cpp",
+					"workingDirectory" : "/Users/kim/1_AOS/AlphaCare/app/.cxx/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "/Users/kim/1_AOS/AlphaCare/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so",
+			"toolchain" : "10837814564023918519"
+		}
+	},
+	"toolchains" : 
+	{
+		"10837814564023918519" : 
+		{
+			"cCompilerExecutable" : "/Users/kim/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/kim/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

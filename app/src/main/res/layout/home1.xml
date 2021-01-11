@@ -1,0 +1,184 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_home"
+    android:orientation="vertical">
+    <!--
+        <include layout="@layout/custom_toolbar_main" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewPager" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTestHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="16sp"
+            android:textColor="#042c5c"
+            android:text="운동정보"/>
+
+        <TextView
+            android:id="@+id/txtTestNone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/background_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#042c5c"
+            android:text="운동 내역"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/background_tab"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="btnShowMenu">
+            <TextView
+                android:id="@+id/txtTabOneTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:padding="5sp"
+                android:textColor="#77869e"
+                android:textSize="10sp"
+                android:text="@string/tab_menu"/>
+            <ImageView
+                android:id="@+id/imgTab1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_above="@+id/txtTabOneTitle"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/tab_menu"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="btnShowTestResult">
+            <TextView
+                android:id="@+id/txtTabTwoTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:padding="5sp"
+                android:textColor="#77869e"
+                android:textSize="10sp"
+                android:text="운동하기"/>
+            <ImageView
+                android:id="@+id/imgTab2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_above="@+id/txtTabTwoTitle"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/tab_result"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlGoTest"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/txtTabThreeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:padding="5sp"
+                android:textColor="#77869e"
+                android:textSize="10sp"
+                android:text="촬영하기"/>
+
+            <ImageView
+                android:id="@+id/imgTab3"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_above="@+id/txtTabThreeTitle"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/tab_test"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="btnModifyPet">
+            <TextView
+                android:id="@+id/txtTabFourTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:padding="5sp"
+                android:textColor="#77869e"
+                android:textSize="10sp"
+                android:text="@string/tab_modify"/>
+            <ImageView
+                android:id="@+id/imgTab4"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_above="@+id/txtTabFourTitle"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/tab_modify"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="btnGoHome">
+            <TextView
+                android:id="@+id/txtTabFiveTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:padding="5sp"
+                android:textColor="#77869e"
+                android:textSize="10sp"
+                android:text="@string/tab_home"/>
+            <ImageView
+                android:id="@+id/imgTab5"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_above="@+id/txtTabFiveTitle"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/tab_home"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
