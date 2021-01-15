@@ -399,7 +399,7 @@
 
     <string name="faq3">Q. Milloin testi on tehtävä, kun virtsanäyte on kerätty?</string>
 
-    <string name="answer3">A. Laita virtsa koeliuskalle. Käytä Alphado Pet Care appsia noin kahden minuutin kuluttua. Testitulos </string>
+    <string name="answer3">A. Laita virtsa koeliuskalle. Käytä Alphado Pet Care appsia noin kahden minuutin kuluttua.</string>
 
     <string name="faq4">K. Onko testitulokset tarkkoja?</string>
 
@@ -482,7 +482,7 @@
     <string name="tooth_notes">Tooth notes</string>
     <string name="skin_notes">Tooth notes</string>
     <string name="tooth_notes">Tooth notes</string>-->
-    <string name="pet_care_list">Pet Care List</string>
+    <string name="main_Modify">Modify</string>
     <string name="must_picture">사진을 등록해 주세요.</string>
 
     <!-- dog kind -->

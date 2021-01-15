@@ -441,7 +441,9 @@ public class CaptureAction
             {
                 case 1:
                 {
-                    successCount++;
+
+                    takePicture(preview);
+//                    successCount++;
                     failToastText.setText(R.string.detect_status_success);
                     Log.e(URSConfig.APP_NAME, "성공");
                     break;
@@ -449,7 +451,7 @@ public class CaptureAction
                 case -1:
                     successCount = 0;
                     failToastText.setText(R.string.detect_status_fail_count);
-                    //Log.e(URSConfig.APP_NAME, "실패 - 사각형 갯수 미달");
+//                    Log.e(URSConfig.APP_NAME, "실패 - 사각형 갯수 미달");
                     break;
                 case -2:
                     successCount = 0;
@@ -465,13 +467,13 @@ public class CaptureAction
             preview.invalidate();
 
             // 자동촬영 조건
-            if (successCount >= AUTO_SHOT_SUCCESS_COUNT)
-            {
-                successCount = 0;
-
-                // 촬영
-                takePicture(preview);
-            }
+//            if (successCount >= AUTO_SHOT_SUCCESS_COUNT)
+//            {
+//                successCount = 0;
+//
+//                // 촬영
+//                takePicture(preview);
+//            }
 
             detectTask = null;
         }
@@ -498,7 +500,7 @@ public class CaptureAction
         protected void onPreExecute()
         {
             super.onPreExecute();
-            activity.findViewById(R.id.progressBar).setVisibility(View.VISIBLE);
+//            activity.findViewById(R.id.progressBar).setVisibility(View.VISIBLE);
         }
 
         @Override
@@ -574,7 +576,7 @@ public class CaptureAction
         {
             super.onPostExecute(resultData);
 
-            activity.findViewById(R.id.progressBar).setVisibility(View.GONE);
+//            activity.findViewById(R.id.progressBar).setVisibility(View.GONE);
             preview.startCameraPreview();
             preview.invalidate();
 
@@ -582,7 +584,7 @@ public class CaptureAction
             {
                 saveImageTask = null;
                 currentStatus = 0;
-                Toast.makeText(context, context.getResources().getString(R.string.dialog_retake), Toast.LENGTH_SHORT).show();
+//                Toast.makeText(context, context.getResources().getString(R.string.dialog_retake), Toast.LENGTH_SHORT).show();
                 return;
             }
 

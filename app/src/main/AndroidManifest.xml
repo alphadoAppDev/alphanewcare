@@ -2,38 +2,42 @@
 <manifest
 
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="kr.co.alphacare" >
+    package="kr.co.alphacare">
 
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
-    <uses-feature android:name="android.hardware.camera" android:required="false"/>
-    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
 
-    <uses-permission android:name="android.permission.VIBRATE"/>
-    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <application
-        android:largeHeap="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme"
 
-        android:theme="@style/AppTheme">
+        android:usesCleartextTraffic="true">
         <!--android:networkSecurityConfig="@xml/network_security_config"-->
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_channel_id"
-            android:value="default_channel_id"/>
+            android:value="default_channel_id" />
         <meta-data
             android:name="firebase_messaging_auto_init_enabled"
             android:value="false" />
@@ -41,37 +45,37 @@
             android:name="firebase_analytics_collection_enabled"
             android:value="false" />
 
- <service
-     android:name=".MyFireBaseMessagingService"
-     android:exported="false"
-     android:enabled="true"
-     android:stopWithTask="false">
+        <service
+            android:name=".MyFireBaseMessagingService"
+            android:enabled="true"
+            android:exported="false"
+            android:stopWithTask="false" />
 
 
-        </service>-->
-<!--        <service-->
-<!--            android:name=".MyFireBaseMessagingService">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="com.google.firebase.MESSAGING_EVENT"/>-->
-<!--            </intent-filter>-->
-<!--        </service>-->
+        <!--        <service-->
+        <!--            android:name=".MyFireBaseMessagingService">-->
+        <!--            <intent-filter>-->
+        <!--                <action android:name="com.google.firebase.MESSAGING_EVENT"/>-->
+        <!--            </intent-filter>-->
+        <!--        </service>-->
 
-<!--        <receiver-->
-<!--            android:name=".AlarmBroadcastReceiver"-->
-<!--            android:enabled="true"-->
-<!--            android:exported="true">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="NOTIFYCATION_SERVICE"/>-->
-<!--            </intent-filter>-->
-<!--        </receiver>-->
+        <!--        <receiver-->
+        <!--            android:name=".AlarmBroadcastReceiver"-->
+        <!--            android:enabled="true"-->
+        <!--            android:exported="true">-->
+        <!--            <intent-filter>-->
+        <!--                <action android:name="NOTIFYCATION_SERVICE"/>-->
+        <!--            </intent-filter>-->
+        <!--        </receiver>-->
 
 
         <activity
             android:name=".IntroActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
@@ -81,85 +85,84 @@
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait"
-
-            android:theme="@style/AppTheme"  />
+            android:theme="@style/AppTheme" />
 
 
         <activity
             android:name=".CreateAccountActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/EditTheme"  />
+            android:theme="@style/EditTheme" />
         <activity
             android:name=".LoginActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/EditTheme"  />
+            android:theme="@style/EditTheme"
+            android:windowSoftInputMode="adjustResize" />
 
         <activity
             android:name=".ChangePasswordActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/EditTheme"  />
+            android:theme="@style/EditTheme" />
         <activity
             android:name=".ResetPasswordActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/EditTheme"  />
+            android:theme="@style/EditTheme" />
 
         <activity
             android:name=".AddPet"
             android:screenOrientation="portrait"
-            android:theme="@style/EditTheme"  />
+            android:theme="@style/EditTheme" />
         <activity
             android:name=".ModifyPet"
             android:screenOrientation="portrait"
-            android:theme="@style/EditTheme"  />
+            android:theme="@style/EditTheme" />
 
         <activity
             android:name=".CareActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/EditTheme"  />
+            android:theme="@style/EditTheme" />
 
         <activity
             android:name=".CareAddActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/EditTheme"  />
+            android:theme="@style/EditTheme" />
 
-        <activity android:name=".CareListActivity"
+        <activity
+            android:name=".CareListActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/EditTheme"  />
+            android:theme="@style/EditTheme" />
 
         <activity
             android:name=".TestResult"
             android:screenOrientation="portrait"
-            android:theme="@style/EditTheme"  />
+            android:theme="@style/EditTheme" />
         <activity
             android:name=".MenuActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/EditTheme"  />
+            android:theme="@style/EditTheme" />
         <activity
             android:name=".ProfileActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/EditTheme"  />
+            android:theme="@style/EditTheme" />
         <activity
             android:name=".FaqActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/EditTheme"  />
+            android:theme="@style/EditTheme" />
         <activity
             android:name=".SettingActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/EditTheme"  />
+            android:theme="@style/EditTheme" />
         <activity
             android:name=".ServiceCenterActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/EditTheme"  />
+            android:theme="@style/EditTheme" />
         <activity
             android:name=".PrivacyActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/EditTheme"  />
+            android:theme="@style/EditTheme" />
         <activity
             android:name=".ServiceTermsActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/EditTheme"  />
-
-
+            android:theme="@style/EditTheme" />
 
 
         <activity
@@ -172,18 +175,15 @@
 
         <activity
             android:name="kr.co.alphacare.capture.CaptureActivity"
-            android:screenOrientation="portrait"
-            />
+            android:screenOrientation="portrait" />
 
         <activity
             android:name="kr.co.alphacare.result.ResultActivity"
-            android:screenOrientation="portrait"
-            />
+            android:screenOrientation="portrait" />
 
         <activity
             android:name="kr.co.alphacare.graph.GraphActivity"
-            android:screenOrientation="portrait"
-            />
+            android:screenOrientation="portrait" />
     </application>
 
 

@@ -181,9 +181,9 @@
 
     <string name="sex_female">암컷</string>
 
-    <string name="kind">품종</string>
+    <string name="kind">종류</string>
 
-    <string name="breed">종류</string>
+    <string name="breed">품종</string>
 
     <string name="breed_etc">기타품종</string>
 
@@ -473,7 +473,7 @@
 
     <string name="capture_info">안내에따라 진행하세요</string>
 
-    <string name="pet_care_list">펫 케어관리</string>
+    <string name="main_Modify">수정하기</string>
 
     <string name="must_picture">사진을 등록해 주세요.</string>
 

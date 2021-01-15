@@ -200,7 +200,6 @@ public class MainActivity extends BaseActivity {
                                     .build();
                             Request request = new Request.Builder()
                                     .url("http://121.152.44.12")
-
                                     .post(body)
                                     .build();
                             try {
@@ -419,11 +418,11 @@ public class MainActivity extends BaseActivity {
         mRelativeBtnAddMenu_3 = findViewById(R.id.relative_popup_menu_3);
         mRelativeBtnAddMenu_4 = findViewById(R.id.relative_popup_menu_4);
         mIvAddPopup = findViewById(R.id.iv_add_popup);
+        mIvAddPopup.setOnClickListener(mOnClickListenerPopup);
         mRelativeBtnAddMenu_1.setOnClickListener(mOnClickListenerPopup);
         mRelativeBtnAddMenu_2.setOnClickListener(mOnClickListenerPopup);
         mRelativeBtnAddMenu_3.setOnClickListener(mOnClickListenerPopup);
         mRelativeBtnAddMenu_4.setOnClickListener(mOnClickListenerPopup);
-        mIvAddPopup.setOnClickListener(mOnClickListenerPopup);
 
         mLinearContentMenu = findViewById(R.id.linear_content_menu);
         mTvContentMenu_1 = findViewById(R.id.tv_popup_menu_sub_1);
@@ -1325,21 +1324,32 @@ public class MainActivity extends BaseActivity {
     }
 
     public void btnModifyPet(View v) {
-        if(mLanguage.equals("ko"))  // 한국어 버전일때만 스캔관련 팝업
-        {
-            if(mLinearContentMenu.getVisibility() == View.VISIBLE) {
-                mLinearContentMenu.setVisibility(View.GONE);
-                mRelativeAddMenu.setVisibility(View.GONE);
-            }else{
-                mLinearContentMenu.setVisibility(View.VISIBLE);
-                mRelativeAddMenu.setVisibility(View.GONE);
-            }
-        }else{
-            AlertDialog.Builder ab = new AlertDialog.Builder(MainActivity.this);
-            ab.setMessage(getResources().getString(R.string.setting_update_nest));
-            ab.setPositiveButton("확인", new DialogInterface.OnClickListener() {@Override public void onClick(DialogInterface dialog, int which) {}});
-            ab.show();
-        }
+
+        /**
+         * 210114 기존 처럼 바로 수정할 수 있게 수정
+         * */
+
+        btnAddPet(v);
+
+
+//        if(mLanguage.equals("ko"))  // 한국어 버전일때만 스캔관련 팝업
+//        {
+//            if(mLinearContentMenu.getVisibility() == View.VISIBLE) {
+//                mLinearContentMenu.setVisibility(View.GONE);
+//                mRelativeAddMenu.setVisibility(View.GONE);
+//            }else{
+//                mLinearContentMenu.setVisibility(View.VISIBLE);
+//                mRelativeAddMenu.setVisibility(View.GONE);
+//            }
+//        }else{
+//            AlertDialog.Builder ab = new AlertDialog.Builder(MainActivity.this);
+//            ab.setMessage(getResources().getString(R.string.setting_update_nest));
+//            ab.setPositiveButton("확인", new DialogInterface.OnClickListener() {@Override public void onClick(DialogInterface dialog, int which) {}});
+//            ab.show();
+//        }
+
+
+
     }
 
     public void btnGoHome(View v) {
@@ -1571,27 +1581,44 @@ public class MainActivity extends BaseActivity {
 
                 // 등록 팝업 버튼
                 case R.id.iv_add_popup:
-                    if(mLanguage.equals("ko"))  // 한국어 버전일때만 스캔관련 팝업
+
+                    /**
+                     * 210114 기존 처럼 바로 촬영 화면으로 갈 수 있게 수정
+                     * */
+
+//                    if(mLanguage.equals("ko"))  // 한국어 버전일때만 스캔관련 팝업
+//                    {
+//                        if(mRelativeAddMenu.getVisibility() == View.GONE) {
+//                            mRelativeAddMenu.setVisibility(View.VISIBLE);
+//                            mLinearContentMenu.setVisibility(View.GONE);
+//                        }else{
+//                            mRelativeAddMenu.setVisibility(View.GONE);
+//                            mLinearContentMenu.setVisibility(View.GONE);
+//                        }
+//                    }else{
+//                        currentPage = viewPager.getCurrentItem();
+//                        info = AppGlobals.INSTANCE.getPetInfo(currentPage);
+//                        if(info != null)
+//                        {
+//                            intent = new Intent(MainActivity.this, TutorialActivity.class);
+//                            intent.putExtra(TutorialActivity.REQ_MODE, URSDefine.PaperMode.litmus10.getValue());
+//                            startActivity(intent);
+//                            mRelativeAddMenu.setVisibility(View.GONE);
+//                        }else{
+//                            Toast.makeText(MainActivity.this, "동물 등록을 먼저 해 주세요.", Toast.LENGTH_SHORT).show();
+//                        }
+//                    }
+
+                    currentPage = viewPager.getCurrentItem();
+                    info = AppGlobals.INSTANCE.getPetInfo(currentPage);
+                    if(info != null)
                     {
-                        if(mRelativeAddMenu.getVisibility() == View.GONE) {
-                            mRelativeAddMenu.setVisibility(View.VISIBLE);
-                            mLinearContentMenu.setVisibility(View.GONE);
-                        }else{
-                            mRelativeAddMenu.setVisibility(View.GONE);
-                            mLinearContentMenu.setVisibility(View.GONE);
-                        }
+                        intent = new Intent(MainActivity.this, TutorialActivity.class);
+                        intent.putExtra(TutorialActivity.REQ_MODE, URSDefine.PaperMode.litmus10.getValue());
+                        startActivity(intent);
+                        mRelativeAddMenu.setVisibility(View.GONE);
                     }else{
-                        currentPage = viewPager.getCurrentItem();
-                        info = AppGlobals.INSTANCE.getPetInfo(currentPage);
-                        if(info != null)
-                        {
-                            intent = new Intent(MainActivity.this, TutorialActivity.class);
-                            intent.putExtra(TutorialActivity.REQ_MODE, URSDefine.PaperMode.litmus10.getValue());
-                            startActivity(intent);
-                            mRelativeAddMenu.setVisibility(View.GONE);
-                        }else{
-                            Toast.makeText(MainActivity.this, "동물 등록을 먼저 해 주세요.", Toast.LENGTH_SHORT).show();
-                        }
+                        Toast.makeText(MainActivity.this, "동물 등록을 먼저 해 주세요.", Toast.LENGTH_SHORT).show();
                     }
                     break;
 

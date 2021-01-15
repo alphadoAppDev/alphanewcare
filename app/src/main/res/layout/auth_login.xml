@@ -167,30 +167,34 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:gravity="center"
-            android:layout_marginTop="150dp"
             android:layout_marginLeft="70dp"
-            android:layout_marginRight="70dp">
+            android:layout_marginTop="130dp"
+            android:layout_marginRight="70dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
             <ImageView
                 android:layout_width="90dp"
                 android:layout_height="80dp"
-                android:src="@drawable/ic_launcher"/>
+                android:src="@drawable/ic_launcher" />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
-                android:src="@drawable/logo_text"
-                android:paddingTop="10dp"/>
+                android:paddingTop="10dp"
+                android:src="@drawable/logo_text" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorWhite"
+            android:layout_alignParentBottom="true"
             android:layout_marginLeft="35dp"
             android:layout_marginRight="35dp"
+            android:background="@color/colorWhite"
             android:orientation="vertical"
-            android:layout_alignParentBottom="true"
             android:paddingBottom="60dp">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -198,84 +202,97 @@
 
                 <!-- 이메일 -->
                 <TextView
+                    android:paddingTop="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/email_address"
                     android:textColor="@color/colorBlack"
-                    android:textSize="16dp"/>
+                    android:textSize="16dp" />
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_marginTop="10dp">
+
                     <EditText
                         android:id="@+id/editEmail"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@color/colorWhite"
-                        android:inputType="textEmailAddress"
-                        android:gravity="center_vertical"/>
+                        android:gravity="center_vertical"
+                        android:inputType="textEmailAddress" />
+
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:layout_alignParentBottom="true"
-                        android:background="@drawable/background_gray"/>
+                        android:background="@drawable/background_gray" />
                 </RelativeLayout>
 
                 <!-- 비밀번호 -->
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/password"
                     android:layout_marginTop="40dp"
+                    android:text="@string/password"
                     android:textColor="@color/colorBlack"
-                    android:textSize="16dp"/>
+                    android:textSize="16dp" />
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_marginTop="10dp">
+
                     <EditText
                         android:id="@+id/editPassword"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@color/colorWhite"
-                        android:inputType="textPassword"
-                        android:gravity="center_vertical"/>
+                        android:gravity="center_vertical"
+                        android:inputType="textPassword" />
+
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:layout_alignParentBottom="true"
-                        android:background="@drawable/background_gray"/>
+                        android:background="@drawable/background_gray" />
                 </RelativeLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal">
+
                 <CheckBox
                     android:id="@+id/checkbox_auto_login"
                     android:layout_width="30dp"
-                    android:layout_height="40dp"/>
+                    android:layout_height="40dp" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="@string/auto_login"
                     android:gravity="center_vertical"
+                    android:text="@string/auto_login"
                     android:textColor="@color/colorBlack"
-                    android:textSize="16dp"/>
+                    android:textSize="16dp" />
             </LinearLayout>
+
             <RelativeLayout
                 android:id="@+id/rlAlertMsg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop= "10dp"
+                android:layout_marginTop="10dp"
                 android:visibility="invisible">
+
                 <ImageView
                     android:id="@+id/imgAlert"
                     android:layout_width="14dp"
                     android:layout_height="14dp"
                     android:layout_centerVertical="true"
-                    app:srcCompat="@drawable/circle_alert"/>
+                    app:srcCompat="@drawable/circle_alert" />
+
                 <TextView
                     android:id="@+id/txtMsg"
                     android:layout_width="wrap_content"
@@ -283,54 +300,76 @@
                     android:layout_marginStart="10dp"
                     android:layout_toEndOf="@+id/imgAlert"
                     android:textColor="#e02020"
-                    android:textSize="10sp"/>
+                    android:textSize="10sp" />
             </RelativeLayout>
+
             <TextView
                 android:id="@+id/btnChange"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:gravity="center"
                 android:layout_alignParentBottom="true"
-                android:textColor="@color/colorWhite"
                 android:layout_marginLeft="70dp"
-                android:layout_marginRight="70dp"
                 android:layout_marginTop="40dp"
+                android:layout_marginRight="70dp"
                 android:background="@drawable/round_button_pink"
+                android:gravity="center"
+                android:onClick="btnVerifyUser"
                 android:text="@string/btn_login"
-                android:onClick="btnVerifyUser"/>
+                android:textColor="@color/colorWhite" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:orientation="horizontal"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
                 android:gravity="center"
-                android:layout_marginTop="30dp">
-                <ImageView
-                    android:layout_width="20dp"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/ic_arrow_pink"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="@string/sign_up"
-                    android:onClick="btnCreateAccount"
-                    android:textColor="@color/colorBlack"
-                    android:textSize="14dp"
-                    android:layout_marginLeft="10dp"/>
+                android:orientation="horizontal">
 
-                <ImageView
-                    android:layout_width="20dp"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/ic_arrow_pink"
-                    android:layout_marginLeft="20dp"/>
-                <TextView
+                <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="@string/reset_password"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:onClick="btnCreateAccount"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_arrow_pink" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:text="@string/sign_up"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:onClick="btnResetPassword"
-                    android:textColor="@color/colorBlack"
-                    android:textSize="14dp"
-                    android:layout_marginLeft="10dp"/>
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_arrow_pink" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:text="@string/reset_password"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>

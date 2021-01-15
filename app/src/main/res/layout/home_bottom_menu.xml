@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="80dp"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
     android:layout_alignParentBottom="true">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="80dp">
+
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/new_gray_3"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginTop="20dp"
+            android:background="@color/new_gray_3" />
+
         <ImageView
             android:layout_width="85dp"
             android:layout_height="85dp"
-            android:src="@drawable/round_gray_line"
-            android:layout_centerHorizontal="true"/>
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/round_gray_line" />
+
         <View
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/colorWhite"
-            android:layout_marginTop="21dp"/>
+            android:layout_marginTop="21dp"
+            android:background="@color/colorWhite" />
     </RelativeLayout>
 
     <LinearLayout
@@ -34,24 +38,27 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="btnShowMenu">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:gravity="center_horizontal"
                 android:layout_alignParentBottom="true"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
                 <ImageView
                     android:layout_width="15dp"
                     android:layout_height="15dp"
-                    android:src="@drawable/ic_bottom1"/>
+                    android:src="@drawable/ic_bottom1" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/colorBlack"
+                    android:layout_marginTop="5dp"
                     android:text="@string/tab_menu"
-                    android:textSize="11dp"
-                    android:layout_marginTop="5dp"/>
+                    android:textColor="@color/colorBlack"
+                    android:textSize="11dp" />
             </LinearLayout>
         </RelativeLayout>
 
@@ -60,24 +67,27 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="btnShowTestResult">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:gravity="center_horizontal"
                 android:layout_alignParentBottom="true"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
                 <ImageView
                     android:layout_width="15dp"
                     android:layout_height="15dp"
-                    android:src="@drawable/ic_bottom2"/>
+                    android:src="@drawable/ic_bottom2" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/colorBlack"
+                    android:layout_marginTop="5dp"
                     android:text="@string/tab_result"
-                    android:textSize="11dp"
-                    android:layout_marginTop="5dp"/>
+                    android:textColor="@color/colorBlack"
+                    android:textSize="11dp" />
             </LinearLayout>
         </RelativeLayout>
 
@@ -85,34 +95,37 @@
             android:id="@+id/iv_add_popup"
             android:layout_width="0dp"
             android:layout_height="50dp"
+            android:layout_marginTop="15dp"
             android:layout_weight="1"
-            android:src="@drawable/ic_bottom5"
             android:onClick="showTutorialActivity"
-            android:layout_marginTop="15dp"/>
+            android:src="@drawable/ic_bottom5" />
 
         <RelativeLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="btnModifyPet">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:gravity="center_horizontal"
                 android:layout_alignParentBottom="true"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
                 <ImageView
                     android:layout_width="15dp"
                     android:layout_height="15dp"
-                    android:src="@drawable/ic_bottom3"/>
+                    android:src="@drawable/ic_bottom3" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/main_Modify"
                     android:textColor="@color/colorBlack"
-                    android:text="@string/pet_care_list"
-                    android:textSize="11dp"
-                    android:layout_marginTop="5dp"/>
+                    android:textSize="11dp" />
             </LinearLayout>
         </RelativeLayout>
 
@@ -121,24 +134,27 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="btnGoHome">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:gravity="center_horizontal"
                 android:layout_alignParentBottom="true"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
                 <ImageView
                     android:layout_width="15dp"
                     android:layout_height="15dp"
-                    android:src="@drawable/icon_plus"/>
+                    android:src="@drawable/icon_plus" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/colorBlack"
+                    android:layout_marginTop="5dp"
                     android:text="@string/menu_add_pet"
-                    android:textSize="11dp"
-                    android:layout_marginTop="5dp"/>
+                    android:textColor="@color/colorBlack"
+                    android:textSize="11dp" />
             </LinearLayout>
         </RelativeLayout>
     </LinearLayout>
@@ -146,15 +162,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
+        android:layout_marginTop="100dp"
         android:gravity="end"
         android:orientation="horizontal"
-        android:layout_marginTop="100dp"
         android:visibility="gone">
+
         <RelativeLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="btnShowMenu">
+
             <TextView
                 android:id="@+id/txtTabOneTitle"
                 android:layout_width="wrap_content"
@@ -162,18 +180,18 @@
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:padding="5sp"
+                android:text="@string/tab_menu"
                 android:textColor="#77869e"
-                android:textSize="10sp"
-                android:text="@string/tab_menu"/>
+                android:textSize="10sp" />
+
             <ImageView
                 android:id="@+id/imgTab1"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_above="@+id/txtTabOneTitle"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/tab_menu"/>
+                android:src="@drawable/tab_menu" />
         </RelativeLayout>
-
 
 
         <RelativeLayout
@@ -181,6 +199,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="btnShowTestResult">
+
             <TextView
                 android:id="@+id/txtTabTwoTitle"
                 android:layout_width="wrap_content"
@@ -188,16 +207,17 @@
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:padding="5sp"
+                android:text="@string/tab_result"
                 android:textColor="#77869e"
-                android:textSize="10sp"
-                android:text="@string/tab_result"/>
+                android:textSize="10sp" />
+
             <ImageView
                 android:id="@+id/imgTab2"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_above="@+id/txtTabTwoTitle"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/tab_result"/>
+                android:src="@drawable/tab_result" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -205,6 +225,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1">
+
             <TextView
                 android:id="@+id/txtTabThreeTitle"
                 android:layout_width="wrap_content"
@@ -212,9 +233,9 @@
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:padding="5sp"
+                android:text="@string/tab_check"
                 android:textColor="#77869e"
-                android:textSize="10sp"
-                android:text="@string/tab_check"/>
+                android:textSize="10sp" />
 
             <ImageView
                 android:id="@+id/imgTab3"
@@ -222,7 +243,7 @@
                 android:layout_height="45dp"
                 android:layout_above="@+id/txtTabThreeTitle"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/tab_test"/>
+                android:src="@drawable/tab_test" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -230,6 +251,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="btnModifyPet">
+
             <TextView
                 android:id="@+id/txtTabFourTitle"
                 android:layout_width="wrap_content"
@@ -237,16 +259,17 @@
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:padding="5sp"
+                android:text="@string/tab_modify"
                 android:textColor="#77869e"
-                android:textSize="10sp"
-                android:text="@string/tab_modify"/>
+                android:textSize="10sp" />
+
             <ImageView
                 android:id="@+id/imgTab4"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_above="@+id/txtTabFourTitle"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/tab_modify"/>
+                android:src="@drawable/tab_modify" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -254,6 +277,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="btnGoHome">
+
             <TextView
                 android:id="@+id/txtTabFiveTitle"
                 android:layout_width="wrap_content"
@@ -261,16 +285,17 @@
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:padding="5sp"
+                android:text="@string/tab_home"
                 android:textColor="#77869e"
-                android:textSize="10sp"
-                android:text="@string/tab_home"/>
+                android:textSize="10sp" />
+
             <ImageView
                 android:id="@+id/imgTab5"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_above="@+id/txtTabFiveTitle"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/tab_home"/>
+                android:src="@drawable/tab_home" />
         </RelativeLayout>
     </LinearLayout>
 </RelativeLayout>

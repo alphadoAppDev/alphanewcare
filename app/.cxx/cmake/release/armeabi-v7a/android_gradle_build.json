@@ -1,52 +1,50 @@
-
 {
-	"buildFiles" : [ "/Users/kim/1_AOS/AlphaCare/app/CMakeLists.txt" ],
-	"cleanCommands" : 
-	[
-		"/Users/kim/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kim/1_AOS/AlphaCare/app/.cxx/cmake/release/armeabi-v7a --target clean"
-	],
-	"cppFileExtensions" : [ "cpp" ],
-	"libraries" : 
-	{
-		"lib_opencv-Release-armeabi-v7a" : 
-		{
-			"abi" : "armeabi-v7a",
-			"artifactName" : "lib_opencv",
-			"buildType" : "release",
-			"output" : "/Users/kim/1_AOS/AlphaCare/app/src/main/jniLibs/armeabi-v7a/libopencv_java4.so",
-			"toolchain" : "10837814564023918519"
-		},
-		"native-lib-Release-armeabi-v7a" : 
-		{
-			"abi" : "armeabi-v7a",
-			"artifactName" : "native-lib",
-			"buildCommand" : "/Users/kim/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kim/1_AOS/AlphaCare/app/.cxx/cmake/release/armeabi-v7a --target native-lib",
-			"buildType" : "release",
-			"files" : 
-			[
-				
-				{
-					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/kim/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kim/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/opencv/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fexceptions -frtti -std=gnu++11 -Oz -DNDEBUG  -fPIC    -c ",
-					"src" : "/Users/kim/1_AOS/AlphaCare/app/src/main/cpp/native-lib.cpp",
-					"workingDirectory" : "/Users/kim/1_AOS/AlphaCare/app/.cxx/cmake/release/armeabi-v7a"
-				},
-				
-				{
-					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/kim/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kim/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/opencv/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fexceptions -frtti -std=gnu++11 -Oz -DNDEBUG  -fPIC    -c ",
-					"src" : "/Users/kim/1_AOS/AlphaCare/app/src/main/cpp/CCFinder.cpp",
-					"workingDirectory" : "/Users/kim/1_AOS/AlphaCare/app/.cxx/cmake/release/armeabi-v7a"
-				}
-			],
-			"output" : "/Users/kim/1_AOS/AlphaCare/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
-			"toolchain" : "10837814564023918519"
-		}
-	},
-	"toolchains" : 
-	{
-		"10837814564023918519" : 
-		{
-			"cCompilerExecutable" : "/Users/kim/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
-			"cppCompilerExecutable" : "/Users/kim/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
-		}
-	}
+  "stringTable": {
+    "0": "/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/release/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/kim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -I../../../../src/main/cpp/opencv/include -I../../../../src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -fexceptions -frtti -std=gnu++11 -Oz -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "/Users/kim/1_AOS/alphaCare/app/CMakeLists.txt",
+    "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/kim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/release/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/kim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/release/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Release-armeabi-v7a": {
+      "buildCommand": "/Users/kim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/release/armeabi-v7a\" native-lib",
+      "buildType": "release",
+      "toolchain": "182920238",
+      "abi": "armeabi-v7a",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/Users/kim/1_AOS/alphaCare/app/src/main/cpp/CCFinder.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/kim/1_AOS/alphaCare/app/src/main/cpp/native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/kim/1_AOS/alphaCare/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
+      "runtimeFiles": [
+        "/Users/kim/1_AOS/alphaCare/app/src/main/jniLibs/armeabi-v7a/libopencv_java4.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "182920238": {
+      "cppCompilerExecutable": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
 }

@@ -1,8 +1,7 @@
-Executable : /Users/kim/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+Executable : /Users/kim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
 arguments : 
---build
-/Users/kim/1_AOS/AlphaCare/app/.cxx/cmake/debug/armeabi-v7a
---target
+-C
+/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/debug/armeabi-v7a
 native-lib
 jvmArgs : 
 

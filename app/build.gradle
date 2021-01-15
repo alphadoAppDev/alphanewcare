@@ -3,13 +3,13 @@ apply plugin: 'com.android.application'
 //apply plugin: 'io.fabric'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 29
     defaultConfig {
         applicationId "kr.co.alphacare"
         minSdkVersion 23
-        targetSdkVersion 28
-        versionCode 22
-        versionName "2.00.01"
+        targetSdkVersion 29
+        versionCode 23
+        versionName "2.00.02"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
             cmake {
@@ -31,14 +31,18 @@ android {
             path file('CMakeLists.txt')
         }
     }
+    packagingOptions {
+        pickFirst 'lib/arm64-v8a/*'
+        pickFirst 'lib/armeabi-v7a/*'
+    }
 }
 apply plugin: 'com.google.gms.google-services'
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.android.support:appcompat-v7:28.0.0'
-    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:appcompat-v7:29.0.0'
+    implementation 'com.android.support:design:29.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
-    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support:support-v4:29.0.0'
     implementation 'com.google.firebase:firebase-iid:17.0.4'
     implementation 'com.google.firebase:firebase-core:17.0.0'
     implementation 'com.google.firebase:firebase-messaging:20.0.0'

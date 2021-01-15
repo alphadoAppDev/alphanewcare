@@ -1,5 +1,4 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -7,35 +6,36 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:orientation="vertical"
         android:layout_gravity="center"
-        android:background="@drawable/background_menu_top">
+        android:background="@drawable/background_menu_top"
+        android:orientation="vertical">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
             android:layout_marginStart="23dp"
-            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:text="Alpha Care"
             android:textColor="#deffffff"
-            android:text="Alpha Care"/>
+            android:textSize="18sp" />
+
         <TextView
             android:id="@+id/txtBirthDay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="6dp"
             android:layout_marginStart="23dp"
-            android:textSize="14sp"
+            android:layout_marginTop="6dp"
+            android:text="ihji2001@naver.com"
             android:textColor="#deffffff"
-            android:text="ihji2001@naver.com"/>
+            android:textSize="14sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_gravity="center"
         android:layout_weight="6"
-        android:orientation="vertical"
-        android:layout_gravity="center">
-    </LinearLayout>
+        android:orientation="vertical"></LinearLayout>
 
 
     <LinearLayout
@@ -50,6 +50,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="btnShowMenu">
+
             <TextView
                 android:id="@+id/txtTabOneTitle"
                 android:layout_width="wrap_content"
@@ -57,15 +58,16 @@
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:padding="5sp"
+                android:text="메뉴"
                 android:textColor="#77869e"
-                android:textSize="10sp"
-                android:text="메뉴"/>
+                android:textSize="10sp" />
+
             <ImageView
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_above="@+id/txtTabOneTitle"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/tab_menu"/>
+                android:src="@drawable/tab_menu" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -73,6 +75,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="btnShowTestResult">
+
             <TextView
                 android:id="@+id/txtTabTwoTitle"
                 android:layout_width="wrap_content"
@@ -80,15 +83,16 @@
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:padding="5sp"
+                android:text="결과보기"
                 android:textColor="#77869e"
-                android:textSize="10sp"
-                android:text="결과보기"/>
+                android:textSize="10sp" />
+
             <ImageView
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_above="@+id/txtTabTwoTitle"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/tab_result"/>
+                android:src="@drawable/tab_result" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -96,6 +100,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="btnGoTest">
+
             <TextView
                 android:id="@+id/txtTabThreeTitle"
                 android:layout_width="wrap_content"
@@ -103,16 +108,16 @@
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:padding="5sp"
+                android:text="검사하기"
                 android:textColor="#77869e"
-                android:textSize="10sp"
-                android:text="검사하기"/>
+                android:textSize="10sp" />
 
             <ImageView
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_above="@+id/txtTabThreeTitle"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/tab_test"/>
+                android:src="@drawable/tab_test" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -120,6 +125,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="btnDeletePet">
+
             <TextView
                 android:id="@+id/txtTabFourTitle"
                 android:layout_width="wrap_content"
@@ -127,15 +133,16 @@
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:padding="5sp"
+                android:text="삭제하기"
                 android:textColor="#77869e"
-                android:textSize="10sp"
-                android:text="삭제하기"/>
+                android:textSize="10sp" />
+
             <ImageView
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_above="@+id/txtTabFourTitle"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/tab_trash"/>
+                android:src="@drawable/tab_trash" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -143,6 +150,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="btnGoHome">
+
             <TextView
                 android:id="@+id/txtTabFiveTitle"
                 android:layout_width="wrap_content"
@@ -150,15 +158,16 @@
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:padding="5sp"
+                android:text="홈"
                 android:textColor="#77869e"
-                android:textSize="10sp"
-                android:text="홈"/>
+                android:textSize="10sp" />
+
             <ImageView
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_above="@+id/txtTabFiveTitle"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/tab_home"/>
+                android:src="@drawable/tab_home" />
         </RelativeLayout>
 
     </LinearLayout>

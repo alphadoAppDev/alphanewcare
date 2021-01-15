@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="kr.co.alphacare"
-    android:versionCode="22"
-    android:versionName="2.00.01" >
+    android:versionCode="23"
+    android:versionName="2.00.02" >
 
     <uses-sdk
         android:minSdkVersion="23"
-        android:targetSdkVersion="28" />
+        android:targetSdkVersion="29" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -34,6 +34,7 @@
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
+        android:extractNativeLibs="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:largeHeap="true"
@@ -58,9 +59,8 @@
             android:name="kr.co.alphacare.MyFireBaseMessagingService"
             android:enabled="true"
             android:exported="false"
-            android:stopWithTask="false" >
-        </service>
--->
+            android:stopWithTask="false" />
+
         <!-- <service -->
         <!-- android:name=".MyFireBaseMessagingService"> -->
         <!-- <intent-filter> -->
@@ -101,7 +101,8 @@
         <activity
             android:name="kr.co.alphacare.LoginActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/EditTheme" />
+            android:theme="@style/EditTheme"
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name="kr.co.alphacare.ChangePasswordActivity"
             android:screenOrientation="portrait"

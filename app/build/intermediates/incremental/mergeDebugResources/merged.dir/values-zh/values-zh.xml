@@ -590,6 +590,7 @@
     <string name="login">登录</string>
     <string name="login_msg">请登录</string>
     <string name="logout">退出</string>
+    <string name="main_Modify">修改</string>
     <string name="menu_add_pet">添加宠物</string>
     <string name="menu_customer_center">客户服务</string>
     <string name="menu_faq">FAQ</string>
@@ -623,7 +624,6 @@
     <string name="pet_add">您的宠物登记现已完成。</string>
     <string name="pet_birth_date">出生年月日</string>
     <string name="pet_birth_day">出生日期（年/月/日）</string>
-    <string name="pet_care_list">宠物护理清单</string>
     <string name="pet_delete">您要删除宠物信息吗？</string>
     <string name="pet_info">宠物信息</string>
     <string name="pet_modify">您的宠物修改现已完成。</string>

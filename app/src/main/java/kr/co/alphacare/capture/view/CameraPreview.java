@@ -455,7 +455,8 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
                 public void onAutoFocus(boolean success, Camera camera)
                 {
                     System.gc();
-                    camera.takePicture(shutterSound ? shutterCallback : null, null, pictureCallback);
+//                    camera.takePicture(shutterSound ? shutterCallback : null, null, pictureCallback);
+                    camera.takePicture(null, null, pictureCallback);
                 }
             });
         }
@@ -463,7 +464,8 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
         else
         {
             System.gc();
-            camera.takePicture(shutterSound ? shutterCallback : null, null, pictureCallback);
+//            camera.takePicture(shutterSound ? shutterCallback : null, null, pictureCallback);
+            camera.takePicture(null, null, pictureCallback);
         }
     }
 

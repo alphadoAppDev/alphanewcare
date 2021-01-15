@@ -65,7 +65,7 @@
     <string name="authentication_key">인증키</string>
     <string name="auto_login">자동로그인</string>
     <string name="basic_vaccination">기초예방접종</string>
-    <string name="breed">종류</string>
+    <string name="breed">품종</string>
     <string name="breed_etc">기타품종</string>
     <string name="btn_confirm">확인</string>
     <string name="btn_login">로그인하기</string>
@@ -636,11 +636,12 @@
     <string name="item9">백혈구는 혈액을 구성하는 세포 중 하나로서 식균 작용을 통해 반려동물의 면역을 담당합니다. 주로 비뇨기계의 세균 감염이 있는 경우 체내 백혈구가 증가하여 소변에서도 검출될 수 있습니다.</string>
     <string name="item91">요로감염, 전립선염, 비뇨기 질환</string>
     <string name="join_ok">회원가입이 완료되었습니다.</string>
-    <string name="kind">품종</string>
+    <string name="kind">종류</string>
     <string name="latest_version">최신버전입니다.</string>
     <string name="login">로그인</string>
     <string name="login_msg">편리한 사용을 위해 로그인 해주세요.</string>
     <string name="logout">로그아웃</string>
+    <string name="main_Modify">수정하기</string>
     <string name="menu_add_pet">반려동물 추가</string>
     <string name="menu_customer_center">고객센터</string>
     <string name="menu_faq">FAQ</string>
@@ -675,7 +676,6 @@
     <string name="pet_add">반려동물 등록이 완료되었습니다.</string>
     <string name="pet_birth_date">생년월일</string>
     <string name="pet_birth_day">생년월일:</string>
-    <string name="pet_care_list">펫 케어관리</string>
     <string name="pet_delete">선택된 펫을 삭제하시겠습니까?</string>
     <string name="pet_info">펫 정보</string>
     <string name="pet_modify">반려동물 수정이 완료되었습니다.</string>

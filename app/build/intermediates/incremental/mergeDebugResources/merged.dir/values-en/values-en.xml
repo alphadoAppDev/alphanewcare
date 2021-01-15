@@ -587,6 +587,7 @@
     <string name="login">Login</string>
     <string name="login_msg">Please login.</string>
     <string name="logout">Logout</string>
+    <string name="main_Modify">Modify</string>
     <string name="menu_add_pet">Add pet</string>
     <string name="menu_customer_center">Customer service</string>
     <string name="menu_faq">FAQ</string>
@@ -621,7 +622,6 @@ numbers 0~9 and special characters !@.#$%^&amp;*?_~."</string>
     <string name="pet_add">Your pet registration is complete.</string>
     <string name="pet_birth_date">Birth</string>
     <string name="pet_birth_day">date of birth:</string>
-    <string name="pet_care_list">Pet Care List</string>
     <string name="pet_delete">Are you sure you want to delete the selected pet?</string>
     <string name="pet_info">Pet Info</string>
     <string name="pet_modify">Your pet modification is complete.</string>

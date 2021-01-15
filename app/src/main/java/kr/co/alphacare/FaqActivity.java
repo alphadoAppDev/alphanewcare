@@ -16,6 +16,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import org.w3c.dom.Text;
 
+import java.util.Locale;
+
 
 public class FaqActivity extends AppCompatActivity {
 
@@ -169,8 +171,16 @@ public class FaqActivity extends AppCompatActivity {
         linearLayout.setOnClickListener(clickListener);
         linearLayout = findViewById(R.id.llFaq7);
         linearLayout.setOnClickListener(clickListener);
+
+        /**
+         * 210113 언어셋이 fi 일 경우 일곱번째 답변 gone 처리
+         * */
         linearLayout = findViewById(R.id.llFaq8);
         linearLayout.setOnClickListener(clickListener);
+        if (Locale.getDefault().getLanguage().equals("fi")) {
+            linearLayout.setVisibility(View.GONE);
+        }
+
         linearLayout = findViewById(R.id.llFaq9);
         linearLayout.setOnClickListener(clickListener);
     }

@@ -6,11 +6,14 @@ import android.util.Log;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import java.util.function.ToLongFunction;
 
 import kr.co.alphacare.R;
 
@@ -40,6 +43,20 @@ public final class PetKind {
         return result;
     }
 
+//    class MapComparator implements Comparator<Map<String, Object>> {
+//        private final String name;
+//
+//        public MapComparator(String name){
+//            this.name = name;
+//        }
+//
+//        @Override
+//        public int compare(Map<String, Object> o1, Map<String, Object> o2) {
+//            int result = o1.get(name).compareTo(o2.get(name));
+//            return 0;
+//        }
+//
+//    }
 
     public static List<Map<String, Object>> GetPetKindList(Context context, int type) {
         List<Map<String, Object>> dialogItemList;
@@ -62,6 +79,30 @@ public final class PetKind {
 
             Log.e("PetKind", "dog" + i + ": kind: " +szValue[0] + ", name: " + szValue[1]);
         }
+
+
+        /**
+         * 210113 정렬 기능 추가
+         * */
+        Collections.sort(dialogItemList, new Comparator<Map<String, Object>>() {
+            @Override
+            public int compare(Map<String, Object> o1, Map<String, Object> o2) {
+
+                String firstValue = (String) o1.get("name");
+                String secondValue = (String) o2.get("name");
+
+
+                if (secondValue.compareTo(firstValue) > 0) {
+                    return -1;
+                }else if (secondValue.compareTo(firstValue) < 0) {
+                    return 1;
+                }else {
+                    return 0;
+                }
+
+            }
+        });
+
 
         return dialogItemList;
     }

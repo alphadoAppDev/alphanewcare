@@ -7,7 +7,7 @@
 #include "CCFinder.h"
 #include "URSDefine.h"
 
-#define angleLimit 1.0f
+#define angleLimit 15.0f
 
 using namespace cv;
 
@@ -259,7 +259,7 @@ extern "C"
                 break;
 		}
 
-    //        LOGD("rectMinTh : %d, rectMaxTh : %d", rectMinTh, rectMaxTh);
+//		LOGD("rectMinTh : %d, rectMaxTh : %d", rectMinTh, rectMaxTh);
 
         adaptiveThreshold(bw, bw, 255, ADAPTIVE_THRESH_GAUSSIAN_C, THRESH_BINARY_INV, windowSize, 15);
 
@@ -311,6 +311,7 @@ extern "C"
             ccfinder = NULL;
         }
 
+
         if ((mode == 1 && rects.size() < 30) ||
         //if ((mode == 1 && rects.size() != 52) ||
             (mode == 2 && rects.size() != 5) ||
@@ -341,10 +342,11 @@ extern "C"
                 }
             }
 
+
             if (rects.at(0).y > bw.rows * 0.25f ||
                 rects.at(0).x < bw.cols * 0.3f ||
                 rects.at(0).x > bw.cols * 0.7f ||
-                intersect == true)
+                intersect)
             {
                 LOGD("용지 방향 확인 필요");
                 // 첫 렉트는 상단에 존재해야 함.

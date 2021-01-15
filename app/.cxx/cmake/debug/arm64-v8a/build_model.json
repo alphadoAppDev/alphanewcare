@@ -1,74 +1,215 @@
 {
-  "variant": {
-    "module": {
-      "rootBuildGradleFolder": "/Users/kim/1_AOS/AlphaCare",
-      "sdkFolder": "/Users/kim/Library/Android/sdk",
-      "isNativeCompilerSettingsCacheEnabled": false,
-      "isBuildOnlyTargetAbiEnabled": true,
-      "ideBuildTargetAbi": "arm64-v8a,armeabi-v7a,armeabi",
-      "splitsAbiFilterSet": [],
-      "intermediatesFolder": "/Users/kim/1_AOS/AlphaCare/app/build/intermediates",
-      "gradleModulePathName": ":app",
-      "moduleRootFolder": "/Users/kim/1_AOS/AlphaCare/app",
-      "makeFile": "/Users/kim/1_AOS/AlphaCare/app/CMakeLists.txt",
-      "buildSystem": "CMAKE",
-      "compilerSettingsCacheFolder": "/Users/kim/1_AOS/AlphaCare/.cxx",
-      "cxxFolder": "/Users/kim/1_AOS/AlphaCare/app/.cxx",
-      "ndkFolder": "/Users/kim/Library/Android/sdk/ndk/22.0.7026061",
-      "ndkVersion": "22.0.7026061",
-      "ndkSupportedAbiList": [
-        "ARMEABI_V7A",
-        "ARM64_V8A",
-        "X86",
-        "X86_64"
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 23,
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "cmake": {
+    "cmakeArtifactsBaseFolder": "/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/debug/arm64-v8a",
+    "cmakeServerLogFile": "/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/debug/arm64-v8a/cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "/Users/kim/1_AOS/alphaCare/app/.cxx/cxx/debug/arm64-v8a",
+    "effectiveConfiguration": {
+      "name": "traditional-android-studio-cmake-environment",
+      "description": "Composite reified CMakeSettings configuration",
+      "generator": "Ninja",
+      "inheritEnvironments": [
+        "ndk"
       ],
+      "buildRoot": "/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/debug/arm64-v8a",
+      "cmakeToolchain": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+      "cmakeExecutable": "/Users/kim/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+      "variables": [
+        {
+          "name": "CMAKE_CXX_FLAGS",
+          "value": "-fexceptions -frtti"
+        },
+        {
+          "name": "CMAKE_FIND_ROOT_PATH",
+          "value": "/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/debug/prefab/arm64-v8a/prefab"
+        },
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Debug"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake"
+        },
+        {
+          "name": "ANDROID_ABI",
+          "value": "arm64-v8a"
+        },
+        {
+          "name": "ANDROID_NDK",
+          "value": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462"
+        },
+        {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-23"
+        },
+        {
+          "name": "CMAKE_ANDROID_ARCH_ABI",
+          "value": "arm64-v8a"
+        },
+        {
+          "name": "CMAKE_ANDROID_NDK",
+          "value": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462"
+        },
+        {
+          "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+          "value": "ON"
+        },
+        {
+          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "value": "/Users/kim/1_AOS/alphaCare/app/build/intermediates/cmake/debug/obj/arm64-v8a"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "/Users/kim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
+        },
+        {
+          "name": "CMAKE_SYSTEM_NAME",
+          "value": "Android"
+        },
+        {
+          "name": "CMAKE_SYSTEM_VERSION",
+          "value": "23"
+        },
+        {
+          "name": "ANDROID_STL",
+          "value": "c++_shared"
+        }
+      ]
+    }
+  },
+  "cxxBuildFolder": "/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/debug/arm64-v8a",
+  "info": {
+    "abi": "ARM64_V8A",
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/debug/arm64-v8a",
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DANDROID_STL\u003dc++_shared"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cFlagsList": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "cppFlagsList": [
+      "-fexceptions",
+      "-frtti"
+    ],
+    "isDebuggableEnabled": true,
+    "module": {
+      "buildSystem": "CMAKE",
+      "cmake": {
+        "cmakeExe": "/Users/kim/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "/Users/kim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
+      },
+      "cmakeToolchainFile": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+      "cxxFolder": "/Users/kim/1_AOS/alphaCare/app/.cxx",
+      "gradleModulePathName": ":app",
+      "intermediatesFolder": "/Users/kim/1_AOS/alphaCare/app/build/intermediates",
+      "makeFile": "/Users/kim/1_AOS/alphaCare/app/CMakeLists.txt",
+      "moduleBuildFile": "/Users/kim/1_AOS/alphaCare/app/build.gradle",
+      "moduleRootFolder": "/Users/kim/1_AOS/alphaCare/app",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
         "X86",
         "X86_64"
       ],
-      "cmakeToolchainFile": "."
+      "ndkFolder": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462",
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 29,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29
+        }
+      },
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkVersion": "21.1.6352462",
+      "project": {
+        "compilerSettingsCacheFolder": "/Users/kim/1_AOS/alphaCare/.cxx",
+        "cxxFolder": "/Users/kim/1_AOS/alphaCare/.cxx",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "rootBuildGradleFolder": "/Users/kim/1_AOS/alphaCare",
+        "sdkFolder": "/Users/kim/Library/Android/sdk",
+        "isPrefabEnabled": false
+      },
+      "splitsAbiFilterSet": [],
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      }
     },
-    "buildSystemArgumentList": [
-      "-DANDROID_STL\u003dc++_shared"
-    ],
-    "cFlagList": [],
-    "cppFlagsList": [
-      "-fexceptions",
-      "-frtti"
-    ],
+    "objFolder": "/Users/kim/1_AOS/alphaCare/app/build/intermediates/cmake/debug/obj",
     "variantName": "debug",
-    "soFolder": "/Users/kim/1_AOS/AlphaCare/app/build/intermediates/cmake/debug/lib",
-    "objFolder": "/Users/kim/1_AOS/AlphaCare/app/build/intermediates/cmake/debug/obj",
-    "jsonFolder": "/Users/kim/1_AOS/AlphaCare/app/.cxx/cmake/debug",
-    "gradleBuildOutputFolder": "/Users/kim/1_AOS/AlphaCare/app/.cxx/cxx/debug",
-    "isDebuggableEnabled": true,
     "validAbiList": [
-      "ARM64_V8A",
-      "ARMEABI_V7A"
+      "ARMEABI_V7A",
+      "ARM64_V8A"
     ],
-    "buildTargetSet": []
+    "prefabDirectory": "/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/debug/prefab",
+    "prefabPackageDirectoryList": []
   },
-  "abi": "ARM64_V8A",
-  "abiPlatformVersion": 23,
-  "cxxBuildFolder": "/Users/kim/1_AOS/AlphaCare/app/.cxx/cmake/debug/arm64-v8a",
-  "jsonFile": "/Users/kim/1_AOS/AlphaCare/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json",
-  "gradleBuildOutputFolder": "/Users/kim/1_AOS/AlphaCare/app/.cxx/cxx/debug/arm64-v8a",
-  "objFolder": "/Users/kim/1_AOS/AlphaCare/app/build/intermediates/cmake/debug/obj/arm64-v8a",
-  "buildCommandFile": "/Users/kim/1_AOS/AlphaCare/app/.cxx/cmake/debug/arm64-v8a/build_command.txt",
-  "buildOutputFile": "/Users/kim/1_AOS/AlphaCare/app/.cxx/cmake/debug/arm64-v8a/build_output.txt",
-  "modelOutputFile": "/Users/kim/1_AOS/AlphaCare/app/.cxx/cmake/debug/arm64-v8a/build_model.json",
-  "cmake": {
-    "cmakeListsWrapperFile": "/Users/kim/1_AOS/AlphaCare/app/.cxx/cxx/debug/arm64-v8a/CMakeLists.txt",
-    "toolchainWrapperFile": "/Users/kim/1_AOS/AlphaCare/app/.cxx/cxx/debug/arm64-v8a/android_gradle_build.toolchain.cmake",
-    "buildGenerationStateFile": "/Users/kim/1_AOS/AlphaCare/app/.cxx/cxx/debug/arm64-v8a/build_generation_state.json",
-    "cacheKeyFile": "/Users/kim/1_AOS/AlphaCare/app/.cxx/cxx/debug/arm64-v8a/compiler_cache_key.json",
-    "compilerCacheUseFile": "/Users/kim/1_AOS/AlphaCare/app/.cxx/cxx/debug/arm64-v8a/compiler_cache_use.json",
-    "compilerCacheWriteFile": "/Users/kim/1_AOS/AlphaCare/app/.cxx/cxx/debug/arm64-v8a/compiler_cache_write.json",
-    "toolchainSettingsFromCacheFile": "/Users/kim/1_AOS/AlphaCare/app/.cxx/cxx/debug/arm64-v8a/compiler_settings_cache.cmake",
-    "cmakeWrappingBaseFolder": "."
-  },
-  "jsonGenerationLoggingRecordFile": "/Users/kim/1_AOS/AlphaCare/app/.cxx/cmake/debug/arm64-v8a/json_generation_record.json",
-  "compileCommandsJsonFile": "/Users/kim/1_AOS/AlphaCare/app/.cxx/cmake/debug/arm64-v8a/compile_commands.json"
+  "prefabFolder": "/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/debug/prefab/arm64-v8a"
 }

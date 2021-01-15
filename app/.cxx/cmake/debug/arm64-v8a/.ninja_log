@@ -1,4 +1,2 @@
 # ninja log v5
-3	1275	0	CMakeFiles/native-lib.dir/src/main/cpp/CCFinder.cpp.o	fcf65ba569f52f0f
-0	1633	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	59fa55f8f04ac4d6
-1633	1689	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	64cca512f160487b
+0	6	0	clean	95b6871f7eeb96d

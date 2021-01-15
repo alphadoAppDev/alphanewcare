@@ -1,1 +1,4 @@
-ninja: no work to do.
+ninja: Entering directory `/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/debug/armeabi-v7a'
+[1/3] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/CCFinder.cpp.o
+[2/3] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
+[3/3] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so
