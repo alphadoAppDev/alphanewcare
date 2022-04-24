@@ -1,51 +1,34 @@
 {
   "project_info": {
-    "project_number": "142486300617",
-    "firebase_url": "https://alphacare-259523.firebaseio.com",
-    "project_id": "alphacare-259523",
-    "storage_bucket": "alphacare-259523.appspot.com"
+    "project_number": "346358536521",
+    "project_id": "alphanewcare",
+    "storage_bucket": "alphanewcare.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:142486300617:android:7737424cec5a3188e66a18",
+        "mobilesdk_app_id": "1:346358536521:android:01007e3bf4dfe73eb5e298",
         "android_client_info": {
-          "package_name": "kr.co.alphacare"
+          "package_name": "kr.co.alphanewcare"
         }
       },
       "oauth_client": [
         {
-          "client_id": "142486300617-c2eggl8mqvsedr8b7u7i4lfi53o4m85c.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "kr.co.alphacare",
-            "certificate_hash": "1b47221df193125bce94533c831f5db2b3fc885c"
-          }
-        },
-        {
-          "client_id": "142486300617-7r494h3col4dnm8m7qkf6pk1vdh9hnt2.apps.googleusercontent.com",
+          "client_id": "346358536521-2mos1l8r19an65d4pc2f50jt5jh28ang.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDkcaBGxREbH0CIzGJl3SykISiVSYlklhY"
+          "current_key": "AIzaSyDD0kCQjDzO6GdQYObeCr1JnNEKX6L4Hxs"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "142486300617-7r494h3col4dnm8m7qkf6pk1vdh9hnt2.apps.googleusercontent.com",
+              "client_id": "346358536521-2mos1l8r19an65d4pc2f50jt5jh28ang.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "142486300617-nu1oiqoig94gvu16bdflttqre5kk27fv.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "kr.co.alphado.petcare",
-                "app_store_id": "1482727193"
-              }
             }
           ]
         }

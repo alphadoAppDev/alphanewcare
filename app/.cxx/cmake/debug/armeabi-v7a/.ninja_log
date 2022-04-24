@@ -1,8 +1,12 @@
 # ninja log v5
-1	1116	1610606196	CMakeFiles/native-lib.dir/src/main/cpp/CCFinder.cpp.o	8469123f17b83f36
-1	1374	1610606197	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	aa9d165906698747
-1374	1429	1610606197	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	e6db30058c39d62f
-0	21	0	clean	95b6871f7eeb96d
-1	1165	1610678814	CMakeFiles/native-lib.dir/src/main/cpp/CCFinder.cpp.o	8469123f17b83f36
-2	1397	1610678814	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	aa9d165906698747
-1398	1484	1610678814	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	e6db30058c39d62f
+1	1073	1623197628	CMakeFiles/native-lib.dir/src/main/cpp/CCFinder.cpp.o	66b4c0ea577e5d25
+1	1306	1623197628	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	42609dbad7533de9
+1306	1382	1623197628	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	aa0ae5464f59011c
+0	6	0	clean	1c5c26b64f027459
+0	7	0	clean	1c5c26b64f027459
+0	9	0	clean	1c5c26b64f027459
+0	7	0	clean	1c5c26b64f027459
+0	6	0	clean	1c5c26b64f027459
+2	1082	1623297187	CMakeFiles/native-lib.dir/src/main/cpp/CCFinder.cpp.o	66b4c0ea577e5d25
+4	1369	1623297187	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	42609dbad7533de9
+1369	1469	1623297187	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	aa0ae5464f59011c

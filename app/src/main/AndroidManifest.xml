@@ -2,12 +2,11 @@
 <manifest
 
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="kr.co.alphacare">
+    package="kr.co.alphanewcare">
 
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -32,7 +31,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-
+        android:requestLegacyExternalStorage="true"
         android:usesCleartextTraffic="true">
         <!--android:networkSecurityConfig="@xml/network_security_config"-->
         <meta-data
@@ -45,19 +44,18 @@
             android:name="firebase_analytics_collection_enabled"
             android:value="false" />
 
-        <service
-            android:name=".MyFireBaseMessagingService"
-            android:enabled="true"
-            android:exported="false"
-            android:stopWithTask="false" />
+<!--        <service-->
+<!--            android:name="kr.co.alphanewcare.MyFireBaseMessagingService"-->
+<!--            android:enabled="true"-->
+<!--            android:exported="false"-->
+<!--            android:stopWithTask="false" />-->
 
 
-        <!--        <service-->
-        <!--            android:name=".MyFireBaseMessagingService">-->
-        <!--            <intent-filter>-->
-        <!--                <action android:name="com.google.firebase.MESSAGING_EVENT"/>-->
-        <!--            </intent-filter>-->
-        <!--        </service>-->
+        <service android:name=".MyFireBaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
 
         <!--        <receiver-->
         <!--            android:name=".AlarmBroadcastReceiver"-->
@@ -70,7 +68,7 @@
 
 
         <activity
-            android:name=".IntroActivity"
+            android:name="kr.co.alphanewcare.IntroActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -83,106 +81,107 @@
 
 
         <activity
-            android:name=".MainActivity"
+            android:name="kr.co.alphanewcare.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
 
 
         <activity
-            android:name=".CreateAccountActivity"
+            android:name="kr.co.alphanewcare.CreateAccountActivity"
             android:screenOrientation="portrait"
             android:theme="@style/EditTheme" />
         <activity
-            android:name=".LoginActivity"
+            android:name="kr.co.alphanewcare.LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/EditTheme"
             android:windowSoftInputMode="adjustResize" />
 
         <activity
-            android:name=".ChangePasswordActivity"
+            android:name="kr.co.alphanewcare.ChangePasswordActivity"
             android:screenOrientation="portrait"
             android:theme="@style/EditTheme" />
         <activity
-            android:name=".ResetPasswordActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/EditTheme" />
-
-        <activity
-            android:name=".AddPet"
-            android:screenOrientation="portrait"
-            android:theme="@style/EditTheme" />
-        <activity
-            android:name=".ModifyPet"
+            android:name="kr.co.alphanewcare.ResetPasswordActivity"
             android:screenOrientation="portrait"
             android:theme="@style/EditTheme" />
 
         <activity
-            android:name=".CareActivity"
+            android:name="kr.co.alphanewcare.AddPet"
+            android:screenOrientation="portrait"
+            android:theme="@style/EditTheme" />
+        <activity
+            android:name="kr.co.alphanewcare.ModifyPet"
             android:screenOrientation="portrait"
             android:theme="@style/EditTheme" />
 
         <activity
-            android:name=".CareAddActivity"
+            android:name="kr.co.alphanewcare.CareActivity"
             android:screenOrientation="portrait"
             android:theme="@style/EditTheme" />
 
         <activity
-            android:name=".CareListActivity"
+            android:name="kr.co.alphanewcare.CareAddActivity"
             android:screenOrientation="portrait"
             android:theme="@style/EditTheme" />
 
         <activity
-            android:name=".TestResult"
+            android:name="kr.co.alphanewcare.CareListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/EditTheme" />
+
+        <activity
+            android:name="kr.co.alphanewcare.TestResult"
             android:screenOrientation="portrait"
             android:theme="@style/EditTheme" />
         <activity
-            android:name=".MenuActivity"
+            android:name="kr.co.alphanewcare.MenuActivity"
             android:screenOrientation="portrait"
             android:theme="@style/EditTheme" />
         <activity
-            android:name=".ProfileActivity"
+            android:name="kr.co.alphanewcare.ProfileActivity"
             android:screenOrientation="portrait"
             android:theme="@style/EditTheme" />
         <activity
-            android:name=".FaqActivity"
+            android:name="kr.co.alphanewcare.FaqActivity"
             android:screenOrientation="portrait"
             android:theme="@style/EditTheme" />
         <activity
-            android:name=".SettingActivity"
+            android:name="kr.co.alphanewcare.SettingActivity"
             android:screenOrientation="portrait"
             android:theme="@style/EditTheme" />
         <activity
-            android:name=".ServiceCenterActivity"
+            android:name="kr.co.alphanewcare.ServiceCenterActivity"
             android:screenOrientation="portrait"
             android:theme="@style/EditTheme" />
         <activity
-            android:name=".PrivacyActivity"
+            android:name="kr.co.alphanewcare.PrivacyActivity"
             android:screenOrientation="portrait"
             android:theme="@style/EditTheme" />
         <activity
-            android:name=".ServiceTermsActivity"
+            android:name="kr.co.alphanewcare.ServiceTermsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/EditTheme" />
 
 
         <activity
-            android:name=".main.MainActivity"
+            android:name="kr.co.alphanewcare.main.MainActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="kr.co.alphacare.tutorial.TutorialActivity"
+            android:name="kr.co.alphanewcare.tutorial.TutorialActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"/>
+
+        <activity
+            android:name="kr.co.alphanewcare.capture.CaptureActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="kr.co.alphacare.capture.CaptureActivity"
+            android:name="kr.co.alphanewcare.result.ResultActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="kr.co.alphacare.result.ResultActivity"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name="kr.co.alphacare.graph.GraphActivity"
+            android:name="kr.co.alphanewcare.graph.GraphActivity"
             android:screenOrientation="portrait" />
     </application>
 

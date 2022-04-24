@@ -67,7 +67,7 @@
 
     </LinearLayout>
 
-    <kr.co.alphacare.result.view.DrawImageView
+    <kr.co.alphanewcare.result.view.DrawImageView
         android:id="@+id/resultImage"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

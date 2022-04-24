@@ -76,6 +76,7 @@
                                 android:layout_centerVertical="true"
                                 android:src="@drawable/ic_arrow_bottom"
                                 android:layout_marginRight="20dp"/>
+
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="17dp"
@@ -144,6 +145,8 @@
                                 </RelativeLayout>
                             </LinearLayout>
                         </RelativeLayout>
+
+
                         <LinearLayout
                             android:id="@+id/linear_content_1"
                             android:layout_width="match_parent"
@@ -223,7 +226,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:visibility="gone">
+                        android:visibility="visible">
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="65dp"
@@ -235,6 +238,7 @@
                                 android:background="@drawable/test_result_dot_yellow"
                                 android:layout_centerVertical="true"
                                 android:layout_marginLeft="15dp"/>
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
@@ -243,6 +247,7 @@
                                 android:textSize="14dp"
                                 android:text="@string/test_item2"
                                 android:layout_marginLeft="37dp"/>
+
                             <ImageView
                                 android:id="@+id/iv_arrow_2"
                                 android:layout_width="15dp"
@@ -251,6 +256,7 @@
                                 android:layout_centerVertical="true"
                                 android:src="@drawable/ic_arrow_bottom"
                                 android:layout_marginRight="20dp"/>
+
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="17dp"
@@ -258,6 +264,7 @@
                                 android:layout_marginLeft="18dp"
                                 android:layout_marginRight="20dp"
                                 android:layout_alignParentBottom="true">
+
                                 <RelativeLayout
                                     android:layout_width="0dp"
                                     android:layout_height="match_parent"
@@ -275,11 +282,13 @@
                                     android:layout_weight="1"
                                     android:background="@drawable/test_result_box_empty"
                                     android:layout_marginLeft="2dp">
+
                                     <ImageView
                                         android:id="@+id/txtItemTwo2"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
                                         android:src="@drawable/test_result_box_yellow"/>
+
                                 </RelativeLayout>
                                 <RelativeLayout
                                     android:layout_width="0dp"
@@ -293,6 +302,7 @@
                                         android:layout_height="match_parent"
                                         android:src="@drawable/test_result_box_yellow"/>
                                 </RelativeLayout>
+
                                 <RelativeLayout
                                     android:layout_width="0dp"
                                     android:layout_height="match_parent"
@@ -307,6 +317,8 @@
                                 </RelativeLayout>
                             </LinearLayout>
                         </RelativeLayout>
+
+
                         <LinearLayout
                             android:id="@+id/linear_content_2"
                             android:layout_width="match_parent"
@@ -386,7 +398,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:visibility="gone">
+                        android:visibility="visible">
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="65dp"
@@ -466,7 +478,7 @@
                                         android:id="@+id/txtItemThree4"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:src="@drawable/test_result_box_yellow"/>
+                                        android:src="@drawable/test_result_box_red"/>
                                 </RelativeLayout>
                                 <RelativeLayout
                                     android:layout_width="0dp"
@@ -561,7 +573,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:visibility="gone">
+                        android:visibility="visible">
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="65dp"
@@ -748,7 +760,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:visibility="gone">
+                        android:visibility="visible">
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="65dp"
@@ -935,7 +947,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:visibility="gone">
+                        android:visibility="visible">
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="65dp"
@@ -1074,7 +1086,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:visibility="gone">
+                        android:visibility="visible">
+
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="65dp"
@@ -1262,7 +1275,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:visibility="gone">
+                        android:visibility="visible">
+
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="65dp"
@@ -1498,7 +1512,7 @@
                                     android:id="@+id/txtItemNine1"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:src="@drawable/test_result_box_red"/>
+                                    android:src="@drawable/test_result_box_yellow"/>
                             </RelativeLayout>
                             <RelativeLayout
                                 android:layout_width="0dp"
@@ -1534,7 +1548,7 @@
                                     android:id="@+id/txtItemNine4"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:src="@drawable/test_result_box_yellow"/>
+                                    android:src="@drawable/test_result_box_green"/>
                             </RelativeLayout>
                             <RelativeLayout
                                 android:layout_width="0dp"
@@ -1542,11 +1556,12 @@
                                 android:layout_weight="1"
                                 android:background="@drawable/test_result_box_empty"
                                 android:layout_marginLeft="2dp">
+
                                 <ImageView
                                     android:id="@+id/txtItemNine5"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:src="@drawable/test_result_box_yellow"/>
+                                    android:src="@drawable/test_result_box_green"/>
                             </RelativeLayout>
                             <RelativeLayout
                                 android:layout_width="0dp"
@@ -1558,7 +1573,7 @@
                                     android:id="@+id/txtItemNine6"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:src="@drawable/test_result_box_red"/>
+                                    android:src="@drawable/test_result_box_yellow"/>
                             </RelativeLayout>
                             <RelativeLayout
                                 android:layout_width="0dp"

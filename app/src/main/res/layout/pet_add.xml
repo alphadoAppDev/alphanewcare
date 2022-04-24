@@ -220,6 +220,7 @@
                                 android:textColor="@color/new_gray_1"
                                 android:text="@string/kind"/>
                             <TextView
+                                android:id="@+id/tvBreed"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -260,6 +261,7 @@
                                 android:layout_width="0dp"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
+                                android:id="@+id/breedView"
                                 android:background="@drawable/bg_edit"
                                 android:layout_alignParentEnd="true"
                                 android:gravity="center_vertical"

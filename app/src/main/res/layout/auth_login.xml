@@ -371,6 +371,63 @@
                 </LinearLayout>
 
             </LinearLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:id="@+id/chinaView"
+                android:visibility="gone"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/textView"
+                    app:layout_constraintTop_toBottomOf="@+id/tvDesc01"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textSize="7dp"
+                        android:text="登录表示同意AlphaDo Pet Care"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tvTerms"
+                        android:layout_width="wrap_content"
+                        android:textSize="7dp"
+                        android:text="《服务条款》"
+                        android:textColor="#6f9fdb"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textSize="7dp"
+                        android:text="和"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tvPrivacy"
+                        android:layout_width="wrap_content"
+                        android:textSize="7dp"
+                        android:text="《隐私条款》"
+                        android:textColor="#6f9fdb"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textSize="7dp"
+                        android:text=""
+                        android:layout_height="wrap_content"
+                        app:layout_constraintRight_toRightOf="parent"/>
+
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
         </LinearLayout>
     </RelativeLayout>
 </RelativeLayout>

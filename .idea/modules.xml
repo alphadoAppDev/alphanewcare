@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AlphaCare.iml" filepath="$PROJECT_DIR$/AlphaCare.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AlphaCare.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AlphaCare.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openCVLibrary411/AlphaCare.openCVLibrary411.iml" filepath="$PROJECT_DIR$/.idea/modules/openCVLibrary411/AlphaCare.openCVLibrary411.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/alphanewcare.iml" filepath="$PROJECT_DIR$/.idea/modules/alphanewcare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/alphanewcare.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/alphanewcare.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openCVLibrary411/alphanewcare.openCVLibrary411.iml" filepath="$PROJECT_DIR$/.idea/modules/openCVLibrary411/alphanewcare.openCVLibrary411.iml" />
     </modules>
   </component>
 </project>

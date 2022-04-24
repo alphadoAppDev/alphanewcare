@@ -1,21 +1,21 @@
 {
   "buildFiles": [
-    "/Users/kim/1_AOS/alphaCare/app/CMakeLists.txt",
-    "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
-    "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+    "/Users/alphado/AndroidStudioProjects/alphanewcar_중국/alphanewcare/app/CMakeLists.txt",
+    "/Users/alphado/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/alphado/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
   ],
   "cleanCommands": [
-    "/Users/kim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/debug/arm64-v8a\" clean"
+    "/Users/alphado/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/alphado/AndroidStudioProjects/alphanewcar_중국/alphanewcare/app/.cxx/cmake/debug/arm64-v8a\" clean"
   ],
-  "buildTargetsCommand": "/Users/kim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/Users/alphado/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/alphado/AndroidStudioProjects/alphanewcar_중국/alphanewcare/app/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "native-lib-Debug-arm64-v8a": {
       "artifactName": "native-lib",
-      "buildCommand": "/Users/kim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/debug/arm64-v8a\" native-lib",
+      "buildCommand": "/Users/alphado/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/alphado/AndroidStudioProjects/alphanewcar_중국/alphanewcare/app/.cxx/cmake/debug/arm64-v8a\" native-lib",
       "abi": "arm64-v8a",
-      "output": "/Users/kim/1_AOS/alphaCare/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so",
+      "output": "/Users/alphado/AndroidStudioProjects/alphanewcar_중국/alphanewcare/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so",
       "runtimeFiles": [
-        "/Users/kim/1_AOS/alphaCare/app/src/main/jniLibs/arm64-v8a/libopencv_java4.so"
+        "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/src/main/jniLibs/arm64-v8a/libopencv_java4.so"
       ]
     }
   }

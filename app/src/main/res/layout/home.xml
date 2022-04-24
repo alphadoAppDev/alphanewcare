@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/colorWhite">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <View
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="905"
-            android:background="@drawable/ic_background"/>
+            android:background="@drawable/ic_background" />
+
         <View
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="780"/>
+            android:layout_weight="780" />
 
     </LinearLayout>
+
     <androidx.drawerlayout.widget.DrawerLayout
         android:id="@+id/drawer_layout"
         android:layout_width="match_parent"
@@ -36,19 +39,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="7">
+
                 <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewPager"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:id="@+id/viewPager" />
+                    android:layout_height="match_parent" />
+
                 <LinearLayout
                     android:id="@+id/lySelectedPet"
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
-                    android:orientation="horizontal"
-                    android:layout_centerHorizontal="true"
                     android:layout_alignParentBottom="true"
-                    android:layout_marginBottom="10dp">
-                </LinearLayout>
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal"></LinearLayout>
             </RelativeLayout>
 
 
@@ -63,51 +67,57 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
-                    android:textSize="16dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
+                    android:text="@string/test_history"
                     android:textColor="@color/colorBlack"
-                    android:text="@string/test_history"/>
+                    android:textSize="16dp" />
 
                 <TextView
                     android:id="@+id/txtTestNone"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:gravity="center"
-                    android:textSize="16dp"
-                    android:textColor="@color/colorBlack"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
-                    android:text="@string/no_test_history"/>
+                    android:gravity="center"
+                    android:text="@string/no_test_history"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16dp" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
+
+
+
                     <ListView
                         android:id="@+id/listview_test"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:divider="@color/colorWhite"
-                        android:layout_marginTop="20dp"
-                        android:dividerHeight="15dp"
                         android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
                         android:layout_marginRight="20dp"
-                        android:layout_marginBottom="60dp"/>
+                        android:layout_marginBottom="60dp"
+                        android:divider="@color/colorWhite"
+                        android:dividerHeight="15dp" />
+
                     <RelativeLayout
                         android:id="@+id/relative_add_menu"
                         android:layout_width="130dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="80dp"
                         android:layout_alignParentBottom="true"
                         android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="80dp"
                         android:visibility="gone">
+
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:background="@color/colorWhite"
+                            android:layout_centerHorizontal="true"
                             android:layout_margin="1dp"
-                            android:layout_centerHorizontal="true">
+                            android:background="@color/colorWhite"
+                            android:orientation="vertical">
+
                             <RelativeLayout
                                 android:id="@+id/relative_popup_menu_1"
                                 android:layout_width="100dp"
@@ -115,176 +125,194 @@
                                 android:background="@drawable/round_box_pink"
                                 android:paddingLeft="20dp"
                                 android:paddingRight="20dp">
+
                                 <ImageView
                                     android:layout_width="25dp"
                                     android:layout_height="25dp"
                                     android:layout_centerVertical="true"
-                                    android:src="@drawable/alphado_icon"/>
+                                    android:src="@drawable/alphado_icon" />
+
                                 <TextView
                                     android:id="@+id/tv_popup_menu_1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="50dp"
-                                    android:text="소변"
-                                    android:textSize="14dp"
-                                    android:textColor="@color/colorBlack"
+                                    android:layout_alignParentRight="true"
                                     android:gravity="center"
-                                    android:layout_alignParentRight="true"/>
+                                    android:text="소변"
+                                    android:textColor="@color/colorBlack"
+                                    android:textSize="14dp" />
                             </RelativeLayout>
 
                             <RelativeLayout
                                 android:id="@+id/relative_popup_menu_2"
                                 android:layout_width="match_parent"
                                 android:layout_height="50dp"
-                                android:background="@drawable/round_box_pink"
-                                android:layout_marginTop="10dp">
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/round_box_pink">
+
                                 <ImageView
                                     android:layout_width="20dp"
                                     android:layout_height="20dp"
                                     android:layout_centerVertical="true"
-                                    android:src="@drawable/icon_pink_plus"
-                                    android:layout_marginLeft="20dp"/>
+                                    android:layout_marginLeft="20dp"
+                                    android:src="@drawable/icon_pink_plus" />
+
                                 <TextView
                                     android:id="@+id/tv_popup_menu_2"
                                     android:layout_width="wrap_content"
                                     android:layout_height="50dp"
-                                    android:text="치아"
-                                    android:textSize="14dp"
-                                    android:textColor="@color/colorBlack"
+                                    android:layout_marginLeft="50dp"
                                     android:gravity="center"
-                                    android:layout_marginLeft="50dp"/>
+                                    android:text="치아"
+                                    android:textColor="@color/colorBlack"
+                                    android:textSize="14dp" />
                             </RelativeLayout>
 
                             <RelativeLayout
                                 android:id="@+id/relative_popup_menu_3"
                                 android:layout_width="match_parent"
                                 android:layout_height="50dp"
-                                android:background="@drawable/round_box_pink"
-                                android:layout_marginTop="10dp">
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/round_box_pink">
+
                                 <ImageView
                                     android:layout_width="20dp"
                                     android:layout_height="20dp"
                                     android:layout_centerVertical="true"
-                                    android:src="@drawable/icon_pink_plus"
-                                    android:layout_marginLeft="20dp"/>
+                                    android:layout_marginLeft="20dp"
+                                    android:src="@drawable/icon_pink_plus" />
+
                                 <TextView
                                     android:id="@+id/tv_popup_menu_3"
                                     android:layout_width="wrap_content"
                                     android:layout_height="50dp"
-                                    android:text="피부"
-                                    android:textSize="14dp"
-                                    android:textColor="@color/colorBlack"
+                                    android:layout_marginLeft="50dp"
                                     android:gravity="center"
-                                    android:layout_marginLeft="50dp"/>
+                                    android:text="피부"
+                                    android:textColor="@color/colorBlack"
+                                    android:textSize="14dp" />
                             </RelativeLayout>
 
                             <RelativeLayout
                                 android:id="@+id/relative_popup_menu_4"
                                 android:layout_width="match_parent"
                                 android:layout_height="50dp"
-                                android:background="@drawable/round_box_pink"
-                                android:layout_marginTop="10dp">
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/round_box_pink">
+
                                 <ImageView
                                     android:layout_width="20dp"
                                     android:layout_height="20dp"
                                     android:layout_centerVertical="true"
-                                    android:src="@drawable/icon_pink_plus"
-                                    android:layout_marginLeft="20dp"/>
+                                    android:layout_marginLeft="20dp"
+                                    android:src="@drawable/icon_pink_plus" />
+
                                 <TextView
                                     android:id="@+id/tv_popup_menu_4"
                                     android:layout_width="wrap_content"
                                     android:layout_height="50dp"
-                                    android:text="귀"
-                                    android:textSize="14dp"
-                                    android:textColor="@color/colorBlack"
+                                    android:layout_marginLeft="50dp"
                                     android:gravity="center"
-                                    android:layout_marginLeft="50dp"/>
+                                    android:text="귀"
+                                    android:textColor="@color/colorBlack"
+                                    android:textSize="14dp" />
                             </RelativeLayout>
 
                         </LinearLayout>
                     </RelativeLayout>
+
                     <LinearLayout
                         android:id="@+id/linear_content_menu"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal"
                         android:layout_marginBottom="80dp"
+                        android:orientation="horizontal"
                         android:visibility="gone">
+
                         <View
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:layout_weight="2"/>
+                            android:layout_weight="2" />
+
                         <RelativeLayout
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="3">
+
                             <RelativeLayout
                                 android:layout_width="110dp"
                                 android:layout_height="wrap_content"
                                 android:layout_alignParentBottom="true"
                                 android:layout_centerHorizontal="true">
+
                                 <LinearLayout
                                     android:layout_width="110dp"
                                     android:layout_height="wrap_content"
-                                    android:orientation="vertical"
+                                    android:layout_margin="1dp"
                                     android:background="@color/colorWhite"
-                                    android:layout_margin="1dp">
+                                    android:orientation="vertical">
+
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="50dp"
                                         android:background="@drawable/round_box_pink">
+
                                         <TextView
                                             android:id="@+id/tv_popup_menu_sub_1"
                                             android:layout_width="match_parent"
                                             android:layout_height="50dp"
+                                            android:gravity="center"
                                             android:text="치아관리"
-                                            android:textSize="14dp"
                                             android:textColor="@color/colorBlack"
-                                            android:gravity="center"/>
+                                            android:textSize="14dp" />
                                     </RelativeLayout>
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="50dp"
-                                        android:background="@drawable/round_box_pink"
-                                        android:layout_marginTop="5dp">
+                                        android:layout_marginTop="5dp"
+                                        android:background="@drawable/round_box_pink">
+
                                         <TextView
                                             android:id="@+id/tv_popup_menu_sub_2"
                                             android:layout_width="match_parent"
                                             android:layout_height="50dp"
+                                            android:gravity="center"
                                             android:text="피부관리"
-                                            android:textSize="14dp"
                                             android:textColor="@color/colorBlack"
-                                            android:gravity="center"/>
+                                            android:textSize="14dp" />
                                     </RelativeLayout>
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="50dp"
-                                        android:background="@drawable/round_box_pink"
-                                        android:layout_marginTop="5dp">
+                                        android:layout_marginTop="5dp"
+                                        android:background="@drawable/round_box_pink">
+
                                         <TextView
                                             android:id="@+id/tv_popup_menu_sub_3"
                                             android:layout_width="match_parent"
                                             android:layout_height="50dp"
+                                            android:gravity="center"
                                             android:text="귀관리"
-                                            android:textSize="14dp"
                                             android:textColor="@color/colorBlack"
-                                            android:gravity="center"/>
+                                            android:textSize="14dp" />
                                     </RelativeLayout>
                                 </LinearLayout>
                             </RelativeLayout>
 
                         </RelativeLayout>
                     </LinearLayout>
-                    <include
-                        layout="@layout/home_bottom_menu"/>
+
+                    <include layout="@layout/home_bottom_menu" />
                 </RelativeLayout>
             </LinearLayout>
 
         </LinearLayout>
+
         <include
             android:id="@+id/drawer"
             layout="@layout/main_drawer"
-            android:visibility="gone"/>
+            android:visibility="gone" />
     </androidx.drawerlayout.widget.DrawerLayout>
 </RelativeLayout>

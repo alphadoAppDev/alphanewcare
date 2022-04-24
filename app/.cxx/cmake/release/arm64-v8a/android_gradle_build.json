@@ -1,46 +1,46 @@
 {
   "stringTable": {
-    "0": "/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/release/arm64-v8a",
-    "1": "--target=aarch64-none-linux-android23 --gcc-toolchain=/Users/kim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -I../../../../src/main/cpp/opencv/include -I../../../../src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -std=gnu++11 -O2 -DNDEBUG -fPIC"
+    "0": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/.cxx/cmake/release/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android23 --gcc-toolchain=/Users/alphado/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/alphado/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -I../../../../src/main/cpp/opencv/include -I../../../../src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -std=gnu++11 -O2 -DNDEBUG -fPIC"
   },
   "buildFiles": [
-    "/Users/kim/1_AOS/alphaCare/app/CMakeLists.txt",
-    "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
-    "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+    "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/CMakeLists.txt",
+    "/Users/alphado/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/alphado/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
   ],
   "cleanCommands": [
-    "/Users/kim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/release/arm64-v8a\" clean"
+    "/Users/alphado/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/.cxx/cmake/release/arm64-v8a\" clean"
   ],
-  "buildTargetsCommand": "/Users/kim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/release/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/Users/alphado/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/.cxx/cmake/release/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "native-lib-Release-arm64-v8a": {
-      "buildCommand": "/Users/kim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/release/arm64-v8a\" native-lib",
+      "buildCommand": "/Users/alphado/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/.cxx/cmake/release/arm64-v8a\" native-lib",
       "buildType": "release",
-      "toolchain": "182920238",
+      "toolchain": "1358301908",
       "abi": "arm64-v8a",
       "artifactName": "native-lib",
       "files": [
         {
-          "src": "/Users/kim/1_AOS/alphaCare/app/src/main/cpp/CCFinder.cpp",
+          "src": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/src/main/cpp/CCFinder.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Users/kim/1_AOS/alphaCare/app/src/main/cpp/native-lib.cpp",
+          "src": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/src/main/cpp/native-lib.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         }
       ],
       "headers": [],
-      "output": "/Users/kim/1_AOS/alphaCare/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
+      "output": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
       "runtimeFiles": [
-        "/Users/kim/1_AOS/alphaCare/app/src/main/jniLibs/arm64-v8a/libopencv_java4.so"
+        "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/src/main/jniLibs/arm64-v8a/libopencv_java4.so"
       ]
     }
   },
   "toolchains": {
-    "182920238": {
-      "cppCompilerExecutable": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    "1358301908": {
+      "cppCompilerExecutable": "/Users/alphado/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
     }
   },
   "cFileExtensions": [],

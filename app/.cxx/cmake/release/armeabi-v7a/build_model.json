@@ -5,9 +5,9 @@
     "environmentVariables": []
   },
   "cmake": {
-    "cmakeArtifactsBaseFolder": "/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/release/armeabi-v7a",
-    "cmakeServerLogFile": "/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/release/armeabi-v7a/cmake_server_log.txt",
-    "cmakeWrappingBaseFolder": "/Users/kim/1_AOS/alphaCare/app/.cxx/cxx/release/armeabi-v7a",
+    "cmakeArtifactsBaseFolder": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/.cxx/cmake/release/armeabi-v7a",
+    "cmakeServerLogFile": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/.cxx/cmake/release/armeabi-v7a/cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/.cxx/cxx/release/armeabi-v7a",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -15,9 +15,9 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/release/armeabi-v7a",
-      "cmakeToolchain": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
-      "cmakeExecutable": "/Users/kim/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+      "buildRoot": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/.cxx/cmake/release/armeabi-v7a",
+      "cmakeToolchain": "/Users/alphado/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+      "cmakeExecutable": "/Users/alphado/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
       "variables": [
         {
           "name": "CMAKE_CXX_FLAGS",
@@ -25,7 +25,7 @@
         },
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/release/prefab/armeabi-v7a/prefab"
+          "value": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/.cxx/cmake/release/prefab/armeabi-v7a/prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -33,7 +33,7 @@
         },
         {
           "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake"
+          "value": "/Users/alphado/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake"
         },
         {
           "name": "ANDROID_ABI",
@@ -41,7 +41,7 @@
         },
         {
           "name": "ANDROID_NDK",
-          "value": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462"
+          "value": "/Users/alphado/Library/Android/sdk/ndk/21.1.6352462"
         },
         {
           "name": "ANDROID_PLATFORM",
@@ -53,7 +53,7 @@
         },
         {
           "name": "CMAKE_ANDROID_NDK",
-          "value": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462"
+          "value": "/Users/alphado/Library/Android/sdk/ndk/21.1.6352462"
         },
         {
           "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
@@ -61,11 +61,11 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "/Users/kim/1_AOS/alphaCare/app/build/intermediates/cmake/release/obj/armeabi-v7a"
+          "value": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/build/intermediates/cmake/release/obj/armeabi-v7a"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
-          "value": "/Users/kim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
+          "value": "/Users/alphado/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
         },
         {
           "name": "CMAKE_SYSTEM_NAME",
@@ -82,14 +82,14 @@
       ]
     }
   },
-  "cxxBuildFolder": "/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/release/armeabi-v7a",
+  "cxxBuildFolder": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/.cxx/cmake/release/armeabi-v7a",
   "info": {
     "abi": "ARMEABI_V7A",
     "bitness": 32,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/release/armeabi-v7a",
+  "originalCxxBuildFolder": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/.cxx/cmake/release/armeabi-v7a",
   "variant": {
     "buildSystemArgumentList": [
       "-DANDROID_STL\u003dc++_shared"
@@ -106,24 +106,24 @@
     "module": {
       "buildSystem": "CMAKE",
       "cmake": {
-        "cmakeExe": "/Users/kim/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+        "cmakeExe": "/Users/alphado/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
         "minimumCmakeVersion": "3.10.2",
-        "ninjaExe": "/Users/kim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
+        "ninjaExe": "/Users/alphado/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
       },
-      "cmakeToolchainFile": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
-      "cxxFolder": "/Users/kim/1_AOS/alphaCare/app/.cxx",
+      "cmakeToolchainFile": "/Users/alphado/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+      "cxxFolder": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/.cxx",
       "gradleModulePathName": ":app",
-      "intermediatesFolder": "/Users/kim/1_AOS/alphaCare/app/build/intermediates",
-      "makeFile": "/Users/kim/1_AOS/alphaCare/app/CMakeLists.txt",
-      "moduleBuildFile": "/Users/kim/1_AOS/alphaCare/app/build.gradle",
-      "moduleRootFolder": "/Users/kim/1_AOS/alphaCare/app",
+      "intermediatesFolder": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/build/intermediates",
+      "makeFile": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/CMakeLists.txt",
+      "moduleBuildFile": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/build.gradle",
+      "moduleRootFolder": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
         "X86",
         "X86_64"
       ],
-      "ndkFolder": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462",
+      "ndkFolder": "/Users/alphado/Library/Android/sdk/ndk/21.1.6352462",
       "ndkMetaAbiList": [
         {
           "abi": "ARMEABI_V7A",
@@ -180,36 +180,36 @@
       "ndkDefaultStl": "LIBCXX_STATIC",
       "ndkVersion": "21.1.6352462",
       "project": {
-        "compilerSettingsCacheFolder": "/Users/kim/1_AOS/alphaCare/.cxx",
-        "cxxFolder": "/Users/kim/1_AOS/alphaCare/.cxx",
+        "compilerSettingsCacheFolder": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/.cxx",
+        "cxxFolder": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/.cxx",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
-        "rootBuildGradleFolder": "/Users/kim/1_AOS/alphaCare",
-        "sdkFolder": "/Users/kim/Library/Android/sdk",
+        "rootBuildGradleFolder": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare",
+        "sdkFolder": "/Users/alphado/Library/Android/sdk",
         "isPrefabEnabled": false
       },
       "splitsAbiFilterSet": [],
       "stlSharedObjectMap": {
         "LIBCXX_SHARED": {
-          "ARMEABI_V7A": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
-          "ARM64_V8A": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
-          "X86": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
-          "X86_64": "/Users/kim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+          "ARMEABI_V7A": "/Users/alphado/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/Users/alphado/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/Users/alphado/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/Users/alphado/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
         },
         "LIBCXX_STATIC": {},
         "NONE": {},
         "SYSTEM": {}
       }
     },
-    "objFolder": "/Users/kim/1_AOS/alphaCare/app/build/intermediates/cmake/release/obj",
+    "objFolder": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/build/intermediates/cmake/release/obj",
     "variantName": "release",
     "validAbiList": [
       "ARMEABI_V7A",
       "ARM64_V8A"
     ],
-    "prefabDirectory": "/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/release/prefab",
+    "prefabDirectory": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/.cxx/cmake/release/prefab",
     "prefabPackageDirectoryList": []
   },
-  "prefabFolder": "/Users/kim/1_AOS/alphaCare/app/.cxx/cmake/release/prefab/armeabi-v7a"
+  "prefabFolder": "/Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare/app/.cxx/cmake/release/prefab/armeabi-v7a"
 }

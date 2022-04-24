@@ -214,7 +214,7 @@ extern "C"
     }
 
     JNIEXPORT jint JNICALL
-    Java_kr_co_alphacare_ImageProcessing_detectURS(
+    Java_kr_co_alphanewcare_ImageProcessing_detectURS(
             JNIEnv *env, jclass type,
             jintArray imageData_, jint width, jint height, jint mode)
     {
@@ -318,7 +318,7 @@ extern "C"
             (mode == 3 && rects.size() != 7) ||
             (mode == 4 && rects.size() != 5))
         {
-			LOGD("사각형 갯수 미달 - mode didn't be matched");
+//			LOGD("사각형 갯수 미달 - mode didn't be matched");
             rtnType = -1;
 		}
         else
@@ -348,7 +348,7 @@ extern "C"
                 rects.at(0).x > bw.cols * 0.7f ||
                 intersect)
             {
-                LOGD("용지 방향 확인 필요");
+//                LOGD("용지 방향 확인 필요");
                 // 첫 렉트는 상단에 존재해야 함.
                 rtnType = -2;
             }
@@ -356,10 +356,10 @@ extern "C"
             {
                 float angle = rightBottom == rightTop ? 200.0f : getAngle(rightBottom.tl(), rightTop.tl());
 
-                LOGD("angle : %.2f", fabs(angle));
+//                LOGD("angle : %.2f", fabs(angle));
                 if (fabs(angle) > angleLimit)
                 {
-                    LOGD("각도 확인 필요");
+//                    LOGD("각도 확인 필요");
                     return -1;
                 }
                 else
@@ -387,10 +387,10 @@ extern "C"
                     Mat blackHeadBgr = Mat(10, 10, CV_8UC3, Scalar(3));
                     float dist = distance_rgb(litmusHeadBgr, blackHeadBgr);
 
-                    LOGD("리트머스 용지가 색상차이 %.2f", dist);
+//                    LOGD("리트머스 용지가 색상차이 %.2f", dist);
                     if (dist < 100.0f)
                     {
-                        LOGD("리트머스 용지가 없음 %.2f", dist);
+//                        LOGD("리트머스 용지가 없음 %.2f", dist);
                         rtnType = -1;
                     }
                     else
@@ -435,7 +435,7 @@ extern "C"
     jobject convertResultDataCpp2Java(JNIEnv *env, ResultData resultData)
     {
         // 전체 결과 데이터 객체 생성
-        jclass resultDataClass = env->FindClass("kr/co/alphacare/result/model/ResultData");
+        jclass resultDataClass = env->FindClass("kr/co/alphanewcare/result/model/ResultData");
         jmethodID initMethodId = env->GetMethodID(resultDataClass, "<init>", "()V");
         jobject _resultData = env->NewObject(resultDataClass, initMethodId);
 
@@ -534,7 +534,7 @@ extern "C"
 
             for (int j = 0; j < distanceDatas.size(); ++j)
             {
-                jclass distanceRankDataClass = env->FindClass("kr/co/alphacare/result/model/DistanceRankData");
+                jclass distanceRankDataClass = env->FindClass("kr/co/alphanewcare/result/model/DistanceRankData");
 
                 jmethodID distanceRankDataInit = env->GetMethodID(distanceRankDataClass, "<init>", "(IF)V");
                 jobject distanceRankData = env->NewObject(
@@ -562,7 +562,7 @@ extern "C"
     }
 
     JNIEXPORT jobject JNICALL
-    Java_kr_co_alphacare_ImageProcessing_findURSResult(
+    Java_kr_co_alphanewcare_ImageProcessing_findURSResult(
             JNIEnv *env, jclass type,
             jstring imagePath_, jint cropX, jint cropY, jint cropW, jint cropH, jint mode)
     {
@@ -954,7 +954,7 @@ extern "C"
 
     JNIEXPORT jstring
     JNICALL
-    Java_kr_co_alphacare_ImageProcessing_getVersion(JNIEnv *env, jclass type)
+    Java_kr_co_alphanewcare_ImageProcessing_getVersion(JNIEnv *env, jclass type)
     {
         std::string version = "ver 1.0.190811";
         return env->NewStringUTF(version.c_str());

@@ -2,7 +2,9 @@ cmake_minimum_required(VERSION 3.4.1)
 
 #set(projectPath C:/Projects/App/AlphaCare/AlphaCare)
 #set(projectPath C:/Users/dwyi8/Documents/ursdetector_android)
-set(projectPath /Users/kim/1_AOS/AlphaCare)
+#set(projectPath /Users/kim/1_AOS/AlphaCare)
+#set(projectPath /Users/kim/1_AOS/alphanewcare)
+set(projectPath /Users/alphado/AndroidStudioProjects/alphanewcar/alphanewcare)
 
 set(pathLIBOPENCV ${projectPath}/app/src/main/jniLibs/${ANDROID_ABI}/libopencv_java4.so)
 
